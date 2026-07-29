@@ -1,4 +1,4 @@
-# TODO - UI Improvements for MC Vaults (Portal/Glow)
+# TODO - UI Improvements for JeikuArchiveMC (Portal/Glow)
 
 - [x] Update `css/style.css` with Portal/Glow theme (neon glow accents, improved patterns)
 - [x] Enhance homepage mod cards in `js/main.js` markup to support badges/glow panels

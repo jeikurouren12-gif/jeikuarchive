@@ -64,7 +64,7 @@ function handleHashChange() {
 
 async function loadMods() {
   try {
-    const response = await fetch('/data.json');
+    const response = await fetch('data.json');
     allMods = await response.json();
     loadedCount = 0;
     initializeCategoryDropdown();

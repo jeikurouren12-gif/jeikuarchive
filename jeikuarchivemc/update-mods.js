@@ -34,7 +34,7 @@ async function handleUpdateMods(context) {
     }
 
     const repoOwner = 'M-E-N-A-C-E';
-    const repoName = 'mcvaults';
+    const repoName = 'jeikuarchive';
     const branch = 'main';
     const filePath = 'data.json';
 
@@ -42,7 +42,7 @@ async function handleUpdateMods(context) {
       headers: {
         Authorization: `Bearer ${githubToken}`,
         Accept: 'application/vnd.github+json',
-        'User-Agent': 'MCVaults Admin Panel'
+'User-Agent': 'JeikuArchiveMC Admin Panel'
       }
     });
 
@@ -65,11 +65,11 @@ async function handleUpdateMods(context) {
       headers: {
         Authorization: `Bearer ${githubToken}`,
         Accept: 'application/vnd.github+json',
-        'User-Agent': 'MCVaults Admin Panel',
+        'User-Agent': 'JeikuArchiveMC Admin Panel',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        message: 'Update data.json via MCVaults admin panel',
+        message: 'Update data.json via JeikuArchiveMC admin panel',
         content: updatedContent,
         sha: currentFile.sha,
         branch

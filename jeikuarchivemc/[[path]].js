@@ -2,8 +2,8 @@ export async function onRequest({ request, next }) {
   const url = new URL(request.url);
   const pathname = url.pathname;
 
-  if (url.hostname === 'mcvaults.pages.dev' || url.hostname === 'www.mcvaults.com') {
-    url.hostname = 'mcvaults.com';
+  if (url.hostname === 'jeikuarchive.pages.dev' || url.hostname === 'www.jeikuarchive.com') {
+    url.hostname = 'www.jeikuarchive.com';
     return Response.redirect(url, 301);
   }
 

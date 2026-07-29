@@ -36,7 +36,7 @@ function escapeHtml(value = '') {
 function renderLoadingState() {
   if (!appRoot) return;
 
-  document.title = 'Loading… | MCVaults';
+  document.title = 'Loading… | JeikuArchiveMC';
   appRoot.innerHTML = `
     <div class="page-shell">
       <header class="site-header detail-header">
@@ -81,7 +81,7 @@ function renderLoadingState() {
       </main>
 
       <footer class="site-footer">
-        <p>MC Vaults helps you discover mods and texture packs with a clean, fast experience.</p>
+        <p>JeikuArchiveMC helps you discover mods and texture packs with a clean, fast experience.</p>
       </footer>
     </div>
   `;
@@ -89,7 +89,7 @@ function renderLoadingState() {
 
 async function loadAndRenderMod() {
   try {
-    const response = await fetch('/data.json');
+    const response = await fetch('data.json');
     const mods = await response.json();
     const normalizedPath = modIdOrSlug.trim();
     const mod = mods.find(item => String(item.id) === normalizedPath || item.slug === normalizedPath);
@@ -115,7 +115,7 @@ function getTaskLabel(type) {
 function renderModPage(mod) {
   const tasks = Array.isArray(mod.contentLocker?.tasks) ? mod.contentLocker.tasks : [];
   const canDownload = tasks.length === 0;
-  document.title = `${mod.name} | MCVaults`;
+  document.title = `${mod.name} | JeikuArchiveMC`;
   appRoot.innerHTML = `
     <div class="page-shell">
       <header class="site-header detail-header">
@@ -171,7 +171,7 @@ function renderModPage(mod) {
       </main>
 
       <footer class="site-footer">
-        <p>MC Vaults helps you discover mods and texture packs with a clean, fast experience.</p>
+        <p>JeikuArchiveMC helps you discover mods and texture packs with a clean, fast experience.</p>
       </footer>
     </div>
   `;
@@ -300,7 +300,7 @@ function initLockerFlow(mod, tasks) {
 
 
 function renderNotFound() {
-  document.title = 'Mod Not Found | MCVaults';
+  document.title = 'Mod Not Found | JeikuArchiveMC';
   appRoot.innerHTML = `
     <div class="page-shell">
       <header class="site-header">
@@ -322,14 +322,14 @@ function renderNotFound() {
         </section>
       </main>
       <footer class="site-footer">
-        <p>MCVaults provides fast browsing for Minecraft mods.</p>
+        <p>JeikuArchiveMC provides fast browsing for Minecraft mods.</p>
       </footer>
     </div>
   `;
 }
 
 function renderError() {
-  document.title = 'Error | MCVaults';
+  document.title = 'Error | JeikuArchiveMC';
   appRoot.innerHTML = `
     <div class="page-shell">
       <header class="site-header">
@@ -350,7 +350,7 @@ function renderError() {
         </section>
       </main>
       <footer class="site-footer">
-        <p>MCVaults provides fast browsing for Minecraft mods.</p>
+        <p>JeikuArchiveMC provides fast browsing for Minecraft mods.</p>
       </footer>
     </div>
   `;

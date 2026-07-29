@@ -3,191 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MCVaults Admin | Login</title>
+  <title>JeikuArchiveMC | Minecraft Mods & Texture Packs</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="monetag" content="618280af81ad272586f79568d4cc99ce">
+  <script>(function(s){s.dataset.zone='11245290',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
 </head>
 <body>
-  <div class="page-shell admin-page-shell">
-    <section id="adminLoginSection" class="admin-login-panel">
-      <div class="admin-login-card">
-        <div class="brand">
-          <span class="brand-icon">🔒</span>
-          <div>
-            <h1>MCVaults Admin</h1>
-            <p>Securely manage your mod catalog with instant GitHub updates.</p>
+  <div id="app">
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="header-top">
+          <div class="brand">
+            <span class="brand-icon" aria-hidden="true">⛏️</span>
+            <div>
+<h1>JeikuArchiveMC</h1>
+              <p>Hand-picked Minecraft mods and texture packs, curated for reliable downloads.</p>
+            </div>
           </div>
+          <nav class="site-nav">
+            <a href="#browse" class="nav-link">Browse</a>
+          </nav>
         </div>
 
-        <form id="loginForm" class="admin-login-form">
-          <label>
-            Password
-            <input id="passwordInput" type="password" placeholder="Enter admin password" required>
-          </label>
-          <div class="form-actions">
-            <button type="submit" class="button button-primary">Login</button>
-          </div>
-          <p id="loginMessage" class="admin-status"></p>
-        </form>
-      </div>
-    </section>
 
-    <div id="adminContent" class="admin-hidden">
-      <header class="site-header admin-header">
-        <div class="brand">
-          <span class="brand-icon">🎮</span>
-          <div>
-            <h1>Admin Dashboard</h1>
-            <p>Update mods, manage content, and keep your library professional.</p>
-          </div>
-        </div>
-        <nav class="admin-nav">
-          <a href="/" class="nav-link">Home</a>
-          <a href="#" id="refreshButton" class="nav-link">Refresh</a>
-          <button id="logoutButton" class="button button-danger">Logout</button>
-        </nav>
       </header>
 
-      <main class="admin-main">
-        <section class="admin-panel">
-          <div class="admin-panel-header">
-            <h2>Add or edit a mod</h2>
-            <p>Fill in the details below, then save to push changes directly to GitHub.</p>
+      <section class="hero-card">
+        <div class="hero-card-header">
+          <div>
+            <p class="eyebrow">JeikuArchiveMC</p>
+            <h3>Discover the best Minecraft mods and texture packs in one safe, sleek vault.</h3>
+          </div>
+          <span class="label-pill">Curated for speed, reliability, and quality</span>
+        </div>
+        <p class="hero-description">Browse premium collections, filter by category, and preview the latest Minecraft content in a neon-glow interface built for modern players.</p>
+        <div class="hero-stats">
+          <div>
+            <strong>150+</strong>
+            <span>Featured mods</span>
+          </div>
+          <div>
+            <strong>20+</strong>
+            <span>Texture packs</span>
+          </div>
+          <div>
+            <strong>2</strong>
+            <span>Collections</span>
+          </div>
+        </div>
+      </section>
+
+      <main>
+        <section class="explore-section" id="browse">
+          <div class="explore-header">
+            <div>
+              <p class="eyebrow">Browse collection</p>
+              <h2>Search, filter, and preview the best Minecraft content.</h2>
+            </div>
+            <div class="filter-row">
+              <label class="search-input-group">
+                <span class="search-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="7" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                  </svg>
+                </span>
+                <input id="searchInput" type="search" placeholder="Search name or ID..." aria-label="Search mods by name or ID">
+              </label>
+              <div class="search-select-group category-dropdown" id="categoryDropdown">
+                <button id="categoryToggle" class="dropdown-toggle" type="button" aria-haspopup="listbox" aria-expanded="false">
+                  <span id="categoryLabel">All categories</span>
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M6 8l4 4 4-4" />
+                  </svg>
+                </button>
+                <div id="categoryMenu" class="dropdown-menu" role="listbox" tabindex="-1" aria-labelledby="categoryToggle"></div>
+              </div>
+            </div>
+            <p id="searchSummary" class="search-summary">Showing all available mods.</p>
           </div>
 
-          <form id="modForm" class="admin-form">
-            <input type="hidden" id="editModId">
-
-            <label>
-              Name
-              <input id="nameInput" type="text" placeholder="OptiFine" required>
-            </label>
-
-            <div class="form-grid-2">
-              <label>
-                Version
-                <input id="versionInput" type="text" placeholder="1.20.4" required>
-              </label>
-              <label>
-                Category
-                <select id="categoryInput" required>
-                  <option value="Performance">Performance</option>
-                  <option value="Texture Pack">Texture Pack</option>
-                  <option value="Utility">Utility</option>
-                  <option value="Gameplay">Gameplay</option>
-                  <option value="Optimization">Optimization</option>
-                  <option value="Other">Other</option>
-                </select>
-              </label>
-            </div>
-
-            <label>
-              Collection
-              <select id="collectionInput" required>
-                <option value="1">Collection 1</option>
-                <option value="2">Collection 2</option>
-              </select>
-            </label>
-
-            <label>
-              Description
-              <textarea id="descriptionInput" rows="4" placeholder="Describe the mod or texture pack." required></textarea>
-            </label>
-
-            <label>
-              Download Link
-              <input id="downloadInput" type="url" placeholder="https://example.com/download" required>
-            </label>
-
-            <div class="admin-locker-card">
-              <div class="admin-locker-header">
-                <h3>Content Locker (optional)</h3>
-                <p>Choose TikTok actions required before the download button unlocks.</p>
-              </div>
-
-              <div class="form-grid-2 admin-locker-grid">
-                <label>
-                  Task 1
-                  <select id="lockerTaskType1">
-                    <option value="">None</option>
-                    <option value="follow_tiktok_user">Follow TikTok User</option>
-                    <option value="like_tiktok_video">Like TikTok Video</option>
-                  </select>
-                </label>
-                <label>
-                  Task 1 Link
-                  <input id="lockerTaskUrl1" type="url" placeholder="https://www.tiktok.com/@username">
-                </label>
-              </div>
-
-              <div class="form-grid-2 admin-locker-grid">
-                <label>
-                  Task 2
-                  <select id="lockerTaskType2">
-                    <option value="">None</option>
-                    <option value="follow_tiktok_user">Follow TikTok User</option>
-                    <option value="like_tiktok_video">Like TikTok Video</option>
-                  </select>
-                </label>
-                <label>
-                  Task 2 Link
-                  <input id="lockerTaskUrl2" type="url" placeholder="https://www.tiktok.com/@username/video/123">
-                </label>
-              </div>
-            </div>
-
-            <div class="admin-locker-card">
-              <div class="admin-locker-header">
-                <h3>Bulk import from JSON</h3>
-                <p>Paste a JSON array of mods. Each item will receive a fresh ID based on the current catalog order and automatically assigned to the highest collection.</p>
-              </div>
-
-              <label>
-                JSON array
-                <textarea id="bulkImportInput" rows="12" placeholder='[{&quot;slug&quot;:&quot;lumenix-shader&quot;,&quot;name&quot;:&quot;Lumenix Shader&quot;,&quot;version&quot;:&quot;v3.1&quot;,&quot;category&quot;:&quot;Texture Pack&quot;,&quot;description&quot;:&quot;A Minecraft Bedrock shader pack.&quot;,&quot;download&quot;:&quot;https://example.com/download&quot;,&quot;contentLocker&quot;:{&quot;tasks&quot;:[{&quot;type&quot;:&quot;follow_tiktok_user&quot;,&quot;label&quot;:&quot;Follow TikTok User&quot;,&quot;url&quot;:&quot;https://www.tiktok.com/@mcvaults&quot;}]}}]'></textarea>
-              </label>
-
-              <div class="form-actions form-actions-right">
-                <button type="button" id="importJsonButton" class="button button-secondary">Import JSON</button>
-              </div>
-            </div>
-
-            <div class="form-actions form-actions-right">
-              <button type="button" id="cancelEditButton" class="button button-secondary">Clear</button>
-              <button type="submit" class="button button-primary">Save Mod</button>
-            </div>
-          </form>
-
-          <div class="admin-status" id="adminStatus"></div>
-        </section>
-
-        <section class="admin-list-section">
-          <div class="admin-panel-header">
-            <h2>Current mods</h2>
-            <p>Review and edit existing entries from the live catalog.</p>
-          </div>
-          <div class="admin-list-toolbar">
-            <div class="admin-search-box">
-              <input id="adminSearchInput" type="search" placeholder="Search mods..." aria-label="Search mods in admin">
-            </div>
-            <div class="admin-batch-actions">
-              <button id="selectAllButton" class="button button-secondary" type="button">Select all</button>
-              <button id="applyLockerButton" class="button button-secondary" type="button" disabled>Apply locker tasks to selected</button>
-              <span id="selectedCount" class="label-pill">0 selected</span>
-            </div>
-          </div>
-          <div id="adminModList" class="admin-mod-list"></div>
+          <div id="modGrid" class="mod-grid"></div>
         </section>
       </main>
 
       <footer class="site-footer">
-        <p>Admin changes are synced to GitHub automatically.</p>
+        <p>JeikuArchiveMC is designed for simple Minecraft mod discovery and safe downloads.</p>
       </footer>
     </div>
   </div>
-
-  <script src="/js/admin.js"></script>
+  <script>
+    window.__jeikuarchiveRouteRendered = false;
+  </script>
+  <script src="./main.js"></script>
+  <script src="./mod.js"></script>
 </body>
 </html>

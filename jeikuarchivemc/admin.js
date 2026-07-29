@@ -40,15 +40,15 @@ const selectedModIds = new Set();
 const ADMIN_PAGE_SIZE = 5;
 
 function persistAdminSession(password) {
-  localStorage.setItem('mcvaults-admin-password', password);
+  localStorage.setItem('jeikuarchive-admin-password', password);
 }
 
 function clearAdminSession() {
-  localStorage.removeItem('mcvaults-admin-password');
+  localStorage.removeItem('jeikuarchive-admin-password');
 }
 
 function restoreAdminSession() {
-  const savedPassword = localStorage.getItem('mcvaults-admin-password');
+  const savedPassword = localStorage.getItem('jeikuarchive-admin-password');
   return savedPassword || null;
 }
 
@@ -478,7 +478,7 @@ function copyTextToClipboard(text) {
 function getModPublicUrl(mod) {
   const host = window.location.hostname.includes('localhost') || window.location.hostname.includes('127.0.0.1')
     ? window.location.origin
-    : 'https://mcvaults.com';
+    : 'https://jeikuarchive.com';
   return `${host}/${mod.id}`;
 }
 

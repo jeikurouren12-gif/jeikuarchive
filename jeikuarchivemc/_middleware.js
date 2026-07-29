@@ -1,10 +1,10 @@
 export async function onRequest({ request, next }) {
   const url = new URL(request.url);
-  const shouldRedirectHost = url.hostname === 'mcvaults.pages.dev' || url.hostname === 'www.mcvaults.com';
+  const shouldRedirectHost = url.hostname === 'jeikuarchive.pages.dev' || url.hostname === 'www.jeikuarchive.com';
 
   if (shouldRedirectHost) {
     const targetUrl = new URL(request.url);
-    targetUrl.hostname = 'mcvaults.com';
+    targetUrl.hostname = 'www.jeikuarchive.com';
     targetUrl.protocol = 'https:';
 
     if (targetUrl.pathname === '/admin' || targetUrl.pathname === '/admin/') {
