@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCVaults Admin | Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="page-shell admin-page-shell">
+    <section id="adminLoginSection" class="admin-login-panel">
+      <div class="admin-login-card">
+        <div class="brand">
+          <span class="brand-icon">🔒</span>
+          <div>
+            <h1>MCVaults Admin</h1>
+            <p>Securely manage your mod catalog with instant GitHub updates.</p>
+          </div>
+        </div>
+
+        <form id="loginForm" class="admin-login-form">
+          <label>
+            Password
+            <input id="passwordInput" type="password" placeholder="Enter admin password" required>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="button button-primary">Login</button>
+          </div>
+          <p id="loginMessage" class="admin-status"></p>
+        </form>
+      </div>
+    </section>
+
+    <div id="adminContent" class="admin-hidden">
+      <header class="site-header admin-header">
+        <div class="brand">
+          <span class="brand-icon">🎮</span>
+          <div>
+            <h1>Admin Dashboard</h1>
+            <p>Update mods, manage content, and keep your library professional.</p>
+          </div>
+        </div>
+        <nav class="admin-nav">
+          <a href="/" class="nav-link">Home</a>
+          <a href="#" id="refreshButton" class="nav-link">Refresh</a>
+          <button id="logoutButton" class="button button-danger">Logout</button>
+        </nav>
+      </header>
+
+      <main class="admin-main">
+        <section class="admin-panel">
+          <div class="admin-panel-header">
+            <h2>Add or edit a mod</h2>
+            <p>Fill in the details below, then save to push changes directly to GitHub.</p>
+          </div>
+
+          <form id="modForm" class="admin-form">
+            <input type="hidden" id="editModId">
+
+            <label>
+              Name
+              <input id="nameInput" type="text" placeholder="OptiFine" required>
+            </label>
+
+            <div class="form-grid-2">
+              <label>
+                Version
+                <input id="versionInput" type="text" placeholder="1.20.4" required>
+              </label>
+              <label>
+                Category
+                <select id="categoryInput" required>
+                  <option value="Performance">Performance</option>
+                  <option value="Texture Pack">Texture Pack</option>
+                  <option value="Utility">Utility</option>
+                  <option value="Gameplay">Gameplay</option>
+                  <option value="Optimization">Optimization</option>
+                  <option value="Other">Other</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              Collection
+              <select id="collectionInput" required>
+                <option value="1">Collection 1</option>
+                <option value="2">Collection 2</option>
+              </select>
+            </label>
+
+            <label>
+              Description
+              <textarea id="descriptionInput" rows="4" placeholder="Describe the mod or texture pack." required></textarea>
+            </label>
+
+            <label>
+              Download Link
+              <input id="downloadInput" type="url" placeholder="https://example.com/download" required>
+            </label>
+
+            <div class="admin-locker-card">
+              <div class="admin-locker-header">
+                <h3>Content Locker (optional)</h3>
+                <p>Choose TikTok actions required before the download button unlocks.</p>
+              </div>
+
+              <div class="form-grid-2 admin-locker-grid">
+                <label>
+                  Task 1
+                  <select id="lockerTaskType1">
+                    <option value="">None</option>
+                    <option value="follow_tiktok_user">Follow TikTok User</option>
+                    <option value="like_tiktok_video">Like TikTok Video</option>
+                  </select>
+                </label>
+                <label>
+                  Task 1 Link
+                  <input id="lockerTaskUrl1" type="url" placeholder="https://www.tiktok.com/@username">
+                </label>
+              </div>
+
+              <div class="form-grid-2 admin-locker-grid">
+                <label>
+                  Task 2
+                  <select id="lockerTaskType2">
+                    <option value="">None</option>
+                    <option value="follow_tiktok_user">Follow TikTok User</option>
+                    <option value="like_tiktok_video">Like TikTok Video</option>
+                  </select>
+                </label>
+                <label>
+                  Task 2 Link
+                  <input id="lockerTaskUrl2" type="url" placeholder="https://www.tiktok.com/@username/video/123">
+                </label>
+              </div>
+            </div>
+
+            <div class="admin-locker-card">
+              <div class="admin-locker-header">
+                <h3>Bulk import from JSON</h3>
+                <p>Paste a JSON array of mods. Each item will receive a fresh ID based on the current catalog order and automatically assigned to the highest collection.</p>
+              </div>
+
+              <label>
+                JSON array
+                <textarea id="bulkImportInput" rows="12" placeholder='[{&quot;slug&quot;:&quot;lumenix-shader&quot;,&quot;name&quot;:&quot;Lumenix Shader&quot;,&quot;version&quot;:&quot;v3.1&quot;,&quot;category&quot;:&quot;Texture Pack&quot;,&quot;description&quot;:&quot;A Minecraft Bedrock shader pack.&quot;,&quot;download&quot;:&quot;https://example.com/download&quot;,&quot;contentLocker&quot;:{&quot;tasks&quot;:[{&quot;type&quot;:&quot;follow_tiktok_user&quot;,&quot;label&quot;:&quot;Follow TikTok User&quot;,&quot;url&quot;:&quot;https://www.tiktok.com/@mcvaults&quot;}]}}]'></textarea>
+              </label>
+
+              <div class="form-actions form-actions-right">
+                <button type="button" id="importJsonButton" class="button button-secondary">Import JSON</button>
+              </div>
+            </div>
+
+            <div class="form-actions form-actions-right">
+              <button type="button" id="cancelEditButton" class="button button-secondary">Clear</button>
+              <button type="submit" class="button button-primary">Save Mod</button>
+            </div>
+          </form>
+
+          <div class="admin-status" id="adminStatus"></div>
+        </section>
+
+        <section class="admin-list-section">
+          <div class="admin-panel-header">
+            <h2>Current mods</h2>
+            <p>Review and edit existing entries from the live catalog.</p>
+          </div>
+          <div class="admin-list-toolbar">
+            <div class="admin-search-box">
+              <input id="adminSearchInput" type="search" placeholder="Search mods..." aria-label="Search mods in admin">
+            </div>
+            <div class="admin-batch-actions">
+              <button id="selectAllButton" class="button button-secondary" type="button">Select all</button>
+              <button id="applyLockerButton" class="button button-secondary" type="button" disabled>Apply locker tasks to selected</button>
+              <span id="selectedCount" class="label-pill">0 selected</span>
+            </div>
+          </div>
+          <div id="adminModList" class="admin-mod-list"></div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Admin changes are synced to GitHub automatically.</p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="/js/admin.js"></script>
+</body>
+</html>

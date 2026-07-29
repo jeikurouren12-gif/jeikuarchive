@@ -1,0 +1,1592 @@
+[
+  {
+    "id": 74,
+    "slug": "better-ore-outline",
+    "name": "Better Ore Outline",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A Bedrock texture pack that outlines ores with clean, colorful borders, making them easier to locate during mining.",
+    "download": "https://mcpedl.com/better-ore-outline/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "slug": "morevisibleores",
+    "name": "MoreVisibleOres",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A lightweight texture pack that makes ores brighter and more visible while preserving Minecraft's vanilla style.",
+    "download": "https://www.curseforge.com/minecraft/texture-packs/morevisibleores",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "slug": "visible-ores",
+    "name": "Visible Ores",
+    "version": "26.1.2",
+    "category": "Texture Pack",
+    "description": "A resource pack that adds glowing borders and clean outlines to ores, making diamonds and other valuable resources much easier to spot while mining.",
+    "download": "https://www.curseforge.com/minecraft/texture-packs/visible-ores",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "slug": "better-x-ray-remastered-color-coded-ores-night-vision",
+    "name": "Better X-Ray Remastered – Color Coded Ores + Night Vision",
+    "version": "26.20",
+    "category": "Texture Pack",
+    "description": "A lightweight X-Ray pack with color-coded ore outlines, built-in night vision, achievement-friendly gameplay, and server compatibility.",
+    "download": "https://mcpedl.com/better-x-ray-clean-xray-night-vision/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7665052357524311317"
+        }
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "slug": "fluoroscopy",
+    "name": "Fluoroscopy Ore Outline, Glow, and X-ray",
+    "version": "v2.0.0",
+    "category": "Texture Pack",
+    "description": "A versatile ore pack featuring switchable outline, glow, and X-Ray modes with emissive textures for easier mining.",
+    "download": "https://mcpedl.com/fluoroscopy/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "slug": "x-ray-ultimate-outlined-ore",
+    "name": "X-Ray Ultimate | Outlined Ores",
+    "version": "v1.8",
+    "category": "Texture Pack",
+    "description": "An advanced X-Ray pack with outlined ores, night vision, cave visibility, and performance-friendly visuals for faster mining.",
+    "download": "https://mcpedl.com/x-ray-ultimate-outlined-ore/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "slug": "unofficial-port-mrcrayfish-furniture-add-on",
+    "name": "Unofficial Port | MrCrayfish' Furniture Add-On",
+    "version": "v2.3.1",
+    "category": "Gameplay",
+    "description": "A Bedrock port of the popular MrCrayfish's Furniture Mod featuring interactive furniture, kitchen appliances, decorations, and craftable home items.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/mrcrayfish-furniture-add-on-unofficial-port-for-1-20-30",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@menacescripts"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7665048124649475349"
+        }
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "slug": "fabulous-furnished",
+    "name": "Fabulous Furnished",
+    "version": "Latest",
+    "category": "Gameplay",
+    "description": "A furniture addon focused on realistic home decoration with working appliances, kitchen items, electronics, and interactive furniture.",
+    "download": "https://mcpedl.com/fabulous-furnished/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "slug": "monodeco-gen-7",
+    "name": "monoDeco Gen 7.3.3 - Furniture Addon",
+    "version": "7.3.3",
+    "category": "Gameplay",
+    "description": "An all-in-one furniture addon featuring nearly 3,000 decorative blocks for building detailed homes, cities, and interiors.",
+    "download": "https://mcpedl.com/monodeco-gen-7/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "slug": "easy-build",
+    "name": "Easy Build",
+    "version": "1.5.4",
+    "category": "Utility",
+    "description": "A building addon inspired by Effortless Building that makes creating walls, spheres, cones, and other structures quick and simple.",
+    "download": "https://mcpedl.com/easy-build/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://vt.tiktok.com/ZSXXH8wR4/"
+        }
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "slug": "worldedit-addon",
+    "name": "WorldEdit Addon",
+    "version": "Latest",
+    "category": "Utility",
+    "description": "A Bedrock WorldEdit-style addon that lets you select, copy, paste, replace, fill, and edit large builds with ease.",
+    "download": "https://mcpedl.com/worldedit-addon/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://vt.tiktok.com/ZSXXH8wR4/"
+        }
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "slug": "effortless-building",
+    "name": "Effortless Building",
+    "version": "v3.1",
+    "category": "Utility",
+    "description": "A powerful building addon featuring copy and paste, mirrors, arrays, circles, spheres, walls, and other advanced tools for fast construction.",
+    "download": "https://mcpedl.com/effortless-building/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://vt.tiktok.com/ZSXXH8wR4/"
+        }
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "slug": "visible-ores-plus",
+    "name": "Visible Ores Plus",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A texture pack that makes ores stand out with bright, highly visible textures without making blocks transparent.",
+    "download": "https://mcpedl.com/visible-ores-plus/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@mcvaults/photo/7663551396150627605?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "slug": "wan-xray",
+    "name": "Wan XRay",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "An X-Ray pack that helps players locate diamonds, ancient debris, and other ores more efficiently.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/wan-xray/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@mcvaults/photo/7663551396150627605?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "slug": "gavti-x-ray-texture-pack",
+    "name": "X-Ray Texture Pack",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A Bedrock X-Ray texture pack that reveals valuable ores by making common underground blocks transparent.",
+    "download": "https://mcpedl.com/x-ray-texture-pack-gavti/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@mcvaults/photo/7663551396150627605?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "slug": "x-ray-night-vision",
+    "name": "X-Ray + Night Vision",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "Combines X-Ray functionality with a full-bright effect for maximum visibility while mining underground.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/x-ray-night-vision-xray/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@mcvaults/photo/7663551396150627605?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "slug": "x-ray-glow",
+    "name": "X Ray Glow",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A classic X-Ray resource pack that makes underground ores visible without modifying gameplay mechanics.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/x-ray-works-in-original-patch-everywhere/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@mcvaults/photo/7663551396150627605?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "slug": "x-ray-light-version",
+    "name": "X-Ray Light Version",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A lightweight X-Ray texture pack designed to improve ore visibility while maintaining good performance.",
+    "download": "https://mcpedl.com/x-ray-light-version/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@mcvaults/photo/7663551396150627605?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "slug": "glow-xray-2",
+    "name": "Glow XRay 2",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "An X-Ray resource pack that highlights ores with glowing textures, making them easier to spot while mining.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/glow-xray-2",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@mcvaults/photo/7663551396150627605?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "slug": "advanced-x-ray",
+    "name": "Advanced X-Ray",
+    "version": "v2.1.5",
+    "category": "Texture Pack",
+    "description": "A lightweight X-Ray resource pack that makes ores easy to find while keeping achievements enabled and supporting vanilla gameplay.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/advanced-x-ray",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@mcvaults/photo/7663551396150627605?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "slug": "java-1-7-animations",
+    "name": "Java 1.7 Animations",
+    "version": "v2.5.1",
+    "category": "Texture Pack",
+    "description": "Brings classic Java Edition 1.7-style player animations to Minecraft Bedrock for a nostalgic PvP experience.",
+    "download": "https://mcpedl.com/java-1-7-animations/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663544674275134741?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "slug": "definitive-animations",
+    "name": "Definitive Animations",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A comprehensive animation overhaul that modernizes player movements while keeping Minecraft's vanilla style.",
+    "download": "https://mcpedl.com/definitive-animations/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663544674275134741?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "slug": "new-player-animation",
+    "name": "New Player Animation",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A player animation pack that refreshes movement with smoother walking, attacking, sprinting, and idle animations.",
+    "download": "https://mcpedl.com/new-player-animation/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663544674275134741?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "slug": "coptaines-mob-animation",
+    "name": "Coptaine's Mob Animation",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "Revamps vanilla mob animations with smoother movements and more lifelike behaviors throughout the game.",
+    "download": "https://mcpedl.com/coptaines-mob-animation/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663544674275134741?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "slug": "dynamic-animations",
+    "name": "Dynamic Animations",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "Improves Minecraft with fluid player animations that make movement and actions feel more natural and immersive.",
+    "download": "https://mcpedl.com/dynamic-animations/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663544674275134741?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "slug": "fresh-player-animations-bedrock",
+    "name": "Fresh Player Animations",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "Enhances player animations with smoother walking, running, swimming, and idle movements while matching the Fresh Animations style.",
+    "download": "https://mcpedl.com/fresh-player-animations-bedrock/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663544674275134741?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "slug": "fresh-animations-bedrock",
+    "name": "Fresh Animations",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A popular animation pack that gives Minecraft mobs smooth, expressive animations inspired by the official trailers.",
+    "download": "https://mcpedl.com/fresh-animations-bedrock/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663544674275134741?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "slug": "fanimation-better-player-animations",
+    "name": "FAnimation U7.1 X Fiery Combat",
+    "version": "U7.1",
+    "category": "Texture Pack",
+    "description": "An animation pack inspired by Minecraft Dungeons that adds smooth player movement, combat, idle, swimming, and running animations.",
+    "download": "https://mcpedl.com/fanimation-better-player-animations/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663544674275134741?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "slug": "bsl-shaders-bedrock",
+    "name": "BSLB Shaders Bedrock - Classic",
+    "version": "v3.0.0",
+    "category": "Texture Pack",
+    "description": "A realistic Minecraft Bedrock shader pack that enhances lighting, colors, clouds, and atmosphere with Vibrant Visuals support.",
+    "download": "https://mcpedl.com/bsl-shaders-bedrock/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663538012101283092?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "slug": "kinetix-visuals",
+    "name": "Kinetix Visuals",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A visual enhancement pack that improves lighting, colors, and environmental effects while maintaining smooth performance.",
+    "download": "https://mcpedl.com/kinetix-visuals/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663538012101283092?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "slug": "medieval-style-shader",
+    "name": "Medieval Style Shader",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A fantasy-inspired shader that creates a medieval atmosphere with warm lighting and cinematic visuals.",
+    "download": "https://mcpedl.com/medieval-style-shader/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663538012101283092?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "slug": "ultimate-shaders",
+    "name": "Ultimate Shaders",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A shader pack featuring enhanced lighting, realistic water, dynamic shadows, and immersive environmental effects.",
+    "download": "https://mcpedl.com/ultimate-shaders/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663538012101283092?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "slug": "newb-x-ale-shader",
+    "name": "Newb X Ale Shader",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A shader pack that delivers realistic lighting, waving plants, improved skies, and vibrant colors for Minecraft Bedrock.",
+    "download": "https://mcpedl.com/newb-x-ale-shader/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663538012101283092?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "slug": "realiscraft-realistic-default-texture",
+    "name": "RealisCraft",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A premium-style realistic texture pack that enhances Minecraft's default look with detailed, lifelike textures.",
+    "download": "https://mcpedl.com/realiscraft-realistic-default-texture/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663538012101283092?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "slug": "realsource-realistic-pack",
+    "name": "RealSource REALISTIC Pack",
+    "version": "Realistic Visuals 1.8 LOW",
+    "category": "Texture Pack",
+    "description": "A realistic Minecraft Bedrock texture pack with RTX and Vibrant Visuals support, optimized for both low-end and high-end devices.",
+    "download": "https://mcpedl.com/realsource-realistic-pack/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663538012101283092?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "slug": "realistic-craft-texture-pack",
+    "name": "Realistic Craft Texture Pack",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A high-quality realistic texture pack that transforms Minecraft with detailed blocks, realistic lighting, and immersive visuals.",
+    "download": "https://www.curseforge.com/minecraft/texture-packs/realistic-craft-texture-pack",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663538012101283092?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "slug": "ultimate-ores-texture-pack",
+    "name": "Ultimate Ores Texture Pack",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A complete ore enhancement pack featuring detailed textures and high-visibility outlines for easier mining.",
+    "download": "https://mcpedl.com/ultimate-ores-texture-pack/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663176670802742549?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "slug": "gradient-ores",
+    "name": "Gradient Ores",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "Replaces default ore textures with colorful gradient designs for better visibility and a modern aesthetic.",
+    "download": "https://mcpedl.com/gradient-ores/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663176670802742549?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "slug": "better-ore-outline",
+    "name": "Better Ore Outline",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "Improves ore visibility with refined outlines while preserving Minecraft's original style.",
+    "download": "https://mcpedl.com/better-ore-outline/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663176670802742549?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "slug": "outlined-textures",
+    "name": "Outlined Textures",
+    "version": "1.19",
+    "category": "Texture Pack",
+    "description": "Adds bold outlines to Minecraft textures for a cleaner and more visually distinct appearance.",
+    "download": "https://mcpedl.com/outlined-textures-for-1-19/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663176670802742549?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "slug": "outlined-ores-texture-pack",
+    "name": "Outlined Ores Texture Pack",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "Highlights every ore with bright outlines, making mining faster and ores easier to locate.",
+    "download": "https://mcpedl.com/outlined-ores-texture-pack/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663176670802742549?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "slug": "block-outline-and-overlay",
+    "name": "Block Outline and Overlay",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "Enhances block outlines and overlays to improve block visibility and make building more precise.",
+    "download": "https://mcpedl.com/block-outline-and-overlay/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663176670802742549?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "slug": "player-outline",
+    "name": "Player Outline",
+    "version": "v1.1",
+    "category": "Texture Pack",
+    "description": "Adds customizable colored outlines around players, making them easier to spot during gameplay and PvP.",
+    "download": "https://mcpedl.com/player-outline/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663176670802742549?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "slug": "outline-texture-pack",
+    "name": "Outline Texture Pack",
+    "version": "64x64",
+    "category": "Texture Pack",
+    "description": "A texture pack that adds clean outlines to blocks and textures, making Minecraft look sharper and easier to distinguish.",
+    "download": "https://mcpedl.com/outline-texture-pack-2/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@meowierantsofficial/photo/7663176670802742549?is_from_webapp=1&sender_device=pc&web_id=7593425567119361543"
+        }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "slug": "basic-boost-basic-but-effective-fps-boost",
+    "name": "Basic Boost",
+    "version": "Latest",
+    "category": "Performance",
+    "description": "A simple yet effective FPS boost pack that removes unnecessary visual effects to improve Minecraft Bedrock performance.",
+    "download": "https://mcpedl.com/basic-boost-basic-but-effective-fps-boost/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@menacescripts"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663164567039511829"
+        }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "slug": "clearview-real-fps-boost",
+    "name": "ClearView",
+    "version": "Latest",
+    "category": "Performance",
+    "description": "A performance-focused pack that enhances visibility while improving FPS and reducing unnecessary graphical effects.",
+    "download": "https://mcpedl.com/clearview-real-fps-boost/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@menacescripts"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663164567039511829"
+        }
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "slug": "optimizer-pe-boost-fps",
+    "name": "Optimizer PE",
+    "version": "Latest",
+    "category": "Performance",
+    "description": "A Bedrock optimization pack that improves FPS, lowers lag, and provides a smoother gaming experience on all devices.",
+    "download": "https://mcpedl.com/optimizer-pe-boost-fps/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@menacescripts"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663164567039511829"
+        }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "slug": "boosted-fps-optimized-performance",
+    "name": "Boosted FPS",
+    "version": "Latest",
+    "category": "Performance",
+    "description": "A resource pack designed to maximize FPS by optimizing textures and graphical settings for better performance.",
+    "download": "https://mcpedl.com/boosted-fps-optimized-performance/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@menacescripts"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663164567039511829"
+        }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "slug": "vanilla-x-optimizer-fps-boost",
+    "name": "Vanilla X Optimizer",
+    "version": "Latest",
+    "category": "Performance",
+    "description": "An FPS optimization pack that keeps Minecraft's vanilla appearance while improving performance and reducing frame drops.",
+    "download": "https://mcpedl.com/vanilla-x-optimizer-fps-boost/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@menacescripts"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663164567039511829"
+        }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "slug": "fps-booster-pack-no-lag-performance",
+    "name": "FPS Booster Pack",
+    "version": "Latest",
+    "category": "Performance",
+    "description": "A lightweight performance pack that boosts FPS, reduces lag, and delivers smoother gameplay on Minecraft Bedrock.",
+    "download": "https://mcpedl.com/fps-booster-pack-no-lag-performance-for-mcpe/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@menacescripts"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663164567039511829"
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "slug": "fps-optimizer-fps-boost",
+    "name": "FPS Optimizer",
+    "version": "Latest",
+    "category": "Performance",
+    "description": "A performance pack that increases FPS by optimizing graphics, reducing lag, and improving overall gameplay smoothness.",
+    "download": "https://mcpedl.com/fps-optimizer-fps-boost/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@menacescripts"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@menacescripts/photo/7663164567039511829"
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "slug": "pandamines-fullbright-night-vision-addon",
+    "name": "PandaMine's FullBright Night Vision Addon",
+    "version": "1.21",
+    "category": "Gameplay",
+    "description": "A Bedrock addon that provides a permanent full-bright effect for improved visibility during mining, exploration, and nighttime adventures.",
+    "download": "https://mc-addons.com/mods/mods-121/9492-pandamines-fullbright-night-vision-addon-texture-pack.html",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    },
+    "collection": 2
+  },
+  {
+    "id": 22,
+    "slug": "instant-night-vision-brightness-addon",
+    "name": "Instant Night Vision Brightness Addon",
+    "version": "Latest",
+    "category": "Gameplay",
+    "description": "An addon that instantly boosts brightness, allowing players to explore dark areas with clear visibility at all times.",
+    "download": "https://www.mc-mod.net/instant-night-vision-brightness-addon-mcpe/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    },
+    "collection": 2
+  },
+  {
+    "id": 21,
+    "slug": "full-bright-night-vision",
+    "name": "Full Bright Night Vision",
+    "version": "1.21, 1.20",
+    "category": "Texture Pack",
+    "description": "A full-bright texture pack that removes darkness from caves and nighttime, providing crystal-clear visibility without potions.",
+    "download": "https://mcbompe.com/full-bright-night-vision/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    },
+    "collection": 2
+  },
+  {
+    "id": 20,
+    "slug": "night-vision-mcbompe",
+    "name": "Night Vision",
+    "version": "1.21, 1.20",
+    "category": "Texture Pack",
+    "description": "A lightweight Bedrock texture pack that keeps caves, nighttime, and underwater areas bright for easier exploration.",
+    "download": "https://mcbompe.com/night-vision/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    },
+    "collection": 2
+  },
+  {
+    "id": 19,
+    "slug": "night-vision-texture-pack-bedrock",
+    "name": "Night Vision Texture Pack",
+    "version": "1.20, 1.19",
+    "category": "Texture Pack",
+    "description": "A customizable night vision resource pack that enhances visibility at night while preserving Minecraft's natural atmosphere.",
+    "download": "https://www.mc-mod.net/night-vision-texture-pack-mcpe-bedrock/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    },
+    "collection": 2
+  },
+  {
+    "id": 18,
+    "slug": "ultimate-night-vision-texture-pack",
+    "name": "Ultimate Night Vision Texture Pack",
+    "version": "26.3",
+    "category": "Texture Pack",
+    "description": "A balanced full-bright texture pack that improves visibility in caves and nighttime while supporting all Bedrock graphics modes.",
+    "download": "https://www.mc-mod.net/ultimate-night-vision-texture-pack-mcpe/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    },
+    "collection": 2
+  },
+  {
+    "id": 17,
+    "slug": "night-vision-texture-pack",
+    "name": "Night Vision Texture Pack",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A Bedrock texture pack that grants an infinite night vision effect, making dark environments much easier to explore.",
+    "download": "https://mcpedl.org/night-vision-texture-pack-minecraft-pe/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    },
+    "collection": 2
+  },
+  {
+    "id": 16,
+    "slug": "night-vision",
+    "name": "Night Vision",
+    "version": "26.0",
+    "category": "Texture Pack",
+    "description": "A lightweight texture pack that provides permanent night vision, making caves, oceans, and nighttime exploration much brighter without potions.",
+    "download": "https://mcpepacks.com/night-vision-mcpe",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        }
+      ]
+    },
+    "collection": 2
+  },
+  {
+    "id": 15,
+    "slug": "lumenix-shader",
+    "name": "Lumenix Shader",
+    "version": "v3.1",
+    "category": "Texture Pack",
+    "description": "A Minecraft Bedrock shader pack that enhances colors, lighting, and atmosphere with a warm, vibrant look while maintaining smooth performance.",
+    "download": "https://mcpedl.com/lumenix-shader/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://vt.tiktok.com/ZSCsEjJKn/"
+        }
+      ]
+    },
+    "collection": 1
+  },
+  {
+    "id": 14,
+    "slug": "rg-shader-renderdragon-shaders",
+    "name": "RG Shader | Renderdragon Shaders",
+    "version": "v3.7",
+    "category": "Texture Pack",
+    "description": "A realistic RenderDragon-compatible shader pack that adds dynamic lighting, god rays, waving vegetation, enhanced water, and smooth visuals with low performance impact.",
+    "download": "https://mcpedl.com/rg-shader-v2-1-renderdragon-support-2/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://vt.tiktok.com/ZSCsEjJKn/"
+        }
+      ]
+    },
+    "collection": 1
+  },
+  {
+    "id": 13,
+    "slug": "dark-fantasy-visuals-bedrock-resource-pack",
+    "name": "Dark Fantasy Visuals (Bedrock Resource Pack)",
+    "version": "1.21.111",
+    "category": "Texture Pack",
+    "description": "A dark-themed Minecraft Bedrock resource pack that transforms the game with moody lighting, muted colors, and a fantasy-inspired atmosphere.",
+    "download": "https://mcpedl.com/dark-visuals-resource-pack/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://vt.tiktok.com/ZSCsEjJKn/"
+        }
+      ]
+    },
+    "collection": 1
+  },
+  {
+    "id": 12,
+    "slug": "bslb-shaders-bedrock-classic",
+    "name": "BSLB Shaders Bedrock - Classic",
+    "version": "v3.0.0",
+    "category": "Texture Pack",
+    "description": "A realistic Minecraft Bedrock shader pack that enhances lighting, colors, clouds, and atmosphere with Vibrant Visuals support.",
+    "download": "https://mcpedl.com/bsl-shaders-bedrock/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://vt.tiktok.com/ZSCsEjJKn/"
+        }
+      ]
+    },
+    "collection": 1
+  },
+  {
+    "id": 11,
+    "slug": "realsource-realistic-pack",
+    "name": "RealSource REALISTIC pack",
+    "version": "Realistic Visuals 1.8 LOW",
+    "category": "Texture Pack",
+    "description": "A realistic Minecraft Bedrock texture pack with RTX and Vibrant Visuals support, optimized for both low-end and high-end devices.",
+    "download": "https://mcpedl.com/realsource-realistic-pack/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://vt.tiktok.com/ZSCsEjJKn/"
+        }
+      ]
+    },
+    "collection": 1
+  },
+  {
+    "id": 10,
+    "slug": "optimum-realism-for-bedrock-edition-vibrant-visuals-compatible",
+    "name": "Optimum Realism for Bedrock Edition [Vibrant Visuals Compatible]",
+    "version": "R3.8.0 (64x RTX)",
+    "category": "Texture Pack",
+    "description": "A realistic Minecraft Bedrock texture pack featuring HD textures, PBR materials, RTX support, and compatibility with Vibrant Visuals.",
+    "download": "https://mcpedl.com/optimum-realism-bedrock/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://vt.tiktok.com/ZSCsEjJKn/"
+        }
+      ]
+    },
+    "collection": 1
+  },
+  {
+    "id": 9,
+    "slug": "la-nature",
+    "name": "La Nature",
+    "version": "1.0.88",
+    "category": "Texture Pack",
+    "description": "Download La Nature by Carrot – the biggest nature overhaul for Minecraft Bedrock. Birds, godrays, custom sounds & more. Free pack for 1.21.90+. Get it now",
+    "download": "https://mcpedl.com/la-nature-by-carrot/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://vt.tiktok.com/ZSCsEjJKn/"
+        }
+      ]
+    },
+    "collection": 1
+  },
+  {
+    "id": 8,
+    "slug": "prizma-visuals-legacy",
+    "name": "Prizma Visuals Legacy",
+    "version": "1.3.10",
+    "category": "Texture Pack",
+    "description": "Download Prizma PBR Deferred Pack for Minecraft Bedrock. Stunning 3D textures, vibrant skies & realistic lighting. Free PBR pack for 1.21.90+. Get it now.",
+    "download": "https://mcpedl.com/prizma-pbr-deferred-pack/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://vt.tiktok.com/ZSCsEjJKn/"
+        }
+      ]
+    },
+    "collection": 1
+  },
+  {
+    "id": 75,
+    "slug": "no-animations-fps-boost",
+    "name": "No Animation & Particles (FPS Boost)",
+    "version": "1.21.20",
+    "category": "Performance",
+    "description": "A performance resource pack that disables animations and particles to improve FPS, reduce lag, and deliver smoother gameplay.",
+    "download": "https://mcpedl.com/no-animations-fps-boost/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        }
+      ]
+    }
+  },
+  {
+    "id": 76,
+    "slug": "ultimate-fps-booster",
+    "name": "ULTIMATE FPS BOOSTER",
+    "version": "v1.6.0",
+    "category": "Performance",
+    "description": "A lightweight optimization pack that boosts FPS by optimizing rendering, UI, and visual effects while maintaining smooth gameplay.",
+    "download": "https://mcpedl.com/ultimate-fps-booster/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        }
+      ]
+    }
+  },
+  {
+    "id": 77,
+    "slug": "feather-fps-boost-mod",
+    "name": "Feather FPS Boost Mod",
+    "version": "V9",
+    "category": "Performance",
+    "description": "A lightweight performance addon that improves frame rate stability and overall gameplay smoothness while preserving the vanilla experience.",
+    "download": "https://mcpedl.com/feather-fps-boost-mod/",
+    "collection": 2,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        }
+      ]
+    }
+  }
+]
