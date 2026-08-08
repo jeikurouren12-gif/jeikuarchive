@@ -27,7 +27,19 @@ async function handleVerifyAdmin(context) {
   });
 }
 
-export async function onRequestPost(context) {
+export async function onRequest(context) {
+  const method = context.request.method.toUpperCase();
+  if (method === 'OPTIONS') {
+    return createOptionsResponse();
+  }
+
+  if (method !== 'POST') {
+    return new Response(JSON.stringify({ error: 'Method Not Allowed' }), {
+      status: 405,
+      headers: { 'Content-Type': 'application/json' }
+    });
+  }
+
   return handleVerifyAdmin(context);
 }
 
