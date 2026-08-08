@@ -115,3 +115,7 @@ export async function onRequest(context) {
     return jsonResponse({ error: error.message }, 500);
   }
 }
+
+export async function onRequestOptions(context) {
+  return createOptionsResponse();
+}
