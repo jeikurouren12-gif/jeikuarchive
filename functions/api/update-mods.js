@@ -116,6 +116,10 @@ export async function onRequest(context) {
   }
 }
 
+export async function onRequestPost(context) {
+  return onRequest(context);
+}
+
 export async function onRequestOptions(context) {
   return createOptionsResponse();
 }

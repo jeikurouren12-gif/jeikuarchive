@@ -120,6 +120,10 @@ export async function onRequestPost(context) {
   return handleVerifyAdmin(context);
 }
 
+export async function onRequestPost(context) {
+  return handleVerifyAdmin(context);
+}
+
 export async function onRequestOptions(context) {
   return createOptionsResponse();
 }
