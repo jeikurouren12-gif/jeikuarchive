@@ -25,7 +25,8 @@ async function getFileSha(owner, repo, path, branch, token) {
     method: 'GET',
     headers: {
       Authorization: `token ${token}`,
-      Accept: 'application/vnd.github.v3+json'
+      Accept: 'application/vnd.github.v3+json',
+      'User-Agent': 'jeikuarchive-admin'
     }
   });
 
@@ -100,7 +101,8 @@ export async function onRequest(context) {
       headers: {
         Authorization: `token ${token}`,
         Accept: 'application/vnd.github.v3+json',
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'User-Agent': 'jeikuarchive-admin'
       },
       body: JSON.stringify(putBody)
     });
