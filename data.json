@@ -1,4 +1,5 @@
-{
+[
+  {
     "id": 8,
     "slug": "prizma-visuals-legacy",
     "name": "Prizma Visuals Legacy",
@@ -21,4 +22,5 @@
       ]
     },
     "collection": 1
-  },
+  }
+]
