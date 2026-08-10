@@ -1,5 +1,24 @@
 [
   {
+    "id": 9,
+    "slug": "test",
+    "name": "test",
+    "version": "1.20.4",
+    "category": "Performance",
+    "description": "buenos",
+    "download": "https://google.com",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com"
+        }
+      ]
+    }
+  },
+  {
     "id": 8,
     "slug": "prizma-visuals-legacy",
     "name": "Prizma Visuals Legacy",
@@ -22,24 +41,5 @@
       ]
     },
     "collection": 1
-  },
-  {
-    "id": 9,
-    "slug": "test",
-    "name": "Test",
-    "version": "1.20.4",
-    "category": "Performance",
-    "description": "r",
-    "download": "https://google.com",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "like_tiktok_video",
-          "label": "Like TikTok Video",
-          "url": "https://www.tiktok.com"
-        }
-      ]
-    }
   }
 ]
