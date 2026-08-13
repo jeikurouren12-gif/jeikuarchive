@@ -1,24 +1,5 @@
 [
   {
-    "id": 11,
-    "slug": "godlike",
-    "name": "Godlike",
-    "version": "Latest",
-    "category": "Gameplay",
-    "description": "A telekinetic powers mod that lets you reshape the world and fling entities around using supernatural abilities powered by Valkyrien Skies 2 physics.",
-    "download": "https://modrinth.com/mod/godlike",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@meowierantsofficial"
-        }
-      ]
-    }
-  },
-  {
     "id": 10,
     "slug": "beyond-power",
     "name": "Beyond Power",
