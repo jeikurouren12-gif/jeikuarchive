@@ -1,55 +1,12 @@
 [
   {
-    "id": 8,
-    "slug": "prizma-visuals-legacy",
-    "name": "Prizma Visuals Legacy",
-    "version": "1.3.10",
-    "category": "Texture Pack",
-    "description": "Download Prizma PBR Deferred Pack for Minecraft Bedrock. Stunning 3D textures, vibrant skies & realistic lighting. Free PBR pack for 1.21.90+. Get it now.",
-    "download": "https://mcpedl.com/prizma-pbr-deferred-pack/",
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@mcvaults"
-        },
-        {
-          "type": "like_tiktok_video",
-          "label": "Like TikTok Video",
-          "url": "https://vt.tiktok.com/ZSCsEjJKn/"
-        }
-      ]
-    },
-    "collection": 1
-  },
-  {
-    "id": 9,
-    "slug": "minecraft-but-you-are-a-god",
-    "name": "Minecraft but, you are a God",
-    "version": "1.0.0",
+    "id": 12,
+    "slug": "god-weapons",
+    "name": "God Weapons",
+    "version": "1.0.6",
     "category": "Gameplay",
-    "description": "A god-themed mod that lets you choose between god and human roles while granting the god role powerful abilities, weapons, armor, flight, time control, and destructive powers.",
-    "download": "https://modrinth.com/mod/minecraft-but%2C-you-are-a-god",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@meowierantsofficial"
-        }
-      ]
-    }
-  },
-  {
-    "id": 10,
-    "slug": "beyond-power",
-    "name": "Beyond Power",
-    "version": "Latest",
-    "category": "Gameplay",
-    "description": "A godhood progression mod where you gain faith, ascend through five stages, and unlock devastating abilities that manipulate time, space, gravity, and reality.",
-    "download": "https://modrinth.com/mod/beyond-power",
+    "description": "An overpowered weapons mod that adds devastating god-tier weapons, powerful abilities, custom effects, and materials for an absurdly powerful gameplay experience.",
+    "download": "https://modrinth.com/mod/god-weapons",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -81,13 +38,13 @@
     }
   },
   {
-    "id": 12,
-    "slug": "god-weapons",
-    "name": "God Weapons",
-    "version": "1.0.6",
+    "id": 10,
+    "slug": "beyond-power",
+    "name": "Beyond Power",
+    "version": "Latest",
     "category": "Gameplay",
-    "description": "An overpowered weapons mod that adds devastating god-tier weapons, powerful abilities, custom effects, and materials for an absurdly powerful gameplay experience.",
-    "download": "https://modrinth.com/mod/god-weapons",
+    "description": "A godhood progression mod where you gain faith, ascend through five stages, and unlock devastating abilities that manipulate time, space, gravity, and reality.",
+    "download": "https://modrinth.com/mod/beyond-power",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -100,13 +57,13 @@
     }
   },
   {
-    "id": 13,
-    "slug": "ultimate-god",
-    "name": "The Ultimate God",
-    "version": "1.21.1",
+    "id": 9,
+    "slug": "minecraft-but-you-are-a-god",
+    "name": "Minecraft but, you are a God",
+    "version": "1.0.0",
     "category": "Gameplay",
-    "description": "A divine weapons mod that adds powerful god-themed weapons designed to let you rule the Minecraft world with overwhelming power.",
-    "download": "https://www.curseforge.com/minecraft/mc-mods/ultimate-god",
+    "description": "A god-themed mod that lets you choose between god and human roles while granting the god role powerful abilities, weapons, armor, flight, time control, and destructive powers.",
+    "download": "https://modrinth.com/mod/minecraft-but%2C-you-are-a-god",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -117,5 +74,29 @@
         }
       ]
     }
+  },
+  {
+    "id": 8,
+    "slug": "prizma-visuals-legacy",
+    "name": "Prizma Visuals Legacy",
+    "version": "1.3.10",
+    "category": "Texture Pack",
+    "description": "Download Prizma PBR Deferred Pack for Minecraft Bedrock. Stunning 3D textures, vibrant skies & realistic lighting. Free PBR pack for 1.21.90+. Get it now.",
+    "download": "https://mcpedl.com/prizma-pbr-deferred-pack/",
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@mcvaults"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://vt.tiktok.com/ZSCsEjJKn/"
+        }
+      ]
+    },
+    "collection": 1
   }
 ]
