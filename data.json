@@ -1,18 +1,5 @@
 [
   {
-    "id": 2,
-    "slug": "boosted-fps-optimized-performance",
-    "name": "Boosted FPS (Optimized Performance)",
-    "version": "v2.2",
-    "category": "Performance",
-    "description": "A performance-focused Bedrock texture pack that disables costly fog and particles while optimizing animations, sounds, and UI for higher FPS on low-end devices.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/boosted-fps-optimized-performance",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": []
-    }
-  },
-  {
     "id": 1,
     "slug": "fps-optimizer-fps-boost",
     "name": "FPS Optimizer | FPS Boost Official",
