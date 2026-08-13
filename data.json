@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "id": 1,
+    "slug": "fps-optimizer-fps-boost",
+    "name": "FPS Optimizer | FPS Boost Official",
+    "version": "v2.7.0",
+    "category": "Performance",
+    "description": "A lightweight Bedrock performance pack that reduces particles, optimizes fog, simplifies animations and sounds, and provides selectable performance modes for smoother FPS.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-optimizer-fps-boost",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "slug": "boosted-fps-optimized-performance",
+    "name": "Boosted FPS (Optimized Performance)",
+    "version": "v2.2",
+    "category": "Performance",
+    "description": "A lightweight Bedrock resource pack that optimizes fog, particles, animations, sounds, and UI to maximize FPS and reduce lag on low-end devices.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/boosted-fps-optimized-performance",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "slug": "fps-booster-for-mcpe",
+    "name": "FPS Booster | Fps Boost",
+    "version": "v2.1 stable",
+    "category": "Performance",
+    "description": "A Minecraft Bedrock performance pack that removes particles and animations, limits render distance, and reduces lag and device heat for smoother gameplay.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-booster-for-mcpe",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  }
+]
