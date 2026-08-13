@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "id": 1,
+    "slug": "fps-optimizer-fps-boost",
+    "name": "FPS Optimizer | FPS Boost Official",
+    "version": "v2.7.0",
+    "category": "Performance",
+    "description": "A lightweight Bedrock performance pack that reduces particles, optimizes fog, animations, textures, and sounds to deliver smoother and more stable FPS while preserving Minecraft's original look.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-optimizer-fps-boost",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "slug": "boosted-fps-optimized-performance",
+    "name": "Boosted FPS (Optimized Performance)",
+    "version": "v2.2",
+    "category": "Performance",
+    "description": "A performance-focused Bedrock texture pack that disables costly fog and particles while optimizing animations, sounds, and UI for higher FPS on low-end devices.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/boosted-fps-optimized-performance",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "slug": "fps-booster-for-mcpe",
+    "name": "FPS Booster | Fps Boost",
+    "version": "v2.1 stable",
+    "category": "Performance",
+    "description": "A Minecraft Bedrock FPS booster that removes particles and animations, limits render distance, reduces lag spikes, and helps lower device heat for smoother gameplay.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-booster-for-mcpe",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@meowierantsofficial"
+        }
+      ]
+    }
+  }
+]
