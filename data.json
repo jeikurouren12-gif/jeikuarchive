@@ -1,24 +1,5 @@
 [
   {
-    "id": 9,
-    "slug": "minecraft-but-you-are-a-god",
-    "name": "Minecraft but, you are a God",
-    "version": "1.0.0",
-    "category": "Gameplay",
-    "description": "A god-themed mod that lets you choose between god and human roles while granting the god role powerful abilities, weapons, armor, flight, time control, and destructive powers.",
-    "download": "https://modrinth.com/mod/minecraft-but%2C-you-are-a-god",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@meowierantsofficial"
-        }
-      ]
-    }
-  },
-  {
     "id": 8,
     "slug": "prizma-visuals-legacy",
     "name": "Prizma Visuals Legacy",
