@@ -1,18 +1,5 @@
 [
   {
-    "id": 3,
-    "slug": "fps-booster-for-mcpe",
-    "name": "FPS Booster | Fps Boost",
-    "version": "v2.1 stable",
-    "category": "Performance",
-    "description": "A Minecraft Bedrock FPS booster that removes particles and animations, limits render distance, reduces lag spikes, and helps lower device heat for smoother gameplay.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-booster-for-mcpe",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": []
-    }
-  },
-  {
     "id": 2,
     "slug": "boosted-fps-optimized-performance",
     "name": "Boosted FPS (Optimized Performance)",
