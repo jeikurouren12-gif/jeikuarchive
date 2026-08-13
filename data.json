@@ -1,24 +1,5 @@
 [
   {
-    "id": 12,
-    "slug": "god-weapons",
-    "name": "God Weapons",
-    "version": "1.0.6",
-    "category": "Gameplay",
-    "description": "An overpowered weapons mod that adds devastating god-tier weapons, powerful abilities, custom effects, and materials for an absurdly powerful gameplay experience.",
-    "download": "https://modrinth.com/mod/god-weapons",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@meowierantsofficial"
-        }
-      ]
-    }
-  },
-  {
     "id": 11,
     "slug": "godlike",
     "name": "Godlike",
