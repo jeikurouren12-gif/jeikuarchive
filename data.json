@@ -1,24 +1,5 @@
 [
   {
-    "id": 10,
-    "slug": "beyond-power",
-    "name": "Beyond Power",
-    "version": "Latest",
-    "category": "Gameplay",
-    "description": "A godhood progression mod where you gain faith, ascend through five stages, and unlock devastating abilities that manipulate time, space, gravity, and reality.",
-    "download": "https://modrinth.com/mod/beyond-power",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@meowierantsofficial"
-        }
-      ]
-    }
-  },
-  {
     "id": 9,
     "slug": "minecraft-but-you-are-a-god",
     "name": "Minecraft but, you are a God",
