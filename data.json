@@ -1,12 +1,12 @@
 [
   {
-    "id": 1,
-    "slug": "fps-optimizer-fps-boost",
-    "name": "FPS Optimizer | FPS Boost Official",
-    "version": "v2.7.0",
+    "id": 3,
+    "slug": "fps-booster-for-mcpe",
+    "name": "FPS Booster | Fps Boost",
+    "version": "v2.1 stable",
     "category": "Performance",
-    "description": "A lightweight Bedrock performance pack that reduces particles, optimizes fog, simplifies animations and sounds, and provides selectable performance modes for smoother FPS.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-optimizer-fps-boost",
+    "description": "A Minecraft Bedrock performance pack that removes particles and animations, limits render distance, and reduces lag and device heat for smoother gameplay.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-booster-for-mcpe",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -38,13 +38,127 @@
     }
   },
   {
-    "id": 3,
-    "slug": "fps-booster-for-mcpe",
-    "name": "FPS Booster | Fps Boost",
-    "version": "v2.1 stable",
+    "id": 1,
+    "slug": "fps-optimizer-fps-boost",
+    "name": "FPS Optimizer | FPS Boost Official",
+    "version": "v2.7.0",
     "category": "Performance",
-    "description": "A Minecraft Bedrock performance pack that removes particles and animations, limits render distance, and reduces lag and device heat for smoother gameplay.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-booster-for-mcpe",
+    "description": "A lightweight Bedrock performance pack that reduces particles, optimizes fog, simplifies animations and sounds, and provides selectable performance modes for smoother FPS.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-optimizer-fps-boost",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "slug": "better-on-bedrock",
+    "name": "Better on Bedrock",
+    "version": "v1.2.1",
+    "category": "Gameplay",
+    "description": "A comprehensive Bedrock expansion that adds polished gameplay content, improved progression, and new survival features while preserving Minecraft's core feel.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/better-on-bedrock",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "slug": "core-craft",
+    "name": "Core Craft - A Vanilla Expansion | NEW: The End Update",
+    "version": "v1.2.1",
+    "category": "Gameplay",
+    "description": "A Vanilla+ survival expansion featuring new world generation, mobs, animals, quests, structures, furniture, farming, cooking, and an expanded End.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/core-craft",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "slug": "survival-reworked",
+    "name": "Survival Reworked",
+    "version": "1.8.1.3",
+    "category": "Gameplay",
+    "description": "A survival overhaul that extends progression with artifacts, craftable spawners, over 100 new mobs, bosses, biomes, dungeons, ruins, and new challenges.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/survival-reworked",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "slug": "realistic-survival",
+    "name": "Realistic Survival [Achievement friendly]",
+    "version": "V6.2",
+    "category": "Gameplay",
+    "description": "A survival addon that adds hydration and temperature systems, requiring players to manage thirst, body heat, clothing, shelter, and purified water.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/realistic-survival",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "slug": "enhanced-survival",
+    "name": "Enhanced Survival",
+    "version": "V3",
+    "category": "Gameplay",
+    "description": "A survival expansion that adds progression, mastery, magic, skills, quests, and an optimized minimap with real-time players, animals, and hostile mobs.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/enhanced-survival",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "slug": "explorers-world-map",
+    "name": "Explorer's World Map & Minimap V2",
+    "version": "Latest",
+    "category": "Utility",
+    "description": "A customizable Bedrock world map and minimap addon designed to provide detailed navigation and exploration features.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/explorers-world-map",
     "collection": 1,
     "contentLocker": {
       "tasks": [
