@@ -1,5 +1,119 @@
 [
   {
+    "id": 9,
+    "slug": "explorers-world-map",
+    "name": "Explorer's World Map & Minimap V2",
+    "version": "Latest",
+    "category": "Utility",
+    "description": "A customizable Bedrock world map and minimap addon designed to provide detailed navigation and exploration features.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/explorers-world-map",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "slug": "enhanced-survival",
+    "name": "Enhanced Survival",
+    "version": "V3",
+    "category": "Gameplay",
+    "description": "A survival expansion that adds progression, mastery, magic, skills, quests, and an optimized minimap with real-time players, animals, and hostile mobs.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/enhanced-survival",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "slug": "realistic-survival",
+    "name": "Realistic Survival [Achievement friendly]",
+    "version": "V6.2",
+    "category": "Gameplay",
+    "description": "A survival addon that adds hydration and temperature systems, requiring players to manage thirst, body heat, clothing, shelter, and purified water.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/realistic-survival",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "slug": "survival-reworked",
+    "name": "Survival Reworked",
+    "version": "1.8.1.3",
+    "category": "Gameplay",
+    "description": "A survival overhaul that extends progression with artifacts, craftable spawners, over 100 new mobs, bosses, biomes, dungeons, ruins, and new challenges.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/survival-reworked",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "slug": "core-craft",
+    "name": "Core Craft - A Vanilla Expansion | NEW: The End Update",
+    "version": "v1.2.1",
+    "category": "Gameplay",
+    "description": "A Vanilla+ survival expansion featuring new world generation, mobs, animals, quests, structures, furniture, farming, cooking, and an expanded End.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/core-craft",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "slug": "better-on-bedrock",
+    "name": "Better on Bedrock",
+    "version": "v1.2.1",
+    "category": "Gameplay",
+    "description": "A comprehensive Bedrock expansion that adds polished gameplay content, improved progression, and new survival features while preserving Minecraft's core feel.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/better-on-bedrock",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
     "id": 3,
     "slug": "fps-booster-for-mcpe",
     "name": "FPS Booster | Fps Boost",
@@ -57,13 +171,13 @@
     }
   },
   {
-    "id": 4,
-    "slug": "better-on-bedrock",
-    "name": "Better on Bedrock",
-    "version": "v1.2.1",
-    "category": "Gameplay",
-    "description": "A comprehensive Bedrock expansion that adds polished gameplay content, improved progression, and new survival features while preserving Minecraft's core feel.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/better-on-bedrock",
+    "id": 10,
+    "slug": "origin-animation",
+    "name": "Origin Animation ( Alt For Actions And Stuff )",
+    "version": "1.4.2",
+    "category": "Texture Pack",
+    "description": "An animation pack for Minecraft Bedrock that adds 30 new animations to give player movement and actions a more dynamic feel.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/origin-animation",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -76,13 +190,13 @@
     }
   },
   {
-    "id": 5,
-    "slug": "core-craft",
-    "name": "Core Craft - A Vanilla Expansion | NEW: The End Update",
-    "version": "v1.2.1",
-    "category": "Gameplay",
-    "description": "A Vanilla+ survival expansion featuring new world generation, mobs, animals, quests, structures, furniture, farming, cooking, and an expanded End.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/core-craft",
+    "id": 11,
+    "slug": "astraliyte-s-animated-textures",
+    "name": "Astraliyte's Animated Textures",
+    "version": "5.0.1",
+    "category": "Texture Pack",
+    "description": "A Bedrock resource pack that adds animated textures to 39 items including diamonds, buckets, redstone, ender pearls, golden apples, and other materials.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/astraliyte-s-animated-textures",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -95,70 +209,108 @@
     }
   },
   {
-    "id": 6,
-    "slug": "survival-reworked",
-    "name": "Survival Reworked",
-    "version": "1.8.1.3",
-    "category": "Gameplay",
-    "description": "A survival overhaul that extends progression with artifacts, craftable spawners, over 100 new mobs, bosses, biomes, dungeons, ruins, and new challenges.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/survival-reworked",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 7,
-    "slug": "realistic-survival",
-    "name": "Realistic Survival [Achievement friendly]",
-    "version": "V6.2",
-    "category": "Gameplay",
-    "description": "A survival addon that adds hydration and temperature systems, requiring players to manage thirst, body heat, clothing, shelter, and purified water.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/realistic-survival",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 8,
-    "slug": "enhanced-survival",
-    "name": "Enhanced Survival",
-    "version": "V3",
-    "category": "Gameplay",
-    "description": "A survival expansion that adds progression, mastery, magic, skills, quests, and an optimized minimap with real-time players, animals, and hostile mobs.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/enhanced-survival",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 9,
-    "slug": "explorers-world-map",
-    "name": "Explorer's World Map & Minimap V2",
+    "id": 12,
+    "slug": "better-animated-nature",
+    "name": "Better Animated Nature",
     "version": "Latest",
-    "category": "Utility",
-    "description": "A customizable Bedrock world map and minimap addon designed to provide detailed navigation and exploration features.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/explorers-world-map",
+    "category": "Texture Pack",
+    "description": "An environmental resource pack that adds smooth animations to foliage, grass, plants, crops, flowers, water, and lily pads for a livelier world.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/better-animated-nature",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "slug": "fay-player-animation",
+    "name": "Fay's Player Animation | v1.0.6 Particle Update",
+    "version": "1.0.6",
+    "category": "Texture Pack",
+    "description": "A player animation pack that smooths vanilla movement with custom animations for walking, sprinting, jumping, swimming, flying, sneaking, sleeping, and more.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fay-player-animation",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "slug": "mcpe-old-animations",
+    "name": "MCPE OLD animations",
+    "version": "1.1.1",
+    "category": "Texture Pack",
+    "description": "A nostalgic Bedrock animation pack that recreates classic animations from older versions with old-style player, first-person, riding, sneaking, and attachable animations.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/mcpe-old-animations",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "slug": "moving-textures",
+    "name": "Moving Textures (Official Port)",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A resource pack that continuously animates block textures in every direction with three selectable movement speeds: slow, normal, and fast.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/moving-textures",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "slug": "miku-nakano-totem",
+    "name": "Miku nakano totem animated",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "An anime-themed resource pack that replaces the Totem of Undying with a custom animated Miku Nakano design while keeping gameplay unchanged.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/miku-nakano-totem",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "slug": "karene-inda-totem-animated",
+    "name": "Karene inda Totem animated",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "An anime-style resource pack that replaces the Totem of Undying with a custom Karane Inda design while preserving the original gameplay mechanics.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/karene-inda-totem-animated",
     "collection": 1,
     "contentLocker": {
       "tasks": [
