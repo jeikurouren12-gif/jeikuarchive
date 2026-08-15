@@ -1,5 +1,157 @@
 [
   {
+    "id": 17,
+    "slug": "karene-inda-totem-animated",
+    "name": "Karene inda Totem animated",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "An anime-style resource pack that replaces the Totem of Undying with a custom Karane Inda design while preserving the original gameplay mechanics.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/karene-inda-totem-animated",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "slug": "miku-nakano-totem",
+    "name": "Miku nakano totem animated",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "An anime-themed resource pack that replaces the Totem of Undying with a custom animated Miku Nakano design while keeping gameplay unchanged.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/miku-nakano-totem",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "slug": "moving-textures",
+    "name": "Moving Textures (Official Port)",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A resource pack that continuously animates block textures in every direction with three selectable movement speeds: slow, normal, and fast.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/moving-textures",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "slug": "mcpe-old-animations",
+    "name": "MCPE OLD animations",
+    "version": "1.1.1",
+    "category": "Texture Pack",
+    "description": "A nostalgic Bedrock animation pack that recreates classic animations from older versions with old-style player, first-person, riding, sneaking, and attachable animations.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/mcpe-old-animations",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "slug": "fay-player-animation",
+    "name": "Fay's Player Animation | v1.0.6 Particle Update",
+    "version": "1.0.6",
+    "category": "Texture Pack",
+    "description": "A player animation pack that smooths vanilla movement with custom animations for walking, sprinting, jumping, swimming, flying, sneaking, sleeping, and more.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fay-player-animation",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "slug": "better-animated-nature",
+    "name": "Better Animated Nature",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "An environmental resource pack that adds smooth animations to foliage, grass, plants, crops, flowers, water, and lily pads for a livelier world.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/better-animated-nature",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "slug": "astraliyte-s-animated-textures",
+    "name": "Astraliyte's Animated Textures",
+    "version": "5.0.1",
+    "category": "Texture Pack",
+    "description": "A Bedrock resource pack that adds animated textures to 39 items including diamonds, buckets, redstone, ender pearls, golden apples, and other materials.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/astraliyte-s-animated-textures",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "slug": "origin-animation",
+    "name": "Origin Animation ( Alt For Actions And Stuff )",
+    "version": "1.4.2",
+    "category": "Texture Pack",
+    "description": "An animation pack for Minecraft Bedrock that adds 30 new animations to give player movement and actions a more dynamic feel.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/origin-animation",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
     "id": 9,
     "slug": "explorers-world-map",
     "name": "Explorer's World Map & Minimap V2",
@@ -171,13 +323,13 @@
     }
   },
   {
-    "id": 10,
-    "slug": "origin-animation",
-    "name": "Origin Animation ( Alt For Actions And Stuff )",
-    "version": "1.4.2",
+    "id": 18,
+    "slug": "x-ray-pluss",
+    "name": "X-Ray Pluss",
+    "version": "v1.3.0",
     "category": "Texture Pack",
-    "description": "An animation pack for Minecraft Bedrock that adds 30 new animations to give player movement and actions a more dynamic feel.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/origin-animation",
+    "description": "An X-ray texture pack that makes blocks transparent so players can see minerals, dungeons, spawns, strongholds, and other underground features.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/x-ray-pluss",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -190,13 +342,13 @@
     }
   },
   {
-    "id": 11,
-    "slug": "astraliyte-s-animated-textures",
-    "name": "Astraliyte's Animated Textures",
-    "version": "5.0.1",
+    "id": 19,
+    "slug": "xray-texture-pack",
+    "name": "X-Ray Texture Pack Minecraft (Bedrock / PE)",
+    "version": "1.1.0",
     "category": "Texture Pack",
-    "description": "A Bedrock resource pack that adds animated textures to 39 items including diamonds, buckets, redstone, ender pearls, golden apples, and other materials.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/astraliyte-s-animated-textures",
+    "description": "A lightweight Bedrock X-ray resource pack that makes blocks transparent except for ores and gravel to simplify mining and resource hunting.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/xray-texture-pack",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -209,108 +361,13 @@
     }
   },
   {
-    "id": 12,
-    "slug": "better-animated-nature",
-    "name": "Better Animated Nature",
+    "id": 20,
+    "slug": "x-ray-bedrock",
+    "name": "X-Ray Enhanced",
     "version": "Latest",
     "category": "Texture Pack",
-    "description": "An environmental resource pack that adds smooth animations to foliage, grass, plants, crops, flowers, water, and lily pads for a livelier world.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/better-animated-nature",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 13,
-    "slug": "fay-player-animation",
-    "name": "Fay's Player Animation | v1.0.6 Particle Update",
-    "version": "1.0.6",
-    "category": "Texture Pack",
-    "description": "A player animation pack that smooths vanilla movement with custom animations for walking, sprinting, jumping, swimming, flying, sneaking, sleeping, and more.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fay-player-animation",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 14,
-    "slug": "mcpe-old-animations",
-    "name": "MCPE OLD animations",
-    "version": "1.1.1",
-    "category": "Texture Pack",
-    "description": "A nostalgic Bedrock animation pack that recreates classic animations from older versions with old-style player, first-person, riding, sneaking, and attachable animations.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/mcpe-old-animations",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 15,
-    "slug": "moving-textures",
-    "name": "Moving Textures (Official Port)",
-    "version": "Latest",
-    "category": "Texture Pack",
-    "description": "A resource pack that continuously animates block textures in every direction with three selectable movement speeds: slow, normal, and fast.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/moving-textures",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 16,
-    "slug": "miku-nakano-totem",
-    "name": "Miku nakano totem animated",
-    "version": "Latest",
-    "category": "Texture Pack",
-    "description": "An anime-themed resource pack that replaces the Totem of Undying with a custom animated Miku Nakano design while keeping gameplay unchanged.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/miku-nakano-totem",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 17,
-    "slug": "karene-inda-totem-animated",
-    "name": "Karene inda Totem animated",
-    "version": "Latest",
-    "category": "Texture Pack",
-    "description": "An anime-style resource pack that replaces the Totem of Undying with a custom Karane Inda design while preserving the original gameplay mechanics.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/karene-inda-totem-animated",
+    "description": "An X-ray resource pack for Bedrock that uses custom shaders and textures to make surrounding blocks transparent and highlight ores.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/x-ray-bedrock",
     "collection": 1,
     "contentLocker": {
       "tasks": [
