@@ -1,5 +1,62 @@
 [
   {
+    "id": 20,
+    "slug": "x-ray-bedrock",
+    "name": "X-Ray Enhanced",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "An X-ray resource pack for Bedrock that uses custom shaders and textures to make surrounding blocks transparent and highlight ores.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/x-ray-bedrock",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "slug": "xray-texture-pack",
+    "name": "X-Ray Texture Pack Minecraft (Bedrock / PE)",
+    "version": "1.1.0",
+    "category": "Texture Pack",
+    "description": "A lightweight Bedrock X-ray resource pack that makes blocks transparent except for ores and gravel to simplify mining and resource hunting.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/xray-texture-pack",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "slug": "x-ray-pluss",
+    "name": "X-Ray Pluss",
+    "version": "v1.3.0",
+    "category": "Texture Pack",
+    "description": "An X-ray texture pack that makes blocks transparent so players can see minerals, dungeons, spawns, strongholds, and other underground features.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/x-ray-pluss",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
     "id": 17,
     "slug": "karene-inda-totem-animated",
     "name": "Karene inda Totem animated",
@@ -323,13 +380,13 @@
     }
   },
   {
-    "id": 18,
-    "slug": "x-ray-pluss",
-    "name": "X-Ray Pluss",
-    "version": "v1.3.0",
-    "category": "Texture Pack",
-    "description": "An X-ray texture pack that makes blocks transparent so players can see minerals, dungeons, spawns, strongholds, and other underground features.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/x-ray-pluss",
+    "id": 21,
+    "slug": "furnicraft-furniture",
+    "name": "FURNICRAFT ~ Furniture",
+    "version": "v27.1",
+    "category": "Gameplay",
+    "description": "A Bedrock furniture addon that adds over 500 decorative pieces including kitchen utensils, bathroom equipment, appliances, entertainment items, and other furnishings.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/furnicraft-furniture",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -342,13 +399,13 @@
     }
   },
   {
-    "id": 19,
-    "slug": "xray-texture-pack",
-    "name": "X-Ray Texture Pack Minecraft (Bedrock / PE)",
-    "version": "1.1.0",
-    "category": "Texture Pack",
-    "description": "A lightweight Bedrock X-ray resource pack that makes blocks transparent except for ores and gravel to simplify mining and resource hunting.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/xray-texture-pack",
+    "id": 22,
+    "slug": "feudal-furniture",
+    "name": "Feudal Furniture | +800 BLOCKS",
+    "version": "8.5",
+    "category": "Gameplay",
+    "description": "A medieval-themed furniture addon with over 800 furniture pieces and decorations designed with a rustic style for detailed builds.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/feudal-furniture",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -361,13 +418,32 @@
     }
   },
   {
-    "id": 20,
-    "slug": "x-ray-bedrock",
-    "name": "X-Ray Enhanced",
-    "version": "Latest",
-    "category": "Texture Pack",
-    "description": "An X-ray resource pack for Bedrock that uses custom shaders and textures to make surrounding blocks transparent and highlight ores.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/x-ray-bedrock",
+    "id": 23,
+    "slug": "be-ghoulcraft-furniture-pack",
+    "name": "BE Ghoulcraft - Furniture Pack",
+    "version": "v3.6",
+    "category": "Gameplay",
+    "description": "A Bedrock furniture pack that adds detailed 3D chairs, tables, lamps, and other decorative furnishings for enhancing builds.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/be-ghoulcraft-furniture-pack",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "slug": "props-and-furnitures-addon",
+    "name": "Props And Furnitures Addon",
+    "version": "V7",
+    "category": "Gameplay",
+    "description": "A Bedrock furniture addon that adds decorative props and furnishings suited for role-play, creative builds, and city maps.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/props-and-furnitures-addon",
     "collection": 1,
     "contentLocker": {
       "tasks": [
