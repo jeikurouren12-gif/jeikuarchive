@@ -1,5 +1,81 @@
 [
   {
+    "id": 24,
+    "slug": "props-and-furnitures-addon",
+    "name": "Props And Furnitures Addon",
+    "version": "V7",
+    "category": "Gameplay",
+    "description": "A Bedrock furniture addon that adds decorative props and furnishings suited for role-play, creative builds, and city maps.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/props-and-furnitures-addon",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "slug": "be-ghoulcraft-furniture-pack",
+    "name": "BE Ghoulcraft - Furniture Pack",
+    "version": "v3.6",
+    "category": "Gameplay",
+    "description": "A Bedrock furniture pack that adds detailed 3D chairs, tables, lamps, and other decorative furnishings for enhancing builds.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/be-ghoulcraft-furniture-pack",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "slug": "feudal-furniture",
+    "name": "Feudal Furniture | +800 BLOCKS",
+    "version": "8.5",
+    "category": "Gameplay",
+    "description": "A medieval-themed furniture addon with over 800 furniture pieces and decorations designed with a rustic style for detailed builds.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/feudal-furniture",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "slug": "furnicraft-furniture",
+    "name": "FURNICRAFT ~ Furniture",
+    "version": "v27.1",
+    "category": "Gameplay",
+    "description": "A Bedrock furniture addon that adds over 500 decorative pieces including kitchen utensils, bathroom equipment, appliances, entertainment items, and other furnishings.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/furnicraft-furniture",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
     "id": 20,
     "slug": "x-ray-bedrock",
     "name": "X-Ray Enhanced",
@@ -380,13 +456,13 @@
     }
   },
   {
-    "id": 21,
-    "slug": "furnicraft-furniture",
-    "name": "FURNICRAFT ~ Furniture",
-    "version": "v27.1",
-    "category": "Gameplay",
-    "description": "A Bedrock furniture addon that adds over 500 decorative pieces including kitchen utensils, bathroom equipment, appliances, entertainment items, and other furnishings.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/furnicraft-furniture",
+    "id": 25,
+    "slug": "newb-complementary",
+    "name": "Newb Complemetary Shader | Compatible With Minecraft v26.33+",
+    "version": "26.30",
+    "category": "Texture Pack",
+    "description": "A realistic Bedrock shader inspired by Java's Complementary Shaders that adds enhanced skies, shadows, glowing minerals, colorful clouds, shiny blocks, and improved underwater and End visuals.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/newb-complementary",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -399,13 +475,13 @@
     }
   },
   {
-    "id": 22,
-    "slug": "feudal-furniture",
-    "name": "Feudal Furniture | +800 BLOCKS",
-    "version": "8.5",
-    "category": "Gameplay",
-    "description": "A medieval-themed furniture addon with over 800 furniture pieces and decorations designed with a rustic style for detailed builds.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/feudal-furniture",
+    "id": 26,
+    "slug": "bsl-shaders-bedrock",
+    "name": "BSLB Shaders Bedrock - Classic V3",
+    "version": "3.2.0",
+    "category": "Texture Pack",
+    "description": "A Vibrant Visuals shader that enhances lighting, colors, and clouds with a warm realistic look and compatibility with Actions & Stuff.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/bsl-shaders-bedrock",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -418,13 +494,13 @@
     }
   },
   {
-    "id": 23,
-    "slug": "be-ghoulcraft-furniture-pack",
-    "name": "BE Ghoulcraft - Furniture Pack",
-    "version": "v3.6",
-    "category": "Gameplay",
-    "description": "A Bedrock furniture pack that adds detailed 3D chairs, tables, lamps, and other decorative furnishings for enhancing builds.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/be-ghoulcraft-furniture-pack",
+    "id": 27,
+    "slug": "rg-shader-v2-1-renderdragon-support-2",
+    "name": "RG Shader | Renderdragon Shaders",
+    "version": "3.8",
+    "category": "Texture Pack",
+    "description": "A RenderDragon-compatible shader that adds realistic fog, godrays, waving leaves and water, smooth lighting, and improved visuals while targeting good performance on low-end devices.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/rg-shader-v2-1-renderdragon-support-2",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -437,13 +513,32 @@
     }
   },
   {
-    "id": 24,
-    "slug": "props-and-furnitures-addon",
-    "name": "Props And Furnitures Addon",
-    "version": "V7",
-    "category": "Gameplay",
-    "description": "A Bedrock furniture addon that adds decorative props and furnishings suited for role-play, creative builds, and city maps.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/props-and-furnitures-addon",
+    "id": 28,
+    "slug": "revolution-vibrant-visual",
+    "name": "Revolution Vibrant Visuals | Static Light",
+    "version": "Latest",
+    "category": "Texture Pack",
+    "description": "A deferred-lighting graphics pack designed to give Minecraft Bedrock more Java-like visuals with enhanced lighting and realistic graphical effects.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/revolution-vibrant-visual",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "slug": "newb-shader",
+    "name": "Newb Shader",
+    "version": "16.54",
+    "category": "Texture Pack",
+    "description": "A lightweight vanilla-styled Bedrock shader that enhances the default look with soft aesthetics while supporting Windows, Android, and iOS.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/newb-shader",
     "collection": 1,
     "contentLocker": {
       "tasks": [
