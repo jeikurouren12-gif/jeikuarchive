@@ -1,5 +1,100 @@
 [
   {
+    "id": 38,
+    "slug": "super-heroes",
+    "name": "Super Heroes",
+    "version": "7",
+    "category": "Other",
+    "description": "A Minecraft Bedrock skin pack featuring superhero-inspired character skins for players who want to dress as comic-style heroes.",
+    "download": "https://mcpedl.com/super-heroes/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "slug": "neon-cyber-glow-skin-pack",
+    "name": "Neon Cyber Glow - Skin Pack",
+    "version": "v1.10",
+    "category": "Other",
+    "description": "A futuristic Minecraft Bedrock skin pack featuring cyberpunk-inspired characters with bright neon and glowing designs.",
+    "download": "https://mcpedl.com/neon-cyber-glow-skin-pack/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "slug": "anime-power-skin-pack",
+    "name": "Anime Power Skin Pack",
+    "version": "v1.8",
+    "category": "Other",
+    "description": "An anime-themed Minecraft Bedrock skin pack featuring a collection of powerful character designs inspired by anime aesthetics.",
+    "download": "https://mcpedl.com/anime-power-skin-pack/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "slug": "random-skin-pack",
+    "name": "Random Meme Skinpack",
+    "version": "1.4",
+    "category": "Other",
+    "description": "A humorous Minecraft Bedrock skin pack containing more than 90 random meme-inspired character skins.",
+    "download": "https://mcpedl.com/random-skin-pack/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "slug": "alleis-skin-pack",
+    "name": "Alleis Skin Pack",
+    "version": "1.3.6",
+    "category": "Other",
+    "description": "A large Minecraft Bedrock skin pack featuring a variety of unique 4D and 5D character skins.",
+    "download": "https://mcpedl.com/alleis-skin-pack/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
     "id": 33,
     "slug": "animated-blocks-texture",
     "name": "Animated Blocks",
@@ -615,101 +710,6 @@
     "category": "Performance",
     "description": "A lightweight Bedrock performance pack that reduces particles, optimizes fog, simplifies animations and sounds, and provides selectable performance modes for smoother FPS.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-optimizer-fps-boost",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 34,
-    "slug": "alleis-skin-pack",
-    "name": "Alleis Skin Pack",
-    "version": "1.3.6",
-    "category": "Other",
-    "description": "A large Minecraft Bedrock skin pack featuring a variety of unique 4D and 5D character skins.",
-    "download": "https://mcpedl.com/alleis-skin-pack/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 35,
-    "slug": "random-skin-pack",
-    "name": "Random Meme Skinpack",
-    "version": "1.4",
-    "category": "Other",
-    "description": "A humorous Minecraft Bedrock skin pack containing more than 90 random meme-inspired character skins.",
-    "download": "https://mcpedl.com/random-skin-pack/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 36,
-    "slug": "anime-power-skin-pack",
-    "name": "Anime Power Skin Pack",
-    "version": "v1.8",
-    "category": "Other",
-    "description": "An anime-themed Minecraft Bedrock skin pack featuring a collection of powerful character designs inspired by anime aesthetics.",
-    "download": "https://mcpedl.com/anime-power-skin-pack/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 37,
-    "slug": "neon-cyber-glow-skin-pack",
-    "name": "Neon Cyber Glow - Skin Pack",
-    "version": "v1.10",
-    "category": "Other",
-    "description": "A futuristic Minecraft Bedrock skin pack featuring cyberpunk-inspired characters with bright neon and glowing designs.",
-    "download": "https://mcpedl.com/neon-cyber-glow-skin-pack/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 38,
-    "slug": "super-heroes",
-    "name": "Super Heroes",
-    "version": "7",
-    "category": "Other",
-    "description": "A Minecraft Bedrock skin pack featuring superhero-inspired character skins for players who want to dress as comic-style heroes.",
-    "download": "https://mcpedl.com/super-heroes/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
