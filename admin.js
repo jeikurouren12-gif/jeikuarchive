@@ -478,6 +478,13 @@ async function saveModsToGitHub(updatedMods) {
   }
 }
 
+function confirmAction(message) {
+  if (typeof window !== 'undefined' && typeof window.confirm === 'function') {
+    return window.confirm(message);
+  }
+  return true;
+}
+
 function copyTextToClipboard(text) {
   if (!navigator.clipboard) {
     const textarea = document.createElement('textarea');
@@ -544,6 +551,15 @@ modForm.addEventListener('submit', async event => {
 
   let updatedMods = [];
   if (editModId.value) {
+    const existingMod = mods.find(mod => mod.id === modObj.id);
+    if (existingMod) {
+      const confirmed = confirmAction(`Save changes to "${existingMod.name}"?`);
+      if (!confirmed) {
+        adminStatus.textContent = 'Save cancelled.';
+        return;
+      }
+    }
+
     // editing existing mod
     updatedMods = mods.map(m => (m.id === modObj.id ? modObj : m));
   } else {
@@ -575,6 +591,12 @@ adminModList.addEventListener('click', event => {
   if (!selectedMod) return;
 
   if (action === 'edit') {
+    const confirmed = confirmAction(`Edit "${selectedMod.name}"?`);
+    if (!confirmed) {
+      adminStatus.textContent = 'Edit cancelled.';
+      return;
+    }
+
     editModId.value = selectedMod.id;
     nameInput.value = selectedMod.name;
     labelInput.value = selectedMod.label || selectedMod.name;
@@ -596,6 +618,12 @@ adminModList.addEventListener('click', event => {
   }
 
   if (action === 'delete') {
+    const confirmed = confirmAction(`Delete "${selectedMod.name}" (ID ${modId})? This action cannot be undone.`);
+    if (!confirmed) {
+      adminStatus.textContent = 'Delete cancelled.';
+      return;
+    }
+
     const updatedMods = mods.filter(mod => mod.id !== modId);
     saveModsToGitHub(updatedMods);
   }
