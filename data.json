@@ -720,5 +720,137 @@
         }
       ]
     }
+  },
+  {
+    "id": 39,
+    "slug": "structures-in-just-one-click",
+    "label": "Structures In Just One Click",
+    "name": "Structures In Just One Click",
+    "version": "v3.5",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Utility",
+    "description": "A building addon that lets players quickly create a wide variety of ready-made structures including houses, castles, farms, skyscrapers, and other builds.",
+    "download": "https://mcpedl.com/structures-in-just-one-click/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "slug": "construct",
+    "label": "Construct",
+    "name": "Construct",
+    "version": "v1.1.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Utility",
+    "description": "A building utility addon that helps players plan, copy, place, and manage structures with graphical tools, commands, and multiplayer building support.",
+    "download": "https://mcpedl.com/construct/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "slug": "structures-plus",
+    "label": "Structures Plus",
+    "name": "Structures Plus",
+    "version": "0.9",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Gameplay",
+    "description": "A Vanilla+ addon that adds new immersive structures such as rock formations, ruins, mountains, outposts, and fallen trees to naturally expand world exploration.",
+    "download": "https://mcpedl.com/structures-plus/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "slug": "legacy-stone-structures",
+    "label": "Legacy Stone: Structures",
+    "name": "Legacy Stone: Structures",
+    "version": "1.4",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Gameplay",
+    "description": "A Vanilla+ structure addon that adds 40+ structures across the sky, surface, and underground, including dungeons, ruins, caves, traps, loot, and legendary weapons.",
+    "download": "https://mcpedl.com/legacy-stone-structures/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "slug": "building-expansion-addon",
+    "label": "Building Expansion Renewed [1.21.20+] | V1.0 Performance Update!",
+    "name": "Building Expansion Renewed [1.21.20+] | V1.0 Performance Update!",
+    "version": "V1.1.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Utility",
+    "description": "A building-focused addon that adds six new block types with dozens of Minecraft-inspired textures for creating more varied and detailed structures.",
+    "download": "https://mcpedl.com/building-expansion-addon/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "slug": "todays-tea-party-1218",
+    "label": "Today's Tea Party 1218",
+    "name": "Today's Tea Party 1218",
+    "version": "Latest",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Other",
+    "description": "An MCPEDL creator profile rather than a specific building addon, so no individual addon features or version can be accurately extracted from the provided URL.",
+    "download": "https://mcpedl.com/user/TodaysTeaParty1218/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
   }
 ]
