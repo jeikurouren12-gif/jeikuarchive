@@ -720,5 +720,27 @@
         }
       ]
     }
+  },
+  {
+    "id": 39,
+    "slug": "test",
+    "label": "test",
+    "name": "Test",
+    "version": "test",
+    "game_edition": "Bedrock",
+    "mcVersion": "test",
+    "category": "Performance",
+    "description": "test",
+    "download": "https://google.com",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com"
+        }
+      ]
+    }
   }
 ]
