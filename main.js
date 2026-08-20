@@ -165,10 +165,12 @@ function renderModCard(mod) {
       </div>
       <div class="mod-card-body">
         <div class="mod-card-title">
-          <h3>${mod.name}</h3>
+          <h3>${mod.label || mod.name}</h3>
         </div>
         <div class="mod-card-meta">
           <span class="meta-chip meta-chip-version">Version ${mod.version}</span>
+          <span class="meta-chip">${mod.game_edition || mod.platform || 'Unknown'}</span>
+          <span class="meta-chip">${mod.mcVersion || 'MC version unknown'}</span>
           <span class="meta-chip meta-chip-verified">Verified</span>
         </div>
         <p class="mod-card-description">${mod.description}</p>

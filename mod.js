@@ -138,10 +138,12 @@ function renderModPage(mod) {
             <div class="mod-detail-content">
               <div class="spec-row">
                 <span class="meta-chip">Version ${escapeHtml(mod.version)}</span>
+                <span class="meta-chip">${escapeHtml(mod.game_edition || mod.platform || 'Unknown')}</span>
+                <span class="meta-chip">${escapeHtml(mod.mcVersion || 'MC version unknown')}</span>
                 <span class="meta-chip meta-chip-verified">Verified</span>
               </div>
 
-              <h2>${escapeHtml(mod.name)}</h2>
+              <h2>${escapeHtml(mod.label || mod.name)}</h2>
               <p class="detail-description">${escapeHtml(mod.description)}</p>
 
               ${tasks.length > 0 ? `

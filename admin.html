@@ -67,9 +67,31 @@
 
             <div class="form-grid-2">
               <label>
+                Label
+                <input id="labelInput" type="text" placeholder="OptiFine">
+              </label>
+              <label>
+                Game Edition
+                <select id="gameEditionInput">
+                  <option value="Unknown">Unknown</option>
+                  <option value="Bedrock">Bedrock</option>
+                  <option value="Java">Java</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="form-grid-2">
+              <label>
                 Version
                 <input id="versionInput" type="text" placeholder="1.20.4" required>
               </label>
+              <label>
+                MC Version
+                <input id="mcVersionInput" type="text" placeholder="1.21.90+">
+              </label>
+            </div>
+
+            <div class="form-grid-2">
               <label>
                 Category
                 <select id="categoryInput" required>
@@ -81,15 +103,14 @@
                   <option value="Other">Other</option>
                 </select>
               </label>
+              <label>
+                Collection
+                <select id="collectionInput" required>
+                  <option value="1">Collection 1</option>
+                  <option value="2">Collection 2</option>
+                </select>
+              </label>
             </div>
-
-            <label>
-              Collection
-              <select id="collectionInput" required>
-                <option value="1">Collection 1</option>
-                <option value="2">Collection 2</option>
-              </select>
-            </label>
 
             <label>
               Description

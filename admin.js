@@ -20,7 +20,10 @@ const selectedCountLabel = document.getElementById('selectedCount');
 
 const editModId = document.getElementById('editModId');
 const nameInput = document.getElementById('nameInput');
+const labelInput = document.getElementById('labelInput');
 const versionInput = document.getElementById('versionInput');
+const gameEditionInput = document.getElementById('gameEditionInput');
+const mcVersionInput = document.getElementById('mcVersionInput');
 const categoryInput = document.getElementById('categoryInput');
 const collectionInput = document.getElementById('collectionInput');
 const descriptionInput = document.getElementById('descriptionInput');
@@ -208,11 +211,20 @@ function buildImportedModObject(rawMod, index) {
     ? requestedCollection
     : getHighestCollection();
 
+  const label = typeof rawMod?.label === 'string' && rawMod.label.trim() ? rawMod.label.trim() : name;
+  const gameEdition = typeof rawMod?.game_edition === 'string' && rawMod.game_edition.trim()
+    ? rawMod.game_edition.trim()
+    : (typeof rawMod?.platform === 'string' && rawMod.platform.trim() ? rawMod.platform.trim() : 'Unknown');
+  const mcVersion = typeof rawMod?.mcVersion === 'string' && rawMod.mcVersion.trim() ? rawMod.mcVersion.trim() : '';
+
   return {
     id: baseId,
     slug,
+    label,
     name,
     version: typeof rawMod?.version === 'string' ? rawMod.version.trim() : '',
+    game_edition: gameEdition,
+    mcVersion,
     category: typeof rawMod?.category === 'string' && rawMod.category.trim() ? rawMod.category.trim() : 'Other',
     description: typeof rawMod?.description === 'string' ? rawMod.description.trim() : '',
     download: typeof rawMod?.download === 'string' ? rawMod.download.trim() : '',
@@ -244,11 +256,18 @@ function buildModObject() {
   const id = editModId.value ? Number(editModId.value) : getNextId();
   const name = nameInput.value.trim();
   const existingMod = mods.find(mod => mod.id === id) || null;
+  const label = (labelInput.value || '').trim() || name;
+  const gameEdition = (gameEditionInput.value || 'Unknown').trim() || 'Unknown';
+  const mcVersion = (mcVersionInput.value || '').trim();
+
   return {
     id,
     slug: createSlug(name),
+    label,
     name,
     version: versionInput.value.trim(),
+    game_edition: gameEdition,
+    mcVersion,
     category: categoryInput.value,
     description: descriptionInput.value.trim(),
     download: downloadInput.value.trim(),
@@ -369,8 +388,8 @@ function renderAdminItem(mod) {
           </label>
         </div>
         <div>
-          <h3>${mod.name}</h3>
-          <p>${mod.version} • ${mod.category}</p>
+          <h3>${mod.label || mod.name}</h3>
+          <p>${mod.version} • ${mod.category} • ${mod.game_edition || mod.platform || 'Unknown'}</p>
         </div>
         <div class="admin-mod-actions">
           <button class="button button-secondary" type="button" data-action="edit" data-id="${mod.id}">Edit</button>
@@ -380,6 +399,8 @@ function renderAdminItem(mod) {
       </div>
       <p>${mod.description}</p>
       <p class="label-pill">Slug: ${mod.slug}</p>
+      <p class="label-pill">Game Edition: ${mod.game_edition || mod.platform || 'Unknown'}</p>
+      <p class="label-pill">MC Version: ${mod.mcVersion || 'Unknown'}</p>
       <p class="label-pill">Collection: #${mod.collection || 1}</p>
       ${Array.isArray(mod.contentLocker?.tasks) && mod.contentLocker.tasks.length > 0 ? `<p class="label-pill">Locker: ${mod.contentLocker.tasks.length} task${mod.contentLocker.tasks.length > 1 ? 's' : ''}</p>` : ''}
     </div>
@@ -556,7 +577,10 @@ adminModList.addEventListener('click', event => {
   if (action === 'edit') {
     editModId.value = selectedMod.id;
     nameInput.value = selectedMod.name;
+    labelInput.value = selectedMod.label || selectedMod.name;
     versionInput.value = selectedMod.version;
+    gameEditionInput.value = selectedMod.game_edition || selectedMod.platform || 'Unknown';
+    mcVersionInput.value = selectedMod.mcVersion || '';
     categoryInput.value = selectedMod.category;
     collectionInput.value = selectedMod.collection || 1;
     descriptionInput.value = selectedMod.description;
