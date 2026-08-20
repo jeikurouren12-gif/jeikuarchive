@@ -389,6 +389,7 @@ function renderAdminItem(mod) {
         </div>
         <div>
           <h3>${mod.label || mod.name}</h3>
+          <p>ID: ${mod.id}</p>
           <p>${mod.version} • ${mod.category} • ${mod.game_edition || mod.platform || 'Unknown'}</p>
         </div>
         <div class="admin-mod-actions">
