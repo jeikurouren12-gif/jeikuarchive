@@ -896,27 +896,5 @@
         }
       ]
     }
-  },
-  {
-    "id": 47,
-    "slug": "simple-rpg-addon",
-    "label": "Simple RPG Addon",
-    "name": "Simple RPG Addon",
-    "version": "v2.2.7",
-    "game_edition": "Unknown",
-    "mcVersion": "",
-    "category": "Gameplay",
-    "description": "An RPG survival addon featuring five classes, individual skill trees, leveling, perks, Souls currency, custom abilities, magic, and enhanced progression.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/simple-rpg-addon",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
   }
 ]
