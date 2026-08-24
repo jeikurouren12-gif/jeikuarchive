@@ -1,5 +1,137 @@
 [
   {
+    "id": 44,
+    "slug": "todays-tea-party-1218",
+    "label": "Today's Tea Party 1218",
+    "name": "Today's Tea Party 1218",
+    "version": "Latest",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Other",
+    "description": "An MCPEDL creator profile rather than a specific building addon, so no individual addon features or version can be accurately extracted from the provided URL.",
+    "download": "https://mcpedl.com/user/TodaysTeaParty1218/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "slug": "building-expansion-addon",
+    "label": "Building Expansion Renewed [1.21.20+] | V1.0 Performance Update!",
+    "name": "Building Expansion Renewed [1.21.20+] | V1.0 Performance Update!",
+    "version": "V1.1.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Utility",
+    "description": "A building-focused addon that adds six new block types with dozens of Minecraft-inspired textures for creating more varied and detailed structures.",
+    "download": "https://mcpedl.com/building-expansion-addon/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "slug": "legacy-stone-structures",
+    "label": "Legacy Stone: Structures",
+    "name": "Legacy Stone: Structures",
+    "version": "1.4",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Gameplay",
+    "description": "A Vanilla+ structure addon that adds 40+ structures across the sky, surface, and underground, including dungeons, ruins, caves, traps, loot, and legendary weapons.",
+    "download": "https://mcpedl.com/legacy-stone-structures/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "slug": "structures-plus",
+    "label": "Structures Plus",
+    "name": "Structures Plus",
+    "version": "0.9",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Gameplay",
+    "description": "A Vanilla+ addon that adds new immersive structures such as rock formations, ruins, mountains, outposts, and fallen trees to naturally expand world exploration.",
+    "download": "https://mcpedl.com/structures-plus/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "slug": "construct",
+    "label": "Construct",
+    "name": "Construct",
+    "version": "v1.1.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Utility",
+    "description": "A building utility addon that helps players plan, copy, place, and manage structures with graphical tools, commands, and multiplayer building support.",
+    "download": "https://mcpedl.com/construct/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "slug": "structures-in-just-one-click",
+    "label": "Structures In Just One Click",
+    "name": "Structures In Just One Click",
+    "version": "v3.5",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Utility",
+    "description": "A building addon that lets players quickly create a wide variety of ready-made structures including houses, castles, farms, skyscrapers, and other builds.",
+    "download": "https://mcpedl.com/structures-in-just-one-click/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
     "id": 38,
     "slug": "super-heroes",
     "name": "Super Heroes",
@@ -722,126 +854,60 @@
     }
   },
   {
-    "id": 39,
-    "slug": "structures-in-just-one-click",
-    "label": "Structures In Just One Click",
-    "name": "Structures In Just One Click",
-    "version": "v3.5",
-    "game_edition": "Bedrock",
-    "mcVersion": "",
-    "category": "Utility",
-    "description": "A building addon that lets players quickly create a wide variety of ready-made structures including houses, castles, farms, skyscrapers, and other builds.",
-    "download": "https://mcpedl.com/structures-in-just-one-click/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 40,
-    "slug": "construct",
-    "label": "Construct",
-    "name": "Construct",
-    "version": "v1.1.0",
-    "game_edition": "Bedrock",
-    "mcVersion": "",
-    "category": "Utility",
-    "description": "A building utility addon that helps players plan, copy, place, and manage structures with graphical tools, commands, and multiplayer building support.",
-    "download": "https://mcpedl.com/construct/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 41,
-    "slug": "structures-plus",
-    "label": "Structures Plus",
-    "name": "Structures Plus",
-    "version": "0.9",
-    "game_edition": "Bedrock",
-    "mcVersion": "",
-    "category": "Gameplay",
-    "description": "A Vanilla+ addon that adds new immersive structures such as rock formations, ruins, mountains, outposts, and fallen trees to naturally expand world exploration.",
-    "download": "https://mcpedl.com/structures-plus/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 42,
-    "slug": "legacy-stone-structures",
-    "label": "Legacy Stone: Structures",
-    "name": "Legacy Stone: Structures",
-    "version": "1.4",
-    "game_edition": "Bedrock",
-    "mcVersion": "",
-    "category": "Gameplay",
-    "description": "A Vanilla+ structure addon that adds 40+ structures across the sky, surface, and underground, including dungeons, ruins, caves, traps, loot, and legendary weapons.",
-    "download": "https://mcpedl.com/legacy-stone-structures/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 43,
-    "slug": "building-expansion-addon",
-    "label": "Building Expansion Renewed [1.21.20+] | V1.0 Performance Update!",
-    "name": "Building Expansion Renewed [1.21.20+] | V1.0 Performance Update!",
-    "version": "V1.1.0",
-    "game_edition": "Bedrock",
-    "mcVersion": "",
-    "category": "Utility",
-    "description": "A building-focused addon that adds six new block types with dozens of Minecraft-inspired textures for creating more varied and detailed structures.",
-    "download": "https://mcpedl.com/building-expansion-addon/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
-    "id": 44,
-    "slug": "todays-tea-party-1218",
-    "label": "Today's Tea Party 1218",
-    "name": "Today's Tea Party 1218",
-    "version": "Latest",
+    "id": 45,
+    "slug": "true-survival-zombie-apocalypse-addon",
+    "label": "True Survival - Zombie Apocalypse [MobBlocks]",
+    "name": "True Survival - Zombie Apocalypse [MobBlocks]",
+    "version": "V0.0.4",
     "game_edition": "Unknown",
     "mcVersion": "",
-    "category": "Other",
-    "description": "An MCPEDL creator profile rather than a specific building addon, so no individual addon features or version can be accurately extracted from the provided URL.",
-    "download": "https://mcpedl.com/user/TodaysTeaParty1218/",
+    "category": "Gameplay",
+    "description": "A zombie-apocalypse survival addon that adds post-apocalyptic world generation, survival-focused content, structures, and undead-themed gameplay.",
+    "download": "https://mcpedl.com/true-survival-zombie-apocalypse-addon/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "slug": "raboys-zombie-apocalypse-add-on",
+    "label": "Raboy's Zombie Apocalypse",
+    "name": "Raboy's Zombie Apocalypse",
+    "version": "1.2.21",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Gameplay",
+    "description": "A vanilla-friendly zombie apocalypse addon that transforms survival with an overrun world, reduced vegetation, dead trees, atmospheric fog, and undead-themed gameplay.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/raboys-zombie-apocalypse-add-on",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "slug": "simple-rpg-addon",
+    "label": "Simple RPG Addon",
+    "name": "Simple RPG Addon",
+    "version": "v2.2.7",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Gameplay",
+    "description": "An RPG survival addon featuring five classes, individual skill trees, leveling, perks, Souls currency, custom abilities, magic, and enhanced progression.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/simple-rpg-addon",
     "collection": 1,
     "contentLocker": {
       "tasks": [
