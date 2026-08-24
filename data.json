@@ -962,5 +962,71 @@
         }
       ]
     }
+  },
+  {
+    "id": 50,
+    "slug": "missing-journalist",
+    "label": "Missing Journalist (Horror Map)",
+    "name": "Missing Journalist (Horror Map)",
+    "version": "1.21.130.3",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Other",
+    "description": "A horror adventure map set in a haunted village where players investigate a mysterious story while facing unexpected scares and supernatural encounters.",
+    "download": "https://www.planetminecraft.com/project/missing-journalist/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "slug": "the-madman-a-minecraft-horror-map",
+    "label": "The Madman - (Minecraft Horror Map)",
+    "name": "The Madman - (Minecraft Horror Map)",
+    "version": "Latest",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Other",
+    "description": "A full-length Minecraft horror map where players must escape a mysterious asylum while navigating a suspenseful story filled with jumpscares and unsettling encounters.",
+    "download": "https://www.planetminecraft.com/project/the-madman-a-minecraft-horror-map/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "slug": "horror-hospital",
+    "label": "Horror Hospital",
+    "name": "Horror Hospital",
+    "version": "V1.3",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Other",
+    "description": "A spooky Bedrock adventure map where players explore a creepy hospital, solve puzzles, uncover its secrets, and try to escape.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/maps/horror-hospital",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
   }
 ]
