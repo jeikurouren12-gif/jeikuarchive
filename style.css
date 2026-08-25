@@ -1238,6 +1238,7 @@ button, input, select, textarea {
   grid-template-columns: 1.1fr 0.9fr;
   gap: 24px;
   margin-top: 24px;
+  align-items: start;
 }
 
 .admin-panel,
@@ -1246,6 +1247,11 @@ button, input, select, textarea {
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 28px;
   padding: 28px;
+}
+
+.admin-list-section {
+  display: grid;
+  align-content: start;
 }
 
 .admin-panel-header {
@@ -1299,6 +1305,9 @@ button, input, select, textarea {
 .admin-mod-list {
   display: grid;
   gap: 18px;
+  max-height: calc(100vh - 290px);
+  overflow-y: auto;
+  padding-right: 4px;
 }
 
 .admin-mod-item {
