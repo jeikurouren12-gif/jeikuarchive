@@ -1,27 +1,5 @@
 [
   {
-    "id": 51,
-    "slug": "the-madman-a-minecraft-horror-map",
-    "label": "The Madman - (Minecraft Horror Map)",
-    "name": "The Madman - (Minecraft Horror Map)",
-    "version": "Latest",
-    "game_edition": "Unknown",
-    "mcVersion": "",
-    "category": "Other",
-    "description": "A full-length Minecraft horror map where players must escape a mysterious asylum while navigating a suspenseful story filled with jumpscares and unsettling encounters.",
-    "download": "https://www.planetminecraft.com/project/the-madman-a-minecraft-horror-map/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
     "id": 50,
     "slug": "missing-journalist-horror-map",
     "label": "Missing Journalist (Horror Map)",
