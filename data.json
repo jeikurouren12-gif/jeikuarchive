@@ -830,5 +830,27 @@
         }
       ]
     }
+  },
+  {
+    "id": 44,
+    "slug": "9den-expansion-pack",
+    "label": "9DEN_Expansion_pack",
+    "name": "9DEN_Expansion_pack",
+    "version": "2.0.1",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Addons",
+    "description": "An expansion addon for Minecraft Bedrock Edition that adds over 15,000 blocks.",
+    "download": "https://mcpedl.com/mcpedl9den-expansion-pack/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ]
+    }
   }
 ]
