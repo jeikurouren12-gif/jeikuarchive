@@ -136,11 +136,55 @@ function getTaskLabel(type) {
   return 'Complete task';
 }
 
+function resolveDelayMs(value, fallback = 15000) {
+  if (value === null || value === undefined) return fallback;
+
+  const text = String(value).trim();
+  if (!text) return fallback;
+
+  const timeMatch = text.match(/^(\d{1,2})(?::(\d{2}))?\s*(am|pm)?$/i);
+  if (timeMatch) {
+    let hours = Number.parseInt(timeMatch[1], 10);
+    const minutes = Number.parseInt(timeMatch[2] || '0', 10);
+    const meridiem = (timeMatch[3] || '').toLowerCase();
+
+    if (meridiem === 'pm' && hours < 12) hours += 12;
+    if (meridiem === 'am' && hours === 12) hours = 0;
+
+    const now = new Date();
+    const target = new Date(now);
+    target.setHours(hours, minutes, 0, 0);
+
+    if (target.getTime() <= now.getTime()) {
+      target.setDate(target.getDate() + 1);
+    }
+
+    return Math.max(target.getTime() - now.getTime(), 1000);
+  }
+
+  const unitMatch = text.match(/^(\d+(?:\.\d+)?)\s*(ms|s|sec|secs|second|seconds|m|min|mins|minute|minutes|h|hr|hrs|hour|hours)?$/i);
+  if (unitMatch) {
+    const amount = Number.parseFloat(unitMatch[1]);
+    const unit = (unitMatch[2] || 'ms').toLowerCase();
+
+    if (unit.startsWith('ms')) return Math.max(amount, 1000);
+    if (unit.startsWith('s')) return Math.max(amount * 1000, 1000);
+    if (unit.startsWith('m')) return Math.max(amount * 60 * 1000, 1000);
+    if (unit.startsWith('h')) return Math.max(amount * 60 * 60 * 1000, 1000);
+  }
+
+  const numeric = Number.parseInt(text, 10);
+  if (Number.isFinite(numeric)) return Math.max(numeric, 1000);
+
+  return fallback;
+}
+
 function renderModPage(mod) {
   const tasks = Array.isArray(mod.contentLocker?.tasks) ? mod.contentLocker.tasks : [];
   const requiredCount = Number.isInteger(mod.contentLocker?.requiredCount)
     ? Math.min(Math.max(mod.contentLocker.requiredCount, 1), Math.max(tasks.length, 1))
     : tasks.length;
+  const delay = resolveDelayMs(mod.contentLocker?.delay, 15000);
   const canDownload = tasks.length === 0 || requiredCount === 0;
   document.title = `${mod.name} | JeikuArchiveMC`;
   appRoot.innerHTML = `
@@ -214,7 +258,7 @@ function renderModPage(mod) {
   }
 
   if (tasks.length > 0) {
-    initLockerFlow(mod, tasks, requiredCount);
+    initLockerFlow(mod, tasks, requiredCount, delay);
   }
 }
 
@@ -242,7 +286,7 @@ function createConfettiBurst() {
   }, 1400);
 }
 
-function initLockerFlow(mod, tasks, requiredCount) {
+function initLockerFlow(mod, tasks, requiredCount, delay = 15000) {
   const stepContainer = document.getElementById('contentLockerSteps');
   const downloadButton = document.getElementById('downloadButton');
   if (!stepContainer || !downloadButton) return;
@@ -315,7 +359,7 @@ function initLockerFlow(mod, tasks, requiredCount) {
     window.setTimeout(() => {
       completedTaskIndexes.add(taskIndex);
       renderSteps();
-    }, 15000);
+    }, delay);
   }
 
   renderSteps();

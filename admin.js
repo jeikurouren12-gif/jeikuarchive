@@ -42,6 +42,7 @@ const lockerTaskUrl2 = document.getElementById('lockerTaskUrl2');
 const lockerTaskType3 = document.getElementById('lockerTaskType3');
 const lockerTaskUrl3 = document.getElementById('lockerTaskUrl3');
 const lockerRequiredCount = document.getElementById('lockerRequiredCount');
+const lockerDelayMs = document.getElementById('lockerDelayMs');
 const bulkImportInput = document.getElementById('bulkImportInput');
 const importJsonButton = document.getElementById('importJsonButton');
 let mods = [];
@@ -282,6 +283,53 @@ function deleteSelectedMods() {
   adminStatus.textContent = `Deleted ${selectedMods.length} selected mod${selectedMods.length > 1 ? 's' : ''}.`;
 }
 
+function parseDelayStringToMs(value, fallback = 15000) {
+  if (value === null || value === undefined) return fallback;
+
+  const text = String(value).trim();
+  if (!text) return fallback;
+
+  const timeMatch = text.match(/^\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?\s*$/i);
+  if (timeMatch) {
+    let hours = Number.parseInt(timeMatch[1], 10);
+    const minutes = Number.parseInt(timeMatch[2] || '0', 10);
+    const meridiem = (timeMatch[3] || '').toLowerCase();
+
+    if (meridiem === 'pm' && hours < 12) hours += 12;
+    if (meridiem === 'am' && hours === 12) hours = 0;
+
+    const now = new Date();
+    const target = new Date(now);
+    target.setHours(hours, minutes, 0, 0);
+
+    if (target.getTime() <= now.getTime()) {
+      target.setDate(target.getDate() + 1);
+    }
+
+    return Math.max(target.getTime() - now.getTime(), 1000);
+  }
+
+  const unitMatch = text.match(/^\s*(\d+(?:\.\d+)?)\s*(ms|s|sec|secs|second|seconds|m|min|mins|minute|minutes|h|hr|hrs|hour|hours)?\s*$/i);
+  if (unitMatch) {
+    const amount = Number.parseFloat(unitMatch[1]);
+    const unit = (unitMatch[2] || 'ms').toLowerCase();
+
+    if (unit.startsWith('ms')) return Math.max(amount, 1000);
+    if (unit.startsWith('s')) return Math.max(amount * 1000, 1000);
+    if (unit.startsWith('m')) return Math.max(amount * 60 * 1000, 1000);
+    if (unit.startsWith('h')) return Math.max(amount * 60 * 60 * 1000, 1000);
+  }
+
+  const numeric = Number.parseInt(text, 10);
+  if (Number.isFinite(numeric)) return Math.max(numeric, 1000);
+
+  return fallback;
+}
+
+function getLockerDelayValue(rawValue, fallback = 15000) {
+  return parseDelayStringToMs(rawValue, fallback);
+}
+
 function buildContentLockerFromForm(existingMod = null) {
   const tasks = [];
   const taskConfigs = [
@@ -302,12 +350,13 @@ function buildContentLockerFromForm(existingMod = null) {
 
   const selectedRequiredCount = Number.parseInt(lockerRequiredCount?.value || '1', 10);
   const requiredCount = tasks.length > 0 ? Math.min(Math.max(selectedRequiredCount || 1, 1), tasks.length) : 0;
+  const delay = getLockerDelayValue(lockerDelayMs?.value, existingMod?.contentLocker?.delay || 15000);
 
   if (tasks.length > 0) {
-    return { tasks, requiredCount };
+    return { tasks, requiredCount, delay };
   }
 
-  return existingMod && existingMod.contentLocker ? existingMod.contentLocker : { tasks: [], requiredCount: 0 };
+  return existingMod && existingMod.contentLocker ? existingMod.contentLocker : { tasks: [], requiredCount: 0, delay: 15000 };
 }
 
 function populateLockerForm(mod) {
@@ -316,6 +365,7 @@ function populateLockerForm(mod) {
   const secondTask = tasks[1] || {};
   const thirdTask = tasks[2] || {};
   const requiredCount = Number.isInteger(mod?.contentLocker?.requiredCount) ? mod.contentLocker.requiredCount : Math.min(tasks.length || 1, 1);
+  const delay = Number.isFinite(mod?.contentLocker?.delay) ? mod.contentLocker.delay : 15000;
 
   lockerTaskType1.value = firstTask.type || '';
   lockerTaskUrl1.value = firstTask.url || '';
@@ -324,6 +374,7 @@ function populateLockerForm(mod) {
   lockerTaskType3.value = thirdTask.type || '';
   lockerTaskUrl3.value = thirdTask.url || '';
   lockerRequiredCount.value = String(Math.min(Math.max(requiredCount, 1), Math.max(tasks.length, 1)));
+  lockerDelayMs.value = String(Math.max(delay, 1000));
 }
 
 function createSlug(name) {
@@ -360,7 +411,10 @@ function normalizeImportedContentLocker(rawLocker) {
     ? Math.min(Math.max(Number.isFinite(rawRequiredCount) ? rawRequiredCount : tasks.length, 1), tasks.length)
     : 0;
 
-  return { tasks, requiredCount };
+  const rawDelay = Number.parseInt(rawLocker?.delay, 10);
+  const delay = Number.isFinite(rawDelay) ? Math.max(rawDelay, 1000) : 15000;
+
+  return { tasks, requiredCount, delay };
 }
 
 function buildImportedModObject(rawMod, index) {
