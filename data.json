@@ -1,27 +1,5 @@
 [
   {
-    "id": 45,
-    "slug": "skillable-kits-addon",
-    "label": "Skillable Kits Addon",
-    "name": "Skillable Kits Addon",
-    "version": "Latest",
-    "game_edition": "Unknown",
-    "mcVersion": "",
-    "category": "Gameplay",
-    "description": "A kit-based gameplay addon that gives players customizable abilities and equipment for different combat-focused playstyles.",
-    "download": "https://mcpedl.com/skillable-kits-addon/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
     "id": 43,
     "slug": "building-expansion-addon",
     "label": "Building Expansion Renewed [1.21.20+] | V1.0 Performance Update!",
