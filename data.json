@@ -940,27 +940,5 @@
         }
       ]
     }
-  },
-  {
-    "id": 49,
-    "slug": "kitx",
-    "label": "KitX",
-    "name": "KitX",
-    "version": "Latest",
-    "game_edition": "Unknown",
-    "mcVersion": "",
-    "category": "Utility",
-    "description": "A kit management addon that allows players to create and use predefined equipment loadouts for quickly preparing different gameplay setups.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/kitx",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
   }
 ]
