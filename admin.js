@@ -14,6 +14,7 @@ const adminSearchInput = document.getElementById('adminSearchInput');
 const adminStatus = document.getElementById('adminStatus');
 const refreshButton = document.getElementById('refreshButton');
 const cancelEditButton = document.getElementById('cancelEditButton');
+const deleteSelectedButton = document.getElementById('deleteSelectedButton');
 const applyLockerButton = document.getElementById('applyLockerButton');
 const selectAllButton = document.getElementById('selectAllButton');
 const selectedCountLabel = document.getElementById('selectedCount');
@@ -82,6 +83,7 @@ function getTaskLabel(type) {
 function updateSelectionCount() {
   const count = selectedModIds.size;
   selectedCountLabel.textContent = `${count} selected`;
+  deleteSelectedButton.disabled = count === 0;
   applyLockerButton.disabled = count === 0;
   updateSelectAllButton();
 }
@@ -130,6 +132,27 @@ function applyLockerTasksToSelected() {
 
   saveModsToGitHub(updatedMods);
   adminStatus.textContent = `Applied locker tasks to ${selectedModIds.size} selected mod${selectedModIds.size > 1 ? 's' : ''}.`;
+}
+
+function deleteSelectedMods() {
+  if (selectedModIds.size === 0) {
+    adminStatus.textContent = 'Select one or more mods before deleting.';
+    return;
+  }
+
+  const selectedMods = mods.filter(mod => selectedModIds.has(mod.id));
+  const previewNames = selectedMods.slice(0, 3).map(mod => mod.name).join(', ');
+  const suffix = selectedMods.length > 3 ? `, and ${selectedMods.length - 3} more` : '';
+  const confirmed = confirmAction(`Delete ${selectedMods.length} selected mod${selectedMods.length > 1 ? 's' : ''} (${previewNames}${suffix})? This action cannot be undone.`);
+  if (!confirmed) {
+    adminStatus.textContent = 'Bulk delete cancelled.';
+    return;
+  }
+
+  const updatedMods = mods.filter(mod => !selectedModIds.has(mod.id));
+  selectedModIds.clear();
+  saveModsToGitHub(updatedMods);
+  adminStatus.textContent = `Deleted ${selectedMods.length} selected mod${selectedMods.length > 1 ? 's' : ''}.`;
 }
 
 function buildContentLockerFromForm(existingMod = null) {
@@ -643,6 +666,7 @@ adminModList.addEventListener('change', event => {
 });
 
 selectAllButton.addEventListener('click', toggleSelectAll);
+deleteSelectedButton.addEventListener('click', deleteSelectedMods);
 applyLockerButton.addEventListener('click', applyLockerTasksToSelected);
 
 refreshButton.addEventListener('click', fetchMods);
