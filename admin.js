@@ -407,9 +407,8 @@ function renderAdminItem(mod) {
     <div class="admin-mod-item" tabindex="0">
       <div class="admin-mod-row">
         <div class="admin-mod-select-wrap">
-          <label>
+          <label class="admin-mod-select-label" aria-label="Select mod ${mod.name}">
             <input type="checkbox" class="admin-mod-select" data-id="${mod.id}" ${selectedModIds.has(mod.id) ? 'checked' : ''}>
-            Select
           </label>
         </div>
         <div class="admin-mod-main">
