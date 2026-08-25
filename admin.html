@@ -133,7 +133,19 @@
               <div class="admin-locker-card">
                 <div class="admin-locker-header">
                   <h3>Content Locker (optional)</h3>
-                  <p>Choose TikTok actions required before the download button unlocks.</p>
+                  <p>Set the tasks and how many must be completed before the mod unlocks. Great for “1 of 2” or “2 of 3” style checks.</p>
+                </div>
+
+                <div class="form-grid-2 admin-locker-grid">
+                  <label>
+                    Required completions
+                    <select id="lockerRequiredCount">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                  </label>
+                  <div></div>
                 </div>
 
                 <div class="form-grid-2 admin-locker-grid">
@@ -141,13 +153,37 @@
                     Task 1
                     <select id="lockerTaskType1">
                       <option value="">None</option>
-                      <option value="follow_tiktok_user">Follow TikTok User</option>
-                      <option value="like_tiktok_video">Like TikTok Video</option>
+                      <option value="follow_instagram_account">Follow Instagram account</option>
+                      <option value="like_instagram_post">Like Instagram post</option>
+                      <option value="like_instagram_reel">Like Instagram Reel</option>
+                      <option value="follow_facebook_page">Follow Facebook page</option>
+                      <option value="like_facebook_post">Like Facebook post</option>
+                      <option value="follow_tiktok_account">Follow TikTok account</option>
+                      <option value="like_tiktok_video">Like TikTok video</option>
+                      <option value="follow_youtube_channel">Follow YouTube channel</option>
+                      <option value="subscribe_youtube_channel">Subscribe to YouTube channel</option>
+                      <option value="like_youtube_video">Like YouTube video</option>
+                      <option value="watch_youtube_video">Watch YouTube video</option>
+                      <option value="watch_tiktok_video">Watch TikTok video</option>
+                      <option value="watch_instagram_reel">Watch Instagram Reel</option>
+                      <option value="watch_facebook_video">Watch Facebook video</option>
+                      <option value="visit_instagram_profile">Visit Instagram profile</option>
+                      <option value="visit_facebook_page">Visit Facebook page</option>
+                      <option value="visit_tiktok_profile">Visit TikTok profile</option>
+                      <option value="visit_youtube_channel">Visit YouTube channel</option>
+                      <option value="share_instagram_post">Share Instagram post</option>
+                      <option value="share_facebook_post">Share Facebook post</option>
+                      <option value="share_tiktok_video">Share TikTok video</option>
+                      <option value="share_youtube_video">Share YouTube video</option>
+                      <option value="comment_on_instagram_post">Comment on Instagram post</option>
+                      <option value="comment_on_facebook_post">Comment on Facebook post</option>
+                      <option value="comment_on_tiktok_video">Comment on TikTok video</option>
+                      <option value="comment_on_youtube_video">Comment on YouTube video</option>
                     </select>
                   </label>
                   <label>
                     Task 1 Link
-                    <input id="lockerTaskUrl1" type="url" placeholder="https://www.tiktok.com/@username">
+                    <input id="lockerTaskUrl1" type="url" placeholder="https://example.com/task">
                   </label>
                 </div>
 
@@ -156,13 +192,76 @@
                     Task 2
                     <select id="lockerTaskType2">
                       <option value="">None</option>
-                      <option value="follow_tiktok_user">Follow TikTok User</option>
-                      <option value="like_tiktok_video">Like TikTok Video</option>
+                      <option value="follow_instagram_account">Follow Instagram account</option>
+                      <option value="like_instagram_post">Like Instagram post</option>
+                      <option value="like_instagram_reel">Like Instagram Reel</option>
+                      <option value="follow_facebook_page">Follow Facebook page</option>
+                      <option value="like_facebook_post">Like Facebook post</option>
+                      <option value="follow_tiktok_account">Follow TikTok account</option>
+                      <option value="like_tiktok_video">Like TikTok video</option>
+                      <option value="follow_youtube_channel">Follow YouTube channel</option>
+                      <option value="subscribe_youtube_channel">Subscribe to YouTube channel</option>
+                      <option value="like_youtube_video">Like YouTube video</option>
+                      <option value="watch_youtube_video">Watch YouTube video</option>
+                      <option value="watch_tiktok_video">Watch TikTok video</option>
+                      <option value="watch_instagram_reel">Watch Instagram Reel</option>
+                      <option value="watch_facebook_video">Watch Facebook video</option>
+                      <option value="visit_instagram_profile">Visit Instagram profile</option>
+                      <option value="visit_facebook_page">Visit Facebook page</option>
+                      <option value="visit_tiktok_profile">Visit TikTok profile</option>
+                      <option value="visit_youtube_channel">Visit YouTube channel</option>
+                      <option value="share_instagram_post">Share Instagram post</option>
+                      <option value="share_facebook_post">Share Facebook post</option>
+                      <option value="share_tiktok_video">Share TikTok video</option>
+                      <option value="share_youtube_video">Share YouTube video</option>
+                      <option value="comment_on_instagram_post">Comment on Instagram post</option>
+                      <option value="comment_on_facebook_post">Comment on Facebook post</option>
+                      <option value="comment_on_tiktok_video">Comment on TikTok video</option>
+                      <option value="comment_on_youtube_video">Comment on YouTube video</option>
                     </select>
                   </label>
                   <label>
                     Task 2 Link
-                    <input id="lockerTaskUrl2" type="url" placeholder="https://www.tiktok.com/@username/video/123">
+                    <input id="lockerTaskUrl2" type="url" placeholder="https://example.com/task">
+                  </label>
+                </div>
+
+                <div class="form-grid-2 admin-locker-grid">
+                  <label>
+                    Task 3
+                    <select id="lockerTaskType3">
+                      <option value="">None</option>
+                      <option value="follow_instagram_account">Follow Instagram account</option>
+                      <option value="like_instagram_post">Like Instagram post</option>
+                      <option value="like_instagram_reel">Like Instagram Reel</option>
+                      <option value="follow_facebook_page">Follow Facebook page</option>
+                      <option value="like_facebook_post">Like Facebook post</option>
+                      <option value="follow_tiktok_account">Follow TikTok account</option>
+                      <option value="like_tiktok_video">Like TikTok video</option>
+                      <option value="follow_youtube_channel">Follow YouTube channel</option>
+                      <option value="subscribe_youtube_channel">Subscribe to YouTube channel</option>
+                      <option value="like_youtube_video">Like YouTube video</option>
+                      <option value="watch_youtube_video">Watch YouTube video</option>
+                      <option value="watch_tiktok_video">Watch TikTok video</option>
+                      <option value="watch_instagram_reel">Watch Instagram Reel</option>
+                      <option value="watch_facebook_video">Watch Facebook video</option>
+                      <option value="visit_instagram_profile">Visit Instagram profile</option>
+                      <option value="visit_facebook_page">Visit Facebook page</option>
+                      <option value="visit_tiktok_profile">Visit TikTok profile</option>
+                      <option value="visit_youtube_channel">Visit YouTube channel</option>
+                      <option value="share_instagram_post">Share Instagram post</option>
+                      <option value="share_facebook_post">Share Facebook post</option>
+                      <option value="share_tiktok_video">Share TikTok video</option>
+                      <option value="share_youtube_video">Share YouTube video</option>
+                      <option value="comment_on_instagram_post">Comment on Instagram post</option>
+                      <option value="comment_on_facebook_post">Comment on Facebook post</option>
+                      <option value="comment_on_tiktok_video">Comment on TikTok video</option>
+                      <option value="comment_on_youtube_video">Comment on YouTube video</option>
+                    </select>
+                  </label>
+                  <label>
+                    Task 3 Link
+                    <input id="lockerTaskUrl3" type="url" placeholder="https://example.com/task">
                   </label>
                 </div>
               </div>

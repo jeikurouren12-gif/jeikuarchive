@@ -39,6 +39,9 @@ const lockerTaskType1 = document.getElementById('lockerTaskType1');
 const lockerTaskUrl1 = document.getElementById('lockerTaskUrl1');
 const lockerTaskType2 = document.getElementById('lockerTaskType2');
 const lockerTaskUrl2 = document.getElementById('lockerTaskUrl2');
+const lockerTaskType3 = document.getElementById('lockerTaskType3');
+const lockerTaskUrl3 = document.getElementById('lockerTaskUrl3');
+const lockerRequiredCount = document.getElementById('lockerRequiredCount');
 const bulkImportInput = document.getElementById('bulkImportInput');
 const importJsonButton = document.getElementById('importJsonButton');
 let mods = [];
@@ -113,10 +116,95 @@ function resetForm() {
   adminStatus.textContent = 'Ready to add a new mod.';
 }
 
+function getDefaultTaskUrl(type) {
+  const taskUrls = {
+    follow_instagram_account: 'https://www.instagram.com/jeikuarchivemc/',
+    like_instagram_post: 'https://www.instagram.com/jeikuarchivemc/',
+    like_instagram_reel: 'https://www.instagram.com/jeikuarchivemc/',
+    follow_facebook_page: 'https://www.facebook.com/profile.php?id=61585338801289',
+    like_facebook_post: 'https://www.facebook.com/profile.php?id=61585338801289',
+    follow_tiktok_account: 'https://www.tiktok.com/@jeikuarchive',
+    like_tiktok_video: 'https://www.tiktok.com/@jeikuarchive',
+    follow_youtube_channel: 'https://www.youtube.com/@jeikuarchive',
+    subscribe_youtube_channel: 'https://www.youtube.com/@jeikuarchive',
+    like_youtube_video: 'https://www.youtube.com/@jeikuarchive',
+    watch_youtube_video: 'https://www.youtube.com/@jeikuarchive',
+    watch_tiktok_video: 'https://www.tiktok.com/@jeikuarchive',
+    watch_instagram_reel: 'https://www.instagram.com/jeikuarchivemc/',
+    watch_facebook_video: 'https://www.facebook.com/profile.php?id=61585338801289',
+    visit_instagram_profile: 'https://www.instagram.com/jeikuarchivemc/',
+    visit_facebook_page: 'https://www.facebook.com/profile.php?id=61585338801289',
+    visit_tiktok_profile: 'https://www.tiktok.com/@jeikuarchive',
+    visit_youtube_channel: 'https://www.youtube.com/@jeikuarchive',
+    share_instagram_post: 'https://www.instagram.com/jeikuarchivemc/',
+    share_facebook_post: 'https://www.facebook.com/profile.php?id=61585338801289',
+    share_tiktok_video: 'https://www.tiktok.com/@jeikuarchive',
+    share_youtube_video: 'https://www.youtube.com/@jeikuarchive',
+    comment_on_instagram_post: 'https://www.instagram.com/jeikuarchivemc/',
+    comment_on_facebook_post: 'https://www.facebook.com/profile.php?id=61585338801289',
+    comment_on_tiktok_video: 'https://www.tiktok.com/@jeikuarchive',
+    comment_on_youtube_video: 'https://www.youtube.com/@jeikuarchive',
+    follow_tiktok_user: 'https://www.tiktok.com/@jeikuarchive',
+    join_discord: 'https://www.instagram.com/jeikuarchivemc/',
+    join_telegram: 'https://www.instagram.com/jeikuarchivemc/',
+    visit_website: 'https://www.instagram.com/jeikuarchivemc/',
+    follow_instagram: 'https://www.instagram.com/jeikuarchivemc/'
+  };
+
+  return taskUrls[type] || '';
+}
+
 function getTaskLabel(type) {
+  if (type === 'follow_instagram_account') return 'Follow Instagram account';
+  if (type === 'like_instagram_post') return 'Like Instagram post';
+  if (type === 'like_instagram_reel') return 'Like Instagram Reel';
+  if (type === 'follow_facebook_page') return 'Follow Facebook page';
+  if (type === 'like_facebook_post') return 'Like Facebook post';
+  if (type === 'follow_tiktok_account') return 'Follow TikTok account';
+  if (type === 'like_tiktok_video') return 'Like TikTok video';
+  if (type === 'follow_youtube_channel') return 'Follow YouTube channel';
+  if (type === 'subscribe_youtube_channel') return 'Subscribe to YouTube channel';
+  if (type === 'like_youtube_video') return 'Like YouTube video';
+  if (type === 'watch_youtube_video') return 'Watch YouTube video';
+  if (type === 'watch_tiktok_video') return 'Watch TikTok video';
+  if (type === 'watch_instagram_reel') return 'Watch Instagram Reel';
+  if (type === 'watch_facebook_video') return 'Watch Facebook video';
+  if (type === 'visit_instagram_profile') return 'Visit Instagram profile';
+  if (type === 'visit_facebook_page') return 'Visit Facebook page';
+  if (type === 'visit_tiktok_profile') return 'Visit TikTok profile';
+  if (type === 'visit_youtube_channel') return 'Visit YouTube channel';
+  if (type === 'share_instagram_post') return 'Share Instagram post';
+  if (type === 'share_facebook_post') return 'Share Facebook post';
+  if (type === 'share_tiktok_video') return 'Share TikTok video';
+  if (type === 'share_youtube_video') return 'Share YouTube video';
+  if (type === 'comment_on_instagram_post') return 'Comment on Instagram post';
+  if (type === 'comment_on_facebook_post') return 'Comment on Facebook post';
+  if (type === 'comment_on_tiktok_video') return 'Comment on TikTok video';
+  if (type === 'comment_on_youtube_video') return 'Comment on YouTube video';
   if (type === 'follow_tiktok_user') return 'Follow TikTok User';
-  if (type === 'like_tiktok_video') return 'Like TikTok Video';
+  if (type === 'join_discord') return 'Join Discord';
+  if (type === 'join_telegram') return 'Join Telegram';
+  if (type === 'visit_website') return 'Visit Website';
+  if (type === 'follow_instagram') return 'Follow on Instagram';
   return '';
+}
+
+function bindTaskUrlAutofill(taskTypeField, taskUrlField) {
+  if (!taskTypeField || !taskUrlField) return;
+
+  const applyDefaultUrl = () => {
+    const type = taskTypeField.value;
+    if (!type) {
+      return;
+    }
+    const preset = getDefaultTaskUrl(type);
+    if (preset && !taskUrlField.value.trim()) {
+      taskUrlField.value = preset;
+    }
+  };
+
+  taskTypeField.addEventListener('change', applyDefaultUrl);
+  taskTypeField.addEventListener('input', applyDefaultUrl);
 }
 
 function updateSelectionCount() {
@@ -198,7 +286,8 @@ function buildContentLockerFromForm(existingMod = null) {
   const tasks = [];
   const taskConfigs = [
     { type: lockerTaskType1.value, url: lockerTaskUrl1.value.trim() },
-    { type: lockerTaskType2.value, url: lockerTaskUrl2.value.trim() }
+    { type: lockerTaskType2.value, url: lockerTaskUrl2.value.trim() },
+    { type: lockerTaskType3.value, url: lockerTaskUrl3.value.trim() }
   ];
 
   taskConfigs.forEach(({ type, url }) => {
@@ -211,21 +300,30 @@ function buildContentLockerFromForm(existingMod = null) {
     });
   });
 
+  const selectedRequiredCount = Number.parseInt(lockerRequiredCount?.value || '1', 10);
+  const requiredCount = tasks.length > 0 ? Math.min(Math.max(selectedRequiredCount || 1, 1), tasks.length) : 0;
+
   if (tasks.length > 0) {
-    return { tasks };
+    return { tasks, requiredCount };
   }
 
-  return existingMod && existingMod.contentLocker ? existingMod.contentLocker : { tasks: [] };
+  return existingMod && existingMod.contentLocker ? existingMod.contentLocker : { tasks: [], requiredCount: 0 };
 }
 
 function populateLockerForm(mod) {
   const tasks = Array.isArray(mod?.contentLocker?.tasks) ? mod.contentLocker.tasks : [];
   const firstTask = tasks[0] || {};
   const secondTask = tasks[1] || {};
+  const thirdTask = tasks[2] || {};
+  const requiredCount = Number.isInteger(mod?.contentLocker?.requiredCount) ? mod.contentLocker.requiredCount : Math.min(tasks.length || 1, 1);
+
   lockerTaskType1.value = firstTask.type || '';
   lockerTaskUrl1.value = firstTask.url || '';
   lockerTaskType2.value = secondTask.type || '';
   lockerTaskUrl2.value = secondTask.url || '';
+  lockerTaskType3.value = thirdTask.type || '';
+  lockerTaskUrl3.value = thirdTask.url || '';
+  lockerRequiredCount.value = String(Math.min(Math.max(requiredCount, 1), Math.max(tasks.length, 1)));
 }
 
 function createSlug(name) {
@@ -257,7 +355,12 @@ function normalizeImportedContentLocker(rawLocker) {
     }))
     .filter(task => task.type && task.url);
 
-  return { tasks };
+  const rawRequiredCount = Number.parseInt(rawLocker?.requiredCount, 10);
+  const requiredCount = tasks.length > 0
+    ? Math.min(Math.max(Number.isFinite(rawRequiredCount) ? rawRequiredCount : tasks.length, 1), tasks.length)
+    : 0;
+
+  return { tasks, requiredCount };
 }
 
 function buildImportedModObject(rawMod, index) {
@@ -693,6 +796,10 @@ logoutButton.addEventListener('click', () => {
   passwordInput.value = '';
   showLogin('Logged out. Enter password to continue.');
 });
+
+bindTaskUrlAutofill(lockerTaskType1, lockerTaskUrl1);
+bindTaskUrlAutofill(lockerTaskType2, lockerTaskUrl2);
+bindTaskUrlAutofill(lockerTaskType3, lockerTaskUrl3);
 
 window.addEventListener('DOMContentLoaded', async () => {
   const savedPassword = restoreAdminSession();

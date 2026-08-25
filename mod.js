@@ -107,14 +107,41 @@ async function loadAndRenderMod() {
 }
 
 function getTaskLabel(type) {
-  if (type === 'follow_tiktok_user') return 'Follow TikTok User';
-  if (type === 'like_tiktok_video') return 'Like TikTok Video';
+  if (type === 'follow_instagram_account') return 'Follow Instagram account';
+  if (type === 'like_instagram_post') return 'Like Instagram post';
+  if (type === 'like_instagram_reel') return 'Like Instagram Reel';
+  if (type === 'follow_facebook_page') return 'Follow Facebook page';
+  if (type === 'like_facebook_post') return 'Like Facebook post';
+  if (type === 'follow_tiktok_account') return 'Follow TikTok account';
+  if (type === 'like_tiktok_video') return 'Like TikTok video';
+  if (type === 'follow_youtube_channel') return 'Follow YouTube channel';
+  if (type === 'subscribe_youtube_channel') return 'Subscribe to YouTube channel';
+  if (type === 'like_youtube_video') return 'Like YouTube video';
+  if (type === 'watch_youtube_video') return 'Watch YouTube video';
+  if (type === 'watch_tiktok_video') return 'Watch TikTok video';
+  if (type === 'watch_instagram_reel') return 'Watch Instagram Reel';
+  if (type === 'watch_facebook_video') return 'Watch Facebook video';
+  if (type === 'visit_instagram_profile') return 'Visit Instagram profile';
+  if (type === 'visit_facebook_page') return 'Visit Facebook page';
+  if (type === 'visit_tiktok_profile') return 'Visit TikTok profile';
+  if (type === 'visit_youtube_channel') return 'Visit YouTube channel';
+  if (type === 'share_instagram_post') return 'Share Instagram post';
+  if (type === 'share_facebook_post') return 'Share Facebook post';
+  if (type === 'share_tiktok_video') return 'Share TikTok video';
+  if (type === 'share_youtube_video') return 'Share YouTube video';
+  if (type === 'comment_on_instagram_post') return 'Comment on Instagram post';
+  if (type === 'comment_on_facebook_post') return 'Comment on Facebook post';
+  if (type === 'comment_on_tiktok_video') return 'Comment on TikTok video';
+  if (type === 'comment_on_youtube_video') return 'Comment on YouTube video';
   return 'Complete task';
 }
 
 function renderModPage(mod) {
   const tasks = Array.isArray(mod.contentLocker?.tasks) ? mod.contentLocker.tasks : [];
-  const canDownload = tasks.length === 0;
+  const requiredCount = Number.isInteger(mod.contentLocker?.requiredCount)
+    ? Math.min(Math.max(mod.contentLocker.requiredCount, 1), Math.max(tasks.length, 1))
+    : tasks.length;
+  const canDownload = tasks.length === 0 || requiredCount === 0;
   document.title = `${mod.name} | JeikuArchiveMC`;
   appRoot.innerHTML = `
     <div class="page-shell">
@@ -150,8 +177,8 @@ function renderModPage(mod) {
                 <div class="content-locker-card">
                   <div class="content-locker-header">
                     <h3>To continue, please:</h3>
-                    <p>Finish the steps below in order. The download button unlocks once everything is verified.</p>
-                    <div class="content-locker-progress" id="contentLockerProgress">0 of ${tasks.length} completed</div>
+                    <p>Complete ${requiredCount} of the options below to unlock the download.</p>
+                    <div class="content-locker-progress" id="contentLockerProgress">0 of ${requiredCount} required completed</div>
                   </div>
                   <div class="content-locker-steps" id="contentLockerSteps"></div>
                 </div>
@@ -162,7 +189,7 @@ function renderModPage(mod) {
                   <svg class="btn-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
                   </svg>
-                  Download Now
+                  ${tasks.length > 0 ? 'Complete tasks to unlock download' : 'Download Now'}
                 </button>
                 <span class="status-pill">Safe & verified</span>
               </div>
@@ -187,7 +214,7 @@ function renderModPage(mod) {
   }
 
   if (tasks.length > 0) {
-    initLockerFlow(mod, tasks);
+    initLockerFlow(mod, tasks, requiredCount);
   }
 }
 
@@ -215,22 +242,23 @@ function createConfettiBurst() {
   }, 1400);
 }
 
-function initLockerFlow(mod, tasks) {
+function initLockerFlow(mod, tasks, requiredCount) {
   const stepContainer = document.getElementById('contentLockerSteps');
   const downloadButton = document.getElementById('downloadButton');
   if (!stepContainer || !downloadButton) return;
 
-  let completedCount = 0;
+  const completedTaskIndexes = new Set();
 
   function renderSteps() {
     stepContainer.innerHTML = tasks.map((task, index) => {
-      const isCompleted = index < completedCount;
-      const isActive = index === completedCount;
-      const statusClass = isCompleted ? 'locker-step-complete' : isActive ? 'locker-step-active' : 'locker-step-locked';
-      const actionLabel = isCompleted ? 'Verified' : isActive ? 'Start' : 'Locked';
-      const buttonMarkup = isActive
-        ? `<button type="button" class="button button-secondary locker-action" data-task-index="${index}">${escapeHtml(getTaskLabel(task.type))}</button>`
-        : `<button type="button" class="button button-secondary locker-action" disabled>Locked</button>`;
+      const isCompleted = completedTaskIndexes.has(index);
+      const statusClass = isCompleted ? 'locker-step-complete' : 'locker-step-active';
+      const actionLabel = isCompleted ? 'Verified' : 'Complete';
+      const buttonMarkup = `
+        <button type="button" class="button button-secondary locker-action" data-task-index="${index}" ${isCompleted ? 'disabled' : ''}>
+          ${isCompleted ? '✓ Verified' : escapeHtml(getTaskLabel(task.type))}
+        </button>
+      `;
 
       return `
         <div class="locker-step ${statusClass}">
@@ -239,13 +267,13 @@ function initLockerFlow(mod, tasks) {
               <div class="locker-step-badge">${index + 1}</div>
               <div>
                 <h4>${escapeHtml(getTaskLabel(task.type))}</h4>
-                <p>${isCompleted ? 'Completed and verified.' : isActive ? 'Open this step now.' : 'Locked until the previous step is done.'}</p>
+                <p>${isCompleted ? 'Completed and verified.' : 'Open the task and finish it to count toward the unlock requirement.'}</p>
               </div>
             </div>
-            <span class="locker-status">${isCompleted ? '✓ Verified' : isActive ? 'In progress' : 'Locked'}</span>
+            <span class="locker-status">${isCompleted ? '✓ Verified' : 'Available'}</span>
           </div>
           <div class="locker-progress-row">
-            <span class="locker-progress-pill ${isCompleted ? 'locker-progress-pill-done' : isActive ? 'locker-progress-pill-active' : 'locker-progress-pill-idle'}">${isCompleted ? 'Done' : isActive ? 'Ready' : 'Waiting'}</span>
+            <span class="locker-progress-pill ${isCompleted ? 'locker-progress-pill-done' : 'locker-progress-pill-active'}">${isCompleted ? 'Done' : actionLabel}</span>
             <span class="locker-progress-line"></span>
           </div>
           ${buttonMarkup}
@@ -253,24 +281,21 @@ function initLockerFlow(mod, tasks) {
       `;
     }).join('');
 
-    const activeButton = stepContainer.querySelector('[data-task-index]');
-    if (activeButton) {
-      activeButton.addEventListener('click', () => handleTaskClick(Number(activeButton.dataset.taskIndex)));
-    }
-
-    const progressText = completedCount === 0
-      ? '0 of ' + tasks.length + ' completed'
-      : `${completedCount} of ${tasks.length} completed`;
+    stepContainer.querySelectorAll('[data-task-index]').forEach(button => {
+      button.addEventListener('click', () => handleTaskClick(Number(button.dataset.taskIndex)));
+    });
 
     const progressNotice = document.getElementById('contentLockerProgress');
+    const completedCount = completedTaskIndexes.size;
     if (progressNotice) {
-      progressNotice.textContent = progressText;
+      progressNotice.textContent = `${completedCount} of ${requiredCount} required completed`;
     }
 
-    downloadButton.disabled = completedCount < tasks.length;
-    downloadButton.innerHTML = `<svg class="btn-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg>${completedCount < tasks.length ? 'Complete tasks to unlock download' : 'Download Now'}`;
+    const canUnlock = completedCount >= requiredCount;
+    downloadButton.disabled = !canUnlock;
+    downloadButton.innerHTML = `<svg class="btn-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg>${canUnlock ? 'Download Now' : 'Complete tasks to unlock download'}`;
 
-    if (completedCount === tasks.length && tasks.length > 0) {
+    if (canUnlock && tasks.length > 0) {
       createConfettiBurst();
     }
   }
@@ -278,15 +303,17 @@ function initLockerFlow(mod, tasks) {
   function handleTaskClick(taskIndex) {
     const task = tasks[taskIndex];
     if (!task || !task.url) return;
-    window.open(task.url, '_blank', 'noopener,noreferrer');
-    const activeButton = stepContainer.querySelector(`[data-task-index="${taskIndex}"]`);
-    if (activeButton) {
-      activeButton.disabled = true;
-      activeButton.textContent = 'Checking...';
+
+    const button = stepContainer.querySelector(`[data-task-index="${taskIndex}"]`);
+    if (button) {
+      button.disabled = true;
+      button.textContent = 'Checking...';
     }
 
+    window.open(task.url, '_blank', 'noopener,noreferrer');
+
     window.setTimeout(() => {
-      completedCount += 1;
+      completedTaskIndexes.add(taskIndex);
       renderSteps();
     }, 15000);
   }
@@ -294,7 +321,7 @@ function initLockerFlow(mod, tasks) {
   renderSteps();
 
   downloadButton.addEventListener('click', () => {
-    if (completedCount < tasks.length) return;
+    if (completedTaskIndexes.size < requiredCount) return;
     if (!mod.download) return;
     window.open(mod.download, '_blank', 'noopener,noreferrer');
   });
