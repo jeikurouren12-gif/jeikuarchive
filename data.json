@@ -1,27 +1,5 @@
 [
   {
-    "id": 53,
-    "slug": "true-survival-zombie-apocalypse-addon",
-    "label": "True Survival - Zombie Apocalypse [MobBlocks]",
-    "name": "True Survival - Zombie Apocalypse [MobBlocks]",
-    "version": "V0.0.4",
-    "game_edition": "Unknown",
-    "mcVersion": "",
-    "category": "Gameplay",
-    "description": "A zombie-apocalypse survival addon that adds post-apocalyptic world generation, survival-focused content, structures, and undead-themed gameplay.",
-    "download": "https://mcpedl.com/true-survival-zombie-apocalypse-addon/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
     "id": 52,
     "slug": "horror-hospital",
     "label": "Horror Hospital",
