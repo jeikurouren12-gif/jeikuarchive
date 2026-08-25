@@ -60,124 +60,138 @@
           <form id="modForm" class="admin-form">
             <input type="hidden" id="editModId">
 
-            <label>
-              Name
-              <input id="nameInput" type="text" placeholder="OptiFine" required>
-            </label>
-
-            <div class="form-grid-2">
+            <div class="admin-form-page" data-form-page="1">
               <label>
-                Label
-                <input id="labelInput" type="text" placeholder="OptiFine">
+                Mod ID
+                <input id="modIdInput" type="number" min="1" placeholder="Auto-generate">
               </label>
-              <label>
-                Game Edition
-                <select id="gameEditionInput">
-                  <option value="Unknown">Unknown</option>
-                  <option value="Bedrock">Bedrock</option>
-                  <option value="Java">Java</option>
-                </select>
-              </label>
-            </div>
 
-            <div class="form-grid-2">
               <label>
-                Version
-                <input id="versionInput" type="text" placeholder="1.20.4" required>
+                Name
+                <input id="nameInput" type="text" placeholder="OptiFine" required>
               </label>
-              <label>
-                MC Version
-                <input id="mcVersionInput" type="text" placeholder="1.21.90+">
-              </label>
-            </div>
 
-            <div class="form-grid-2">
-              <label>
-                Category
-                <select id="categoryInput" required>
-                  <option value="Performance">Performance</option>
-                  <option value="Texture Pack">Texture Pack</option>
-                  <option value="Utility">Utility</option>
-                  <option value="Gameplay">Gameplay</option>
-                  <option value="Optimization">Optimization</option>
-                  <option value="Other">Other</option>
-                </select>
-              </label>
-              <label>
-                Collection
-                <select id="collectionInput" required>
-                  <option value="1">Collection 1</option>
-                  <option value="2">Collection 2</option>
-                </select>
-              </label>
-            </div>
-
-            <label>
-              Description
-              <textarea id="descriptionInput" rows="4" placeholder="Describe the mod or texture pack." required></textarea>
-            </label>
-
-            <label>
-              Download Link
-              <input id="downloadInput" type="url" placeholder="https://example.com/download" required>
-            </label>
-
-            <div class="admin-locker-card">
-              <div class="admin-locker-header">
-                <h3>Content Locker (optional)</h3>
-                <p>Choose TikTok actions required before the download button unlocks.</p>
+              <div class="form-grid-2">
+                <label>
+                  Label
+                  <input id="labelInput" type="text" placeholder="OptiFine">
+                </label>
+                <label>
+                  Game Edition
+                  <select id="gameEditionInput">
+                    <option value="Unknown">Unknown</option>
+                    <option value="Bedrock">Bedrock</option>
+                    <option value="Java">Java</option>
+                  </select>
+                </label>
               </div>
 
-              <div class="form-grid-2 admin-locker-grid">
+              <div class="form-grid-2">
                 <label>
-                  Task 1
-                  <select id="lockerTaskType1">
-                    <option value="">None</option>
-                    <option value="follow_tiktok_user">Follow TikTok User</option>
-                    <option value="like_tiktok_video">Like TikTok Video</option>
+                  Version
+                  <input id="versionInput" type="text" placeholder="1.20.4" required>
+                </label>
+                <label>
+                  MC Version
+                  <input id="mcVersionInput" type="text" placeholder="1.21.90+">
+                </label>
+              </div>
+
+              <div class="form-grid-2">
+                <label>
+                  Category
+                  <select id="categoryInput" required>
+                    <option value="Performance">Performance</option>
+                    <option value="Texture Pack">Texture Pack</option>
+                    <option value="Utility">Utility</option>
+                    <option value="Gameplay">Gameplay</option>
+                    <option value="Optimization">Optimization</option>
+                    <option value="Other">Other</option>
                   </select>
                 </label>
                 <label>
-                  Task 1 Link
-                  <input id="lockerTaskUrl1" type="url" placeholder="https://www.tiktok.com/@username">
-                </label>
-              </div>
-
-              <div class="form-grid-2 admin-locker-grid">
-                <label>
-                  Task 2
-                  <select id="lockerTaskType2">
-                    <option value="">None</option>
-                    <option value="follow_tiktok_user">Follow TikTok User</option>
-                    <option value="like_tiktok_video">Like TikTok Video</option>
+                  Collection
+                  <select id="collectionInput" required>
+                    <option value="1">Collection 1</option>
+                    <option value="2">Collection 2</option>
                   </select>
                 </label>
-                <label>
-                  Task 2 Link
-                  <input id="lockerTaskUrl2" type="url" placeholder="https://www.tiktok.com/@username/video/123">
-                </label>
-              </div>
-            </div>
-
-            <div class="admin-locker-card">
-              <div class="admin-locker-header">
-                <h3>Bulk import from JSON</h3>
-                <p>Paste a JSON array of mods. Each item will receive a fresh ID based on the current catalog order and automatically assigned to the highest collection.</p>
               </div>
 
               <label>
-                JSON array
-                <textarea id="bulkImportInput" rows="12" placeholder='[{&quot;slug&quot;:&quot;lumenix-shader&quot;,&quot;name&quot;:&quot;Lumenix Shader&quot;,&quot;version&quot;:&quot;v3.1&quot;,&quot;category&quot;:&quot;Texture Pack&quot;,&quot;description&quot;:&quot;A Minecraft Bedrock shader pack.&quot;,&quot;download&quot;:&quot;https://example.com/download&quot;,&quot;contentLocker&quot;:{&quot;tasks&quot;:[{&quot;type&quot;:&quot;follow_tiktok_user&quot;,&quot;label&quot;:&quot;Follow TikTok User&quot;,&quot;url&quot;:&quot;https://www.tiktok.com/@jeikuarchive&quot;}]}}]'></textarea>
+                Description
+                <textarea id="descriptionInput" rows="4" placeholder="Describe the mod or texture pack." required></textarea>
+              </label>
+            </div>
+
+            <div class="admin-form-page admin-form-page-hidden" data-form-page="2">
+              <label>
+                Download Link
+                <input id="downloadInput" type="url" placeholder="https://example.com/download" required>
               </label>
 
-              <div class="form-actions form-actions-right">
-                <button type="button" id="importJsonButton" class="button button-secondary">Import JSON</button>
+              <div class="admin-locker-card">
+                <div class="admin-locker-header">
+                  <h3>Content Locker (optional)</h3>
+                  <p>Choose TikTok actions required before the download button unlocks.</p>
+                </div>
+
+                <div class="form-grid-2 admin-locker-grid">
+                  <label>
+                    Task 1
+                    <select id="lockerTaskType1">
+                      <option value="">None</option>
+                      <option value="follow_tiktok_user">Follow TikTok User</option>
+                      <option value="like_tiktok_video">Like TikTok Video</option>
+                    </select>
+                  </label>
+                  <label>
+                    Task 1 Link
+                    <input id="lockerTaskUrl1" type="url" placeholder="https://www.tiktok.com/@username">
+                  </label>
+                </div>
+
+                <div class="form-grid-2 admin-locker-grid">
+                  <label>
+                    Task 2
+                    <select id="lockerTaskType2">
+                      <option value="">None</option>
+                      <option value="follow_tiktok_user">Follow TikTok User</option>
+                      <option value="like_tiktok_video">Like TikTok Video</option>
+                    </select>
+                  </label>
+                  <label>
+                    Task 2 Link
+                    <input id="lockerTaskUrl2" type="url" placeholder="https://www.tiktok.com/@username/video/123">
+                  </label>
+                </div>
+              </div>
+
+              <div class="admin-locker-card">
+                <div class="admin-locker-header">
+                  <h3>Bulk import from JSON</h3>
+                  <p>Paste a JSON array of mods. Each item will receive a fresh ID based on the current catalog order and automatically assigned to the highest collection.</p>
+                </div>
+
+                <label>
+                  JSON array
+                  <textarea id="bulkImportInput" rows="12" placeholder='[{&quot;slug&quot;:&quot;lumenix-shader&quot;,&quot;name&quot;:&quot;Lumenix Shader&quot;,&quot;version&quot;:&quot;v3.1&quot;,&quot;category&quot;:&quot;Texture Pack&quot;,&quot;description&quot;:&quot;A Minecraft Bedrock shader pack.&quot;,&quot;download&quot;:&quot;https://example.com/download&quot;,&quot;contentLocker&quot;:{&quot;tasks&quot;:[{&quot;type&quot;:&quot;follow_tiktok_user&quot;,&quot;label&quot;:&quot;Follow TikTok User&quot;,&quot;url&quot;:&quot;https://www.tiktok.com/@jeikuarchive&quot;}]}}]'></textarea>
+                </label>
+
+                <div class="form-actions form-actions-right">
+                  <button type="button" id="importJsonButton" class="button button-secondary">Import JSON</button>
+                </div>
               </div>
             </div>
 
-            <div class="form-actions form-actions-right">
-              <button type="button" id="cancelEditButton" class="button button-secondary">Clear</button>
-              <button type="submit" class="button button-primary">Save Mod</button>
+            <div class="admin-form-navigation">
+              <div class="admin-form-stepper" id="adminFormPageLabel">Page 1 of 2</div>
+              <div class="form-actions form-actions-right admin-form-nav-actions">
+                <button type="button" id="adminFormPrevButton" class="button button-secondary" hidden>← Back</button>
+                <button type="button" id="adminFormNextButton" class="button button-primary">Next →</button>
+                <button type="submit" id="saveModButton" class="button button-primary" hidden>Save Mod</button>
+                <button type="button" id="cancelEditButton" class="button button-secondary">Clear</button>
+              </div>
             </div>
           </form>
 

@@ -18,8 +18,14 @@ const deleteSelectedButton = document.getElementById('deleteSelectedButton');
 const applyLockerButton = document.getElementById('applyLockerButton');
 const selectAllButton = document.getElementById('selectAllButton');
 const selectedCountLabel = document.getElementById('selectedCount');
+const adminFormPrevButton = document.getElementById('adminFormPrevButton');
+const adminFormNextButton = document.getElementById('adminFormNextButton');
+const saveModButton = document.getElementById('saveModButton');
+const adminFormPageLabel = document.getElementById('adminFormPageLabel');
+const adminFormPages = Array.from(document.querySelectorAll('.admin-form-page'));
 
 const editModId = document.getElementById('editModId');
+const modIdInput = document.getElementById('modIdInput');
 const nameInput = document.getElementById('nameInput');
 const labelInput = document.getElementById('labelInput');
 const versionInput = document.getElementById('versionInput');
@@ -65,9 +71,45 @@ function showAdmin() {
   adminStatus.textContent = 'Authenticated. Loading mods...';
 }
 
+let currentAdminPage = 1;
+
+function updateAdminFormPage() {
+  if (!adminFormPages.length) return;
+
+  adminFormPages.forEach((page, index) => {
+    const isActive = index === currentAdminPage - 1;
+    page.classList.toggle('admin-form-page-hidden', !isActive);
+    page.setAttribute('aria-hidden', String(!isActive));
+  });
+
+  if (adminFormPageLabel) {
+    adminFormPageLabel.textContent = `Page ${currentAdminPage} of ${adminFormPages.length}`;
+  }
+
+  if (adminFormPrevButton) {
+    adminFormPrevButton.hidden = currentAdminPage === 1;
+  }
+
+  if (adminFormNextButton) {
+    adminFormNextButton.hidden = currentAdminPage === adminFormPages.length;
+  }
+
+  if (saveModButton) {
+    saveModButton.hidden = currentAdminPage !== adminFormPages.length;
+  }
+}
+
+function goToAdminPage(pageNumber) {
+  currentAdminPage = Math.min(Math.max(pageNumber, 1), adminFormPages.length);
+  updateAdminFormPage();
+}
+
 function resetForm() {
   editModId.value = '';
+  modIdInput.value = '';
   modForm.reset();
+  currentAdminPage = 1;
+  updateAdminFormPage();
   adminStatus.textContent = 'Ready to add a new mod.';
 }
 
@@ -273,7 +315,8 @@ function importModsFromJson(rawText) {
 }
 
 function buildModObject() {
-  const id = editModId.value ? Number(editModId.value) : getNextId();
+  const enteredId = modIdInput.value.trim();
+  const id = enteredId ? Number(enteredId) : (editModId.value ? Number(editModId.value) : getNextId());
   const name = nameInput.value.trim();
   const existingMod = mods.find(mod => mod.id === id) || null;
   const label = (labelInput.value || '').trim() || name;
@@ -574,6 +617,7 @@ adminModList.addEventListener('click', event => {
     }
 
     editModId.value = selectedMod.id;
+    modIdInput.value = selectedMod.id;
     nameInput.value = selectedMod.name;
     labelInput.value = selectedMod.label || selectedMod.name;
     versionInput.value = selectedMod.version;
@@ -620,6 +664,8 @@ adminModList.addEventListener('change', event => {
 selectAllButton.addEventListener('click', toggleSelectAll);
 deleteSelectedButton.addEventListener('click', deleteSelectedMods);
 applyLockerButton.addEventListener('click', applyLockerTasksToSelected);
+adminFormPrevButton.addEventListener('click', () => goToAdminPage(currentAdminPage - 1));
+adminFormNextButton.addEventListener('click', () => goToAdminPage(currentAdminPage + 1));
 
 refreshButton.addEventListener('click', fetchMods);
 cancelEditButton.addEventListener('click', resetForm);

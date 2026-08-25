@@ -1270,6 +1270,33 @@ button, input, select, textarea {
   gap: 20px;
 }
 
+.admin-form-page {
+  display: grid;
+  gap: 20px;
+}
+
+.admin-form-page-hidden {
+  display: none;
+}
+
+.admin-form-navigation {
+  display: grid;
+  gap: 14px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.admin-form-stepper {
+  color: var(--muted);
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.admin-form-nav-actions {
+  justify-content: space-between;
+}
+
 .form-grid-2 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
