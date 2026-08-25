@@ -1,27 +1,5 @@
 [
   {
-    "id": 48,
-    "slug": "one-click-pvp-kit-equip-mace-elytra-crystal-cart",
-    "label": "One Click PvP Kit Equip - Mace Elytra Crystal Cart",
-    "name": "One Click PvP Kit Equip - Mace Elytra Crystal Cart",
-    "version": "Latest",
-    "game_edition": "Unknown",
-    "mcVersion": "",
-    "category": "Utility",
-    "description": "A PvP utility addon that lets players quickly equip specialized combat loadouts containing items such as a mace, elytra, and crystal equipment.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/one-click-pvp-kit-equip-mace-elytra-crystal-cart",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
     "id": 47,
     "slug": "crossbladesplus",
     "label": "CrossBlades+",
