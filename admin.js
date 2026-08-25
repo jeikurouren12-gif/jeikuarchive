@@ -38,10 +38,7 @@ const importJsonButton = document.getElementById('importJsonButton');
 let mods = [];
 let currentPassword = null;
 let filteredMods = [];
-let loadedAdminCount = 0;
-let adminObserver = null;
 const selectedModIds = new Set();
-const ADMIN_PAGE_SIZE = 5;
 
 function persistAdminSession(password) {
   localStorage.setItem('jeikuarchive-admin-password', password);
@@ -364,40 +361,14 @@ function getFilteredMods() {
 
 function renderAdminList() {
   filteredMods = getFilteredMods();
-  loadedAdminCount = 0;
-  removeAdminSentinel();
-  adminModList.innerHTML = '';
-  renderAdminItems();
-}
-
-function renderAdminItems() {
-  const remaining = filteredMods.length - loadedAdminCount;
-  if (remaining <= 0) {
-    if (loadedAdminCount === 0) {
-      adminModList.innerHTML = '<p class="admin-empty">No mods found.</p>';
-    }
-    removeAdminSentinel();
+  if (filteredMods.length === 0) {
+    adminModList.innerHTML = '<p class="admin-empty">No mods found.</p>';
     updateSelectionCount();
     return;
   }
 
-  const nextCount = Math.min(ADMIN_PAGE_SIZE, remaining);
-  const items = filteredMods.slice(loadedAdminCount, loadedAdminCount + nextCount).map(renderAdminItem).join('');
-
-  if (loadedAdminCount === 0) {
-    adminModList.innerHTML = items || '<p class="admin-empty">No mods found.</p>';
-  } else {
-    adminModList.insertAdjacentHTML('beforeend', items);
-  }
-
-  loadedAdminCount += nextCount;
+  adminModList.innerHTML = filteredMods.map(renderAdminItem).join('');
   updateSelectionCount();
-
-  if (loadedAdminCount < filteredMods.length) {
-    ensureAdminSentinel();
-  } else {
-    removeAdminSentinel();
-  }
 }
 
 function renderAdminItem(mod) {
@@ -440,34 +411,6 @@ function renderAdminItem(mod) {
   `;
 }
 
-function ensureAdminSentinel() {
-  if (document.getElementById('adminListSentinel')) return;
-  const sentinel = document.createElement('div');
-  sentinel.id = 'adminListSentinel';
-  sentinel.className = 'admin-list-sentinel';
-  adminModList.insertAdjacentElement('afterend', sentinel);
-
-  if (!adminObserver) {
-    adminObserver = new IntersectionObserver(entries => {
-      const entry = entries[0];
-      if (entry && entry.isIntersecting) {
-        renderAdminItems();
-      }
-    }, { rootMargin: '200px 0px' });
-  }
-
-  adminObserver.observe(sentinel);
-}
-
-function removeAdminSentinel() {
-  const sentinel = document.getElementById('adminListSentinel');
-  if (adminObserver && sentinel) {
-    adminObserver.unobserve(sentinel);
-  }
-  if (sentinel) {
-    sentinel.remove();
-  }
-}
 
 async function saveModsToGitHub(updatedMods) {
   if (!currentPassword) {
