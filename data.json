@@ -1,27 +1,5 @@
 [
   {
-    "id": 52,
-    "slug": "horror-hospital",
-    "label": "Horror Hospital",
-    "name": "Horror Hospital",
-    "version": "V1.3",
-    "game_edition": "Unknown",
-    "mcVersion": "",
-    "category": "Other",
-    "description": "A spooky Bedrock adventure map where players explore a creepy hospital, solve puzzles, uncover its secrets, and try to escape.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/maps/horror-hospital",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
     "id": 51,
     "slug": "the-madman-a-minecraft-horror-map",
     "label": "The Madman - (Minecraft Horror Map)",
