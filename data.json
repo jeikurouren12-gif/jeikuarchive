@@ -896,27 +896,5 @@
         }
       ]
     }
-  },
-  {
-    "id": 47,
-    "slug": "crossbladesplus",
-    "label": "CrossBlades+",
-    "name": "CrossBlades+",
-    "version": "Latest",
-    "game_edition": "Unknown",
-    "mcVersion": "",
-    "category": "Gameplay",
-    "description": "A combat addon centered around expanded weapon options that gives players additional blades and equipment for PvP and survival gameplay.",
-    "download": "https://mcpedl.com/crossbladesplus/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
   }
 ]
