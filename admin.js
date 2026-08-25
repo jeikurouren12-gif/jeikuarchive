@@ -562,27 +562,45 @@ loginForm.addEventListener('submit', async event => {
   await fetchMods();
 });
 
+modForm.addEventListener('keydown', event => {
+  const isEnter = event.key === 'Enter';
+  const isTextArea = event.target && event.target.closest && event.target.closest('textarea');
+  if (!isEnter || event.shiftKey || isTextArea) {
+    return;
+  }
+
+  if (currentAdminPage < adminFormPages.length) {
+    event.preventDefault();
+    goToAdminPage(currentAdminPage + 1);
+  }
+});
+
 // Handle add / edit mod form submission without reloading the page
 modForm.addEventListener('submit', async event => {
   event.preventDefault();
 
+  if (currentAdminPage < adminFormPages.length) {
+    goToAdminPage(currentAdminPage + 1);
+    return;
+  }
+
   const modObj = buildModObject();
+  const targetName = modObj.name || 'this mod';
+  const confirmed = confirmAction(`Save changes for "${targetName}"? This will update the catalog.`);
+  if (!confirmed) {
+    adminStatus.textContent = 'Save cancelled.';
+    return;
+  }
 
   let updatedMods = [];
   if (editModId.value) {
     const existingMod = mods.find(mod => mod.id === modObj.id);
     if (existingMod) {
-      const confirmed = confirmAction(`Save changes to "${existingMod.name}"?`);
-      if (!confirmed) {
-        adminStatus.textContent = 'Save cancelled.';
-        return;
-      }
+      updatedMods = mods.map(m => (m.id === modObj.id ? modObj : m));
+    } else {
+      updatedMods = mods.concat([modObj]);
     }
-
-    // editing existing mod
-    updatedMods = mods.map(m => (m.id === modObj.id ? modObj : m));
   } else {
-    // adding new mod
     updatedMods = mods.concat([modObj]);
   }
 
