@@ -1,27 +1,5 @@
 [
   {
-    "id": 54,
-    "slug": "raboys-zombie-apocalypse-add-on",
-    "label": "Raboy's Zombie Apocalypse",
-    "name": "Raboy's Zombie Apocalypse",
-    "version": "1.2.21",
-    "game_edition": "Unknown",
-    "mcVersion": "",
-    "category": "Gameplay",
-    "description": "A vanilla-friendly zombie apocalypse addon that transforms survival with an overrun world, reduced vegetation, dead trees, atmospheric fog, and undead-themed gameplay.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/raboys-zombie-apocalypse-add-on",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
     "id": 53,
     "slug": "true-survival-zombie-apocalypse-addon",
     "label": "True Survival - Zombie Apocalypse [MobBlocks]",
