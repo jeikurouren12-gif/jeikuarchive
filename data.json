@@ -1,576 +1,1056 @@
 [
   {
-    "id": 43,
+    "id": 1,
     "slug": "building-expansion-addon",
     "label": "Building Expansion Renewed [1.21.20+] | V1.0 Performance Update!",
     "name": "Building Expansion Renewed [1.21.20+] | V1.0 Performance Update!",
     "version": "V1.1.0",
     "game_edition": "Bedrock",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Utility",
     "description": "A building-focused addon that adds six new block types with dozens of Minecraft-inspired textures for creating more varied and detailed structures.",
     "download": "https://mcpedl.com/building-expansion-addon/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 42,
+    "id": 2,
     "slug": "legacy-stone-structures",
     "label": "Legacy Stone: Structures",
     "name": "Legacy Stone: Structures",
     "version": "1.4",
     "game_edition": "Bedrock",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A Vanilla+ structure addon that adds 40+ structures across the sky, surface, and underground, including dungeons, ruins, caves, traps, loot, and legendary weapons.",
     "download": "https://mcpedl.com/legacy-stone-structures/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        },
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 2
     }
   },
   {
-    "id": 41,
+    "id": 3,
     "slug": "structures-plus",
     "label": "Structures Plus",
     "name": "Structures Plus",
     "version": "0.9",
     "game_edition": "Bedrock",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A Vanilla+ addon that adds new immersive structures such as rock formations, ruins, mountains, outposts, and fallen trees to naturally expand world exploration.",
     "download": "https://mcpedl.com/structures-plus/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 40,
+    "id": 4,
     "slug": "construct",
     "label": "Construct",
     "name": "Construct",
     "version": "v1.1.0",
     "game_edition": "Bedrock",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Utility",
     "description": "A building utility addon that helps players plan, copy, place, and manage structures with graphical tools, commands, and multiplayer building support.",
     "download": "https://mcpedl.com/construct/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        }
+      ],
+      "requiredCount": 2
     }
   },
   {
-    "id": 39,
+    "id": 5,
     "slug": "structures-in-just-one-click",
     "label": "Structures In Just One Click",
     "name": "Structures In Just One Click",
     "version": "v3.5",
     "game_edition": "Bedrock",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Utility",
     "description": "A building addon that lets players quickly create a wide variety of ready-made structures including houses, castles, farms, skyscrapers, and other builds.",
     "download": "https://mcpedl.com/structures-in-just-one-click/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 38,
+    "id": 6,
     "slug": "super-heroes",
+    "label": "Super Heroes",
     "name": "Super Heroes",
     "version": "7",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Other",
     "description": "A Minecraft Bedrock skin pack featuring superhero-inspired character skins for players who want to dress as comic-style heroes.",
     "download": "https://mcpedl.com/super-heroes/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 37,
+    "id": 7,
     "slug": "neon-cyber-glow-skin-pack",
+    "label": "Neon Cyber Glow - Skin Pack",
     "name": "Neon Cyber Glow - Skin Pack",
     "version": "v1.10",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Other",
     "description": "A futuristic Minecraft Bedrock skin pack featuring cyberpunk-inspired characters with bright neon and glowing designs.",
     "download": "https://mcpedl.com/neon-cyber-glow-skin-pack/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 36,
+    "id": 8,
     "slug": "anime-power-skin-pack",
+    "label": "Anime Power Skin Pack",
     "name": "Anime Power Skin Pack",
     "version": "v1.8",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Other",
     "description": "An anime-themed Minecraft Bedrock skin pack featuring a collection of powerful character designs inspired by anime aesthetics.",
     "download": "https://mcpedl.com/anime-power-skin-pack/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2
     }
   },
   {
-    "id": 35,
+    "id": 9,
     "slug": "random-skin-pack",
+    "label": "Random Meme Skinpack",
     "name": "Random Meme Skinpack",
     "version": "1.4",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Other",
     "description": "A humorous Minecraft Bedrock skin pack containing more than 90 random meme-inspired character skins.",
     "download": "https://mcpedl.com/random-skin-pack/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 34,
+    "id": 10,
     "slug": "alleis-skin-pack",
+    "label": "Alleis Skin Pack",
     "name": "Alleis Skin Pack",
     "version": "1.3.6",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Other",
     "description": "A large Minecraft Bedrock skin pack featuring a variety of unique 4D and 5D character skins.",
     "download": "https://mcpedl.com/alleis-skin-pack/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_facebook_post",
+          "label": "Like Facebook Post",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 33,
+    "id": 11,
     "slug": "animated-blocks-texture",
+    "label": "Animated Blocks",
     "name": "Animated Blocks",
     "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "A block animation pack that adds animated textures to minerals, crystals, plants, Nether blocks, crafting blocks, lights, and other selected blocks.",
     "download": "https://mcpedl.com/animated-blocks-texture/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 32,
+    "id": 12,
     "slug": "fresh-animations",
+    "label": "Fresh Animations",
     "name": "Fresh Animations",
     "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "A Bedrock port of Fresh Animations that overhauls default mob animations to make creatures more dynamic, immersive, and believable.",
     "download": "https://mcpepacks.com/fresh-animations",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "subscribe_youtube_channel",
+          "label": "Subscribe to YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        },
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 2
     }
   },
   {
-    "id": 31,
+    "id": 13,
     "slug": "dynamic-animations",
+    "label": "Dynamic Animations",
     "name": "Dynamic Animations",
     "version": "V2.0.1",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "A mob animation resource pack that makes many Minecraft creatures more lively and realistic with redesigned movement and facial animations.",
     "download": "https://mcpedl.com/dynamic-animations/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "subscribe_youtube_channel",
+          "label": "Subscribe to YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 30,
+    "id": 14,
     "slug": "village-animations",
+    "label": "Village Animations",
     "name": "Village Animations",
     "version": "1.3.2",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "An animation resource pack that gives villagers, wandering traders, and witches more expressive and lively animations.",
     "download": "https://mcpedl.com/village-animations/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 29,
+    "id": 15,
     "slug": "newb-shader",
+    "label": "Newb Shader",
     "name": "Newb Shader",
     "version": "16.54",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "A lightweight vanilla-styled Bedrock shader that enhances the default look with soft aesthetics while supporting Windows, Android, and iOS.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/newb-shader",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 28,
+    "id": 16,
     "slug": "revolution-vibrant-visual",
+    "label": "Revolution Vibrant Visuals | Static Light",
     "name": "Revolution Vibrant Visuals | Static Light",
     "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "A deferred-lighting graphics pack designed to give Minecraft Bedrock more Java-like visuals with enhanced lighting and realistic graphical effects.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/revolution-vibrant-visual",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_facebook_post",
+          "label": "Like Facebook Post",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        },
+        {
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2
     }
   },
   {
-    "id": 27,
+    "id": 17,
     "slug": "rg-shader-v2-1-renderdragon-support-2",
+    "label": "RG Shader | Renderdragon Shaders",
     "name": "RG Shader | Renderdragon Shaders",
     "version": "3.8",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "A RenderDragon-compatible shader that adds realistic fog, godrays, waving leaves and water, smooth lighting, and improved visuals while targeting good performance on low-end devices.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/rg-shader-v2-1-renderdragon-support-2",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 26,
+    "id": 18,
     "slug": "bsl-shaders-bedrock",
+    "label": "BSLB Shaders Bedrock - Classic V3",
     "name": "BSLB Shaders Bedrock - Classic V3",
     "version": "3.2.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "A Vibrant Visuals shader that enhances lighting, colors, and clouds with a warm realistic look and compatibility with Actions & Stuff.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/bsl-shaders-bedrock",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "visit_youtube_channel",
+          "label": "Visit YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 25,
+    "id": 19,
     "slug": "newb-complementary",
+    "label": "Newb Complemetary Shader | Compatible With Minecraft v26.33+",
     "name": "Newb Complemetary Shader | Compatible With Minecraft v26.33+",
     "version": "26.30",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "A realistic Bedrock shader inspired by Java's Complementary Shaders that adds enhanced skies, shadows, glowing minerals, colorful clouds, shiny blocks, and improved underwater and End visuals.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/newb-complementary",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 24,
+    "id": 20,
     "slug": "props-and-furnitures-addon",
+    "label": "Props And Furnitures Addon",
     "name": "Props And Furnitures Addon",
     "version": "V7",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A Bedrock furniture addon that adds decorative props and furnishings suited for role-play, creative builds, and city maps.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/props-and-furnitures-addon",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        },
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        }
+      ],
+      "requiredCount": 3
     }
   },
   {
-    "id": 23,
+    "id": 21,
     "slug": "be-ghoulcraft-furniture-pack",
+    "label": "BE Ghoulcraft - Furniture Pack",
     "name": "BE Ghoulcraft - Furniture Pack",
     "version": "v3.6",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A Bedrock furniture pack that adds detailed 3D chairs, tables, lamps, and other decorative furnishings for enhancing builds.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/be-ghoulcraft-furniture-pack",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
     "id": 22,
     "slug": "feudal-furniture",
+    "label": "Feudal Furniture | +800 BLOCKS",
     "name": "Feudal Furniture | +800 BLOCKS",
     "version": "8.5",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A medieval-themed furniture addon with over 800 furniture pieces and decorations designed with a rustic style for detailed builds.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/feudal-furniture",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 21,
+    "id": 23,
     "slug": "furnicraft-furniture",
+    "label": "FURNICRAFT ~ Furniture",
     "name": "FURNICRAFT ~ Furniture",
     "version": "v27.1",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A Bedrock furniture addon that adds over 500 decorative pieces including kitchen utensils, bathroom equipment, appliances, entertainment items, and other furnishings.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/furnicraft-furniture",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 20,
+    "id": 24,
     "slug": "x-ray-bedrock",
+    "label": "X-Ray Enhanced",
     "name": "X-Ray Enhanced",
     "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "An X-ray resource pack for Bedrock that uses custom shaders and textures to make surrounding blocks transparent and highlight ores.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/x-ray-bedrock",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        },
+        {
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 2
     }
   },
   {
-    "id": 19,
+    "id": 25,
     "slug": "xray-texture-pack",
+    "label": "X-Ray Texture Pack Minecraft (Bedrock / PE)",
     "name": "X-Ray Texture Pack Minecraft (Bedrock / PE)",
     "version": "1.1.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "A lightweight Bedrock X-ray resource pack that makes blocks transparent except for ores and gravel to simplify mining and resource hunting.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/xray-texture-pack",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 18,
+    "id": 26,
     "slug": "x-ray-pluss",
+    "label": "X-Ray Pluss",
     "name": "X-Ray Pluss",
     "version": "v1.3.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "An X-ray texture pack that makes blocks transparent so players can see minerals, dungeons, spawns, strongholds, and other underground features.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/x-ray-pluss",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 17,
+    "id": 27,
     "slug": "karene-inda-totem-animated",
+    "label": "Karene inda Totem animated",
     "name": "Karene inda Totem animated",
     "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "An anime-style resource pack that replaces the Totem of Undying with a custom Karane Inda design while preserving the original gameplay mechanics.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/karene-inda-totem-animated",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_facebook_post",
+          "label": "Like Facebook Post",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 16,
+    "id": 28,
     "slug": "miku-nakano-totem",
+    "label": "Miku nakano totem animated",
     "name": "Miku nakano totem animated",
     "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "An anime-themed resource pack that replaces the Totem of Undying with a custom animated Miku Nakano design while keeping gameplay unchanged.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/miku-nakano-totem",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        }
+      ],
+      "requiredCount": 2
     }
   },
   {
-    "id": 15,
+    "id": 29,
     "slug": "moving-textures",
+    "label": "Moving Textures (Official Port)",
     "name": "Moving Textures (Official Port)",
     "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "A resource pack that continuously animates block textures in every direction with three selectable movement speeds: slow, normal, and fast.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/moving-textures",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 14,
+    "id": 30,
     "slug": "mcpe-old-animations",
+    "label": "MCPE OLD animations",
     "name": "MCPE OLD animations",
     "version": "1.1.1",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "A nostalgic Bedrock animation pack that recreates classic animations from older versions with old-style player, first-person, riding, sneaking, and attachable animations.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/mcpe-old-animations",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "subscribe_youtube_channel",
+          "label": "Subscribe to YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 13,
+    "id": 31,
     "slug": "fay-player-animation",
+    "label": "Fay's Player Animation | v1.0.6 Particle Update",
     "name": "Fay's Player Animation | v1.0.6 Particle Update",
     "version": "1.0.6",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "A player animation pack that smooths vanilla movement with custom animations for walking, sprinting, jumping, swimming, flying, sneaking, sleeping, and more.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fay-player-animation",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 12,
+    "id": 32,
     "slug": "better-animated-nature",
+    "label": "Better Animated Nature",
     "name": "Better Animated Nature",
     "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "An environmental resource pack that adds smooth animations to foliage, grass, plants, crops, flowers, water, and lily pads for a livelier world.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/better-animated-nature",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "visit_youtube_channel",
+          "label": "Visit YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2
     }
   },
   {
-    "id": 11,
+    "id": 33,
     "slug": "astraliyte-s-animated-textures",
+    "label": "Astraliyte's Animated Textures",
     "name": "Astraliyte's Animated Textures",
     "version": "5.0.1",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "A Bedrock resource pack that adds animated textures to 39 items including diamonds, buckets, redstone, ender pearls, golden apples, and other materials.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/astraliyte-s-animated-textures",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 10,
+    "id": 34,
     "slug": "origin-animation",
+    "label": "Origin Animation ( Alt For Actions And Stuff )",
     "name": "Origin Animation ( Alt For Actions And Stuff )",
     "version": "1.4.2",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Texture Pack",
     "description": "An animation pack for Minecraft Bedrock that adds 30 new animations to give player movement and actions a more dynamic feel.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/origin-animation",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 9,
+    "id": 35,
     "slug": "explorers-world-map",
+    "label": "Explorer's World Map & Minimap V2",
     "name": "Explorer's World Map & Minimap V2",
     "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Utility",
     "description": "A customizable Bedrock world map and minimap addon designed to provide detailed navigation and exploration features.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/explorers-world-map",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "visit_youtube_channel",
+          "label": "Visit YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 8,
+    "id": 36,
     "slug": "enhanced-survival",
+    "label": "Enhanced Survival",
     "name": "Enhanced Survival",
     "version": "V3",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A survival expansion that adds progression, mastery, magic, skills, quests, and an optimized minimap with real-time players, animals, and hostile mobs.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/enhanced-survival",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "subscribe_youtube_channel",
+          "label": "Subscribe to YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2
     }
   },
   {
-    "id": 7,
+    "id": 37,
     "slug": "realistic-survival",
+    "label": "Realistic Survival [Achievement friendly]",
     "name": "Realistic Survival [Achievement friendly]",
     "version": "V6.2",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A survival addon that adds hydration and temperature systems, requiring players to manage thirst, body heat, clothing, shelter, and purified water.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/realistic-survival",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 6,
+    "id": 38,
     "slug": "survival-reworked",
+    "label": "Survival Reworked",
     "name": "Survival Reworked",
     "version": "1.8.1.3",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A survival overhaul that extends progression with artifacts, craftable spawners, over 100 new mobs, bosses, biomes, dungeons, ruins, and new challenges.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/survival-reworked",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 5,
+    "id": 39,
     "slug": "core-craft",
+    "label": "Core Craft - A Vanilla Expansion | NEW: The End Update",
     "name": "Core Craft - A Vanilla Expansion | NEW: The End Update",
     "version": "v1.2.1",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A Vanilla+ survival expansion featuring new world generation, mobs, animals, quests, structures, furniture, farming, cooking, and an expanded End.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/core-craft",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 4,
+    "id": 40,
     "slug": "better-on-bedrock",
+    "label": "Better on Bedrock",
     "name": "Better on Bedrock",
     "version": "v1.2.1",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A comprehensive Bedrock expansion that adds polished gameplay content, improved progression, and new survival features while preserving Minecraft's core feel.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/better-on-bedrock",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "subscribe_youtube_channel",
+          "label": "Subscribe to YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        },
+        {
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 3
     }
   },
   {
-    "id": 3,
+    "id": 41,
     "slug": "fps-booster-for-mcpe",
+    "label": "FPS Booster | Fps Boost",
     "name": "FPS Booster | Fps Boost",
     "version": "v2.1 stable",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Performance",
     "description": "A Minecraft Bedrock performance pack that removes particles and animations, limits render distance, and reduces lag and device heat for smoother gameplay.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-booster-for-mcpe",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 2,
+    "id": 42,
     "slug": "boosted-fps-optimized-performance",
+    "label": "Boosted FPS (Optimized Performance)",
     "name": "Boosted FPS (Optimized Performance)",
     "version": "v2.2",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Performance",
     "description": "A lightweight Bedrock resource pack that optimizes fog, particles, animations, sounds, and UI to maximize FPS and reduce lag on low-end devices.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/boosted-fps-optimized-performance",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
-    "id": 1,
+    "id": 43,
     "slug": "fps-optimizer-fps-boost",
+    "label": "FPS Optimizer | FPS Boost Official",
     "name": "FPS Optimizer | FPS Boost Official",
     "version": "v2.7.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
     "category": "Performance",
     "description": "A lightweight Bedrock performance pack that reduces particles, optimizes fog, simplifies animations and sounds, and provides selectable performance modes for smoother FPS.",
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-optimizer-fps-boost",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
@@ -580,13 +1060,25 @@
     "name": "9DEN_Expansion_pack",
     "version": "2.0.1",
     "game_edition": "Unknown",
-    "mcVersion": "",
-    "category": "Addons",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
     "description": "An expansion addon for Minecraft Bedrock Edition that adds over 15,000 blocks.",
     "download": "https://mcpedl.com/mcpedl9den-expansion-pack/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        },
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2
     }
   },
   {
@@ -596,13 +1088,20 @@
     "name": "Skillable Kits Addon",
     "version": "Latest",
     "game_edition": "Unknown",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A kit-based gameplay addon that gives players customizable abilities and equipment for different combat-focused playstyles.",
     "download": "https://mcpedl.com/skillable-kits-addon/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_facebook_post",
+          "label": "Like Facebook Post",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
@@ -612,13 +1111,25 @@
     "name": "CrossBlades+",
     "version": "Latest",
     "game_edition": "Unknown",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A combat addon centered around expanded weapon options that gives players additional blades and equipment for PvP and survival gameplay.",
     "download": "https://mcpedl.com/crossbladesplus/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2
     }
   },
   {
@@ -628,13 +1139,20 @@
     "name": "One Click PvP Kit Equip - Mace Elytra Crystal Cart",
     "version": "Latest",
     "game_edition": "Unknown",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Utility",
     "description": "A PvP utility addon that lets players quickly equip specialized combat loadouts containing items such as a mace, elytra, and crystal equipment.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/one-click-pvp-kit-equip-mace-elytra-crystal-cart",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
@@ -644,13 +1162,25 @@
     "name": "KitX",
     "version": "Latest",
     "game_edition": "Unknown",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Utility",
     "description": "A kit management addon that allows players to create and use predefined equipment loadouts for quickly preparing different gameplay setups.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/kitx",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        },
+        {
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2
     }
   },
   {
@@ -660,13 +1190,20 @@
     "name": "Missing Journalist (Horror Map)",
     "version": "1.21.130.3",
     "game_edition": "Unknown",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Other",
     "description": "A horror adventure map set in a haunted village where players investigate a mysterious story while facing unexpected scares and supernatural encounters.",
     "download": "https://www.planetminecraft.com/project/missing-journalist/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "subscribe_youtube_channel",
+          "label": "Subscribe to YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
@@ -676,13 +1213,20 @@
     "name": "The Madman - (Minecraft Horror Map)",
     "version": "Latest",
     "game_edition": "Unknown",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Other",
     "description": "A full-length Minecraft horror map where players must escape a mysterious asylum while navigating a suspenseful story filled with jumpscares and unsettling encounters.",
     "download": "https://www.planetminecraft.com/project/the-madman-a-minecraft-horror-map/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
@@ -692,13 +1236,20 @@
     "name": "Horror Hospital",
     "version": "V1.3",
     "game_edition": "Unknown",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Other",
     "description": "A spooky Bedrock adventure map where players explore a creepy hospital, solve puzzles, uncover its secrets, and try to escape.",
     "download": "https://www.curseforge.com/minecraft-bedrock/maps/horror-hospital",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
@@ -708,13 +1259,25 @@
     "name": "True Survival - Zombie Apocalypse [MobBlocks]",
     "version": "V0.0.4",
     "game_edition": "Unknown",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A zombie-apocalypse survival addon that adds post-apocalyptic world generation, survival-focused content, structures, and undead-themed gameplay.",
     "download": "https://mcpedl.com/true-survival-zombie-apocalypse-addon/",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "subscribe_youtube_channel",
+          "label": "Subscribe to YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        },
+        {
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 2
     }
   },
   {
@@ -724,13 +1287,20 @@
     "name": "Raboy's Zombie Apocalypse",
     "version": "1.2.21",
     "game_edition": "Unknown",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "A vanilla-friendly zombie apocalypse addon that transforms survival with an overrun world, reduced vegetation, dead trees, atmospheric fog, and undead-themed gameplay.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/raboys-zombie-apocalypse-add-on",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        }
+      ],
+      "requiredCount": 1
     }
   },
   {
@@ -740,13 +1310,30 @@
     "name": "Simple RPG Addon",
     "version": "v2.2.7",
     "game_edition": "Unknown",
-    "mcVersion": "",
+    "mcVersion": "Latest",
     "category": "Gameplay",
     "description": "An RPG survival addon featuring five classes, individual skill trees, leveling, perks, Souls currency, custom abilities, magic, and enhanced progression.",
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/simple-rpg-addon",
     "collection": 1,
     "contentLocker": {
-      "tasks": []
+      "tasks": [
+        {
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        },
+        {
+          "type": "like_facebook_post",
+          "label": "Like Facebook Post",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        },
+        {
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 3
     }
   }
 ]
