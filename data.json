@@ -1335,5 +1335,125 @@
       ],
       "requiredCount": 1
     }
+  },
+  {
+    "id": 55,
+    "slug": "mutant-creatures-addon",
+    "label": "Mutant Creatures Addon",
+    "name": "Mutant Creatures Addon",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A Minecraft Bedrock addon that introduces powerful mutant versions of familiar creatures with enhanced abilities and challenging encounters.",
+    "download": "https://mcpedl.com/mutant-creatures-addon/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 56,
+    "slug": "nico-s-mobs",
+    "label": "Nico's Mobs",
+    "name": "Nico's Mobs",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A custom mob addon that expands Minecraft Bedrock with a collection of new creatures designed to add variety and life to the world.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/nico-s-mobs",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 57,
+    "slug": "mo-creatures",
+    "label": "Mo' Creatures",
+    "name": "Mo' Creatures",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A creature expansion addon that adds a wide selection of new mobs and animals to make Minecraft Bedrock worlds more diverse and lively.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/mo-creatures",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 58,
+    "slug": "morph-into-mobs",
+    "label": "Morph Into Mobs",
+    "name": "Morph Into Mobs",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "An addon that allows players to transform into different Minecraft mobs and experience the world from their unique forms.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/morph-into-mobs",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 59,
+    "slug": "more-mobs-addons",
+    "label": "More Mobs Addons",
+    "name": "More Mobs Addons",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A mob expansion addon that introduces additional custom creatures to increase the variety of encounters and activities throughout the Minecraft world.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/more-mobs-addons",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
   }
 ]
