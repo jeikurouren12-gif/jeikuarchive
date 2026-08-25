@@ -1,5 +1,85 @@
 [
   {
+    "id": 43,
+    "slug": "building-expansion-addon",
+    "label": "Building Expansion Renewed [1.21.20+] | V1.0 Performance Update!",
+    "name": "Building Expansion Renewed [1.21.20+] | V1.0 Performance Update!",
+    "version": "V1.1.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Utility",
+    "description": "A building-focused addon that adds six new block types with dozens of Minecraft-inspired textures for creating more varied and detailed structures.",
+    "download": "https://mcpedl.com/building-expansion-addon/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 42,
+    "slug": "legacy-stone-structures",
+    "label": "Legacy Stone: Structures",
+    "name": "Legacy Stone: Structures",
+    "version": "1.4",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Gameplay",
+    "description": "A Vanilla+ structure addon that adds 40+ structures across the sky, surface, and underground, including dungeons, ruins, caves, traps, loot, and legendary weapons.",
+    "download": "https://mcpedl.com/legacy-stone-structures/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 41,
+    "slug": "structures-plus",
+    "label": "Structures Plus",
+    "name": "Structures Plus",
+    "version": "0.9",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Gameplay",
+    "description": "A Vanilla+ addon that adds new immersive structures such as rock formations, ruins, mountains, outposts, and fallen trees to naturally expand world exploration.",
+    "download": "https://mcpedl.com/structures-plus/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 40,
+    "slug": "construct",
+    "label": "Construct",
+    "name": "Construct",
+    "version": "v1.1.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Utility",
+    "description": "A building utility addon that helps players plan, copy, place, and manage structures with graphical tools, commands, and multiplayer building support.",
+    "download": "https://mcpedl.com/construct/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 39,
+    "slug": "structures-in-just-one-click",
+    "label": "Structures In Just One Click",
+    "name": "Structures In Just One Click",
+    "version": "v3.5",
+    "game_edition": "Bedrock",
+    "mcVersion": "",
+    "category": "Utility",
+    "description": "A building addon that lets players quickly create a wide variety of ready-made structures including houses, castles, farms, skyscrapers, and other builds.",
+    "download": "https://mcpedl.com/structures-in-just-one-click/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
     "id": 38,
     "slug": "super-heroes",
     "name": "Super Heroes",
@@ -9,13 +89,7 @@
     "download": "https://mcpedl.com/super-heroes/",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -28,13 +102,7 @@
     "download": "https://mcpedl.com/neon-cyber-glow-skin-pack/",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -47,13 +115,7 @@
     "download": "https://mcpedl.com/anime-power-skin-pack/",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -66,13 +128,7 @@
     "download": "https://mcpedl.com/random-skin-pack/",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -85,13 +141,7 @@
     "download": "https://mcpedl.com/alleis-skin-pack/",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -104,13 +154,7 @@
     "download": "https://mcpedl.com/animated-blocks-texture/",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -123,13 +167,7 @@
     "download": "https://mcpepacks.com/fresh-animations",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -142,13 +180,7 @@
     "download": "https://mcpedl.com/dynamic-animations/",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -161,13 +193,7 @@
     "download": "https://mcpedl.com/village-animations/",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -180,13 +206,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/newb-shader",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -199,13 +219,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/revolution-vibrant-visual",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -218,13 +232,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/rg-shader-v2-1-renderdragon-support-2",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -237,13 +245,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/bsl-shaders-bedrock",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -256,13 +258,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/newb-complementary",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -275,13 +271,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/props-and-furnitures-addon",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -294,13 +284,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/be-ghoulcraft-furniture-pack",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -313,13 +297,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/feudal-furniture",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -332,13 +310,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/furnicraft-furniture",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -351,13 +323,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/x-ray-bedrock",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -370,13 +336,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/xray-texture-pack",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -389,13 +349,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/x-ray-pluss",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -408,13 +362,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/karene-inda-totem-animated",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -427,13 +375,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/miku-nakano-totem",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -446,13 +388,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/moving-textures",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -465,13 +401,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/mcpe-old-animations",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -484,13 +414,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fay-player-animation",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -503,13 +427,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/better-animated-nature",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -522,13 +440,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/astraliyte-s-animated-textures",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -541,13 +453,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/origin-animation",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -560,13 +466,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/explorers-world-map",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -579,13 +479,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/enhanced-survival",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -598,13 +492,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/realistic-survival",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -617,13 +505,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/survival-reworked",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -636,13 +518,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/core-craft",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -655,13 +531,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/addons/better-on-bedrock",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -674,13 +544,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-booster-for-mcpe",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -693,13 +557,7 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/boosted-fps-optimized-performance",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
     }
   },
   {
@@ -712,13 +570,183 @@
     "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/fps-optimizer-fps-boost",
     "collection": 1,
     "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
+      "tasks": []
+    }
+  },
+  {
+    "id": 44,
+    "slug": "9den-expansion-pack",
+    "label": "9DEN_Expansion_pack",
+    "name": "9DEN_Expansion_pack",
+    "version": "2.0.1",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Addons",
+    "description": "An expansion addon for Minecraft Bedrock Edition that adds over 15,000 blocks.",
+    "download": "https://mcpedl.com/mcpedl9den-expansion-pack/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 45,
+    "slug": "skillable-kits-addon",
+    "label": "Skillable Kits Addon",
+    "name": "Skillable Kits Addon",
+    "version": "Latest",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Gameplay",
+    "description": "A kit-based gameplay addon that gives players customizable abilities and equipment for different combat-focused playstyles.",
+    "download": "https://mcpedl.com/skillable-kits-addon/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 46,
+    "slug": "crossbladesplus",
+    "label": "CrossBlades+",
+    "name": "CrossBlades+",
+    "version": "Latest",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Gameplay",
+    "description": "A combat addon centered around expanded weapon options that gives players additional blades and equipment for PvP and survival gameplay.",
+    "download": "https://mcpedl.com/crossbladesplus/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 47,
+    "slug": "one-click-pvp-kit-equip-mace-elytra-crystal-cart",
+    "label": "One Click PvP Kit Equip - Mace Elytra Crystal Cart",
+    "name": "One Click PvP Kit Equip - Mace Elytra Crystal Cart",
+    "version": "Latest",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Utility",
+    "description": "A PvP utility addon that lets players quickly equip specialized combat loadouts containing items such as a mace, elytra, and crystal equipment.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/one-click-pvp-kit-equip-mace-elytra-crystal-cart",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 48,
+    "slug": "kitx",
+    "label": "KitX",
+    "name": "KitX",
+    "version": "Latest",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Utility",
+    "description": "A kit management addon that allows players to create and use predefined equipment loadouts for quickly preparing different gameplay setups.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/kitx",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 49,
+    "slug": "missing-journalist",
+    "label": "Missing Journalist (Horror Map)",
+    "name": "Missing Journalist (Horror Map)",
+    "version": "1.21.130.3",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Other",
+    "description": "A horror adventure map set in a haunted village where players investigate a mysterious story while facing unexpected scares and supernatural encounters.",
+    "download": "https://www.planetminecraft.com/project/missing-journalist/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 50,
+    "slug": "the-madman-a-minecraft-horror-map",
+    "label": "The Madman - (Minecraft Horror Map)",
+    "name": "The Madman - (Minecraft Horror Map)",
+    "version": "Latest",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Other",
+    "description": "A full-length Minecraft horror map where players must escape a mysterious asylum while navigating a suspenseful story filled with jumpscares and unsettling encounters.",
+    "download": "https://www.planetminecraft.com/project/the-madman-a-minecraft-horror-map/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 51,
+    "slug": "horror-hospital",
+    "label": "Horror Hospital",
+    "name": "Horror Hospital",
+    "version": "V1.3",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Other",
+    "description": "A spooky Bedrock adventure map where players explore a creepy hospital, solve puzzles, uncover its secrets, and try to escape.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/maps/horror-hospital",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 52,
+    "slug": "true-survival-zombie-apocalypse-addon",
+    "label": "True Survival - Zombie Apocalypse [MobBlocks]",
+    "name": "True Survival - Zombie Apocalypse [MobBlocks]",
+    "version": "V0.0.4",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Gameplay",
+    "description": "A zombie-apocalypse survival addon that adds post-apocalyptic world generation, survival-focused content, structures, and undead-themed gameplay.",
+    "download": "https://mcpedl.com/true-survival-zombie-apocalypse-addon/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 53,
+    "slug": "raboys-zombie-apocalypse-add-on",
+    "label": "Raboy's Zombie Apocalypse",
+    "name": "Raboy's Zombie Apocalypse",
+    "version": "1.2.21",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Gameplay",
+    "description": "A vanilla-friendly zombie apocalypse addon that transforms survival with an overrun world, reduced vegetation, dead trees, atmospheric fog, and undead-themed gameplay.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/raboys-zombie-apocalypse-add-on",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
+    }
+  },
+  {
+    "id": 54,
+    "slug": "simple-rpg-addon",
+    "label": "Simple RPG Addon",
+    "name": "Simple RPG Addon",
+    "version": "v2.2.7",
+    "game_edition": "Unknown",
+    "mcVersion": "",
+    "category": "Gameplay",
+    "description": "An RPG survival addon featuring five classes, individual skill trees, leveling, perks, Souls currency, custom abilities, magic, and enhanced progression.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/simple-rpg-addon",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": []
     }
   }
 ]
