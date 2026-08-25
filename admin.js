@@ -401,8 +401,10 @@ function renderAdminItems() {
 }
 
 function renderAdminItem(mod) {
+  const lockerTasks = Array.isArray(mod.contentLocker?.tasks) ? mod.contentLocker.tasks : [];
+
   return `
-    <div class="admin-mod-item">
+    <div class="admin-mod-item" tabindex="0">
       <div class="admin-mod-row">
         <div class="admin-mod-select-wrap">
           <label>
@@ -410,7 +412,7 @@ function renderAdminItem(mod) {
             Select
           </label>
         </div>
-        <div>
+        <div class="admin-mod-main">
           <h3>${mod.label || mod.name}</h3>
           <p>ID: ${mod.id}</p>
           <p>${mod.version} • ${mod.category} • ${mod.game_edition || mod.platform || 'Unknown'}</p>
@@ -421,12 +423,20 @@ function renderAdminItem(mod) {
           <button class="button button-danger" type="button" data-action="delete" data-id="${mod.id}">Delete</button>
         </div>
       </div>
-      <p>${mod.description}</p>
-      <p class="label-pill">Slug: ${mod.slug}</p>
-      <p class="label-pill">Game Edition: ${mod.game_edition || mod.platform || 'Unknown'}</p>
-      <p class="label-pill">MC Version: ${mod.mcVersion || 'Unknown'}</p>
-      <p class="label-pill">Collection: #${mod.collection || 1}</p>
-      ${Array.isArray(mod.contentLocker?.tasks) && mod.contentLocker.tasks.length > 0 ? `<p class="label-pill">Locker: ${mod.contentLocker.tasks.length} task${mod.contentLocker.tasks.length > 1 ? 's' : ''}</p>` : ''}
+
+      <div class="admin-mod-meta">
+        <div class="admin-mod-meta-summary">More details</div>
+        <div class="admin-mod-meta-panel">
+          <p>${mod.description}</p>
+          <div class="admin-meta-pills">
+            <span class="label-pill">Slug: ${mod.slug}</span>
+            <span class="label-pill">Game Edition: ${mod.game_edition || mod.platform || 'Unknown'}</span>
+            <span class="label-pill">MC Version: ${mod.mcVersion || 'Unknown'}</span>
+            <span class="label-pill">Collection: #${mod.collection || 1}</span>
+            ${lockerTasks.length > 0 ? `<span class="label-pill">Locker: ${lockerTasks.length} task${lockerTasks.length > 1 ? 's' : ''}</span>` : ''}
+          </div>
+        </div>
+      </div>
     </div>
   `;
 }
