@@ -1,27 +1,5 @@
 [
   {
-    "id": 46,
-    "slug": "pvp-kits-fws",
-    "label": "PvP Kits FWS",
-    "name": "PvP Kits FWS",
-    "version": "Latest",
-    "game_edition": "Unknown",
-    "mcVersion": "",
-    "category": "Gameplay",
-    "description": "A PvP-focused addon that provides ready-made combat kits with equipment designed for quick battles and competitive gameplay.",
-    "download": "https://mcpedl.com/pvp-kits-fws/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ]
-    }
-  },
-  {
     "id": 45,
     "slug": "skillable-kits-addon",
     "label": "Skillable Kits Addon",
