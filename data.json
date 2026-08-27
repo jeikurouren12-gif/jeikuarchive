@@ -1,5 +1,125 @@
 [
   {
+    "id": 64,
+    "slug": "adventure-360-ultimate-parkour-puzzle-map-bedrock-edition",
+    "label": "ADVENTURE 360: ULTIMATE PARKOUR/PUZZLE MAP - Bedrock Edition",
+    "name": "ADVENTURE 360: ULTIMATE PARKOUR/PUZZLE MAP - Bedrock Edition",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A challenging Bedrock map that combines parkour rooms, obstacle courses, redstone puzzles, riddles, and a command-block system into one adventure.",
+    "download": "https://www.planetminecraft.com/project/adventure-360-ultimate-parkour-puzzle-map-bedrock-edition/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 63,
+    "slug": "warmaze-survival-adventure-parkour-map",
+    "label": "WARMAZE - Survival Adventure Parkour Map",
+    "name": "WARMAZE - Survival Adventure Parkour Map",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A survival adventure map set in a maze where players gather resources, survive each night, uncover the maze's secrets, and overcome parkour challenges.",
+    "download": "https://www.planetminecraft.com/project/warmaze-survival-adventure-parkour-map/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 62,
+    "slug": "biome-spiral-parkour",
+    "label": "Biome Spiral Parkour",
+    "name": "Biome Spiral Parkour",
+    "version": "v1.2.5",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.40",
+    "category": "Gameplay",
+    "description": "A parkour journey through Minecraft biomes where players climb a spiral tower and face increasingly challenging courses before reaching the Ender Dragon.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/maps/biome-spiral-parkour",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 61,
+    "slug": "parkour-150-levels",
+    "label": "PARKOUR 150 LEVELS",
+    "name": "PARKOUR 150 LEVELS",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21.132",
+    "category": "Gameplay",
+    "description": "A Bedrock parkour map containing 150 levels designed to challenge players through a large collection of obstacle courses.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/maps/parkour-150-levels",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 60,
+    "slug": "parkour-world",
+    "label": "Parkour World",
+    "name": "Parkour World",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.0.02",
+    "category": "Gameplay",
+    "description": "A challenging Bedrock parkour course containing ten levels with parkour and puzzle elements.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/maps/parkour-world",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
     "id": 59,
     "slug": "more-mobs-addons",
     "label": "More Mobs Addons",
@@ -1457,16 +1577,16 @@
     }
   },
   {
-    "id": 60,
-    "slug": "parkour-world",
-    "label": "Parkour World",
-    "name": "Parkour World",
+    "id": 65,
+    "slug": "elysian-isles-17k-epic-four-continent-map-1-21-2-survival-friendly-java-bedrock-minecraft-world",
+    "label": "Elysian Isles, 17k, Epic Four-Continent Map",
+    "name": "Elysian Isles, 17k, Epic Four-Continent Map",
     "version": "Latest",
     "game_edition": "Bedrock",
-    "mcVersion": "26.0.02",
+    "mcVersion": "1.21.2",
     "category": "Gameplay",
-    "description": "A challenging Bedrock parkour course containing ten levels with parkour and puzzle elements.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/maps/parkour-world",
+    "description": "A massive 17,000 by 17,000 block world featuring four continents with diverse climates and terrain including icy tundras, redwood forests, beaches, mountains, tropical archipelagos, woodlands, oceans, cliffs, and caverns.",
+    "download": "https://mcpedl.com/elysian-isles-17k-epic-four-continent-map-1-21-2-survival-friendly-java-bedrock-minecraft-world/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -1481,16 +1601,16 @@
     }
   },
   {
-    "id": 61,
-    "slug": "parkour-150-levels",
-    "label": "PARKOUR 150 LEVELS",
-    "name": "PARKOUR 150 LEVELS",
-    "version": "Latest",
+    "id": 66,
+    "slug": "fantasy-medieval",
+    "label": "Fantasy Medieval City",
+    "name": "Fantasy Medieval City",
+    "version": "v1.28.1",
     "game_edition": "Bedrock",
-    "mcVersion": "1.21.132",
+    "mcVersion": "1.21.80",
     "category": "Gameplay",
-    "description": "A Bedrock parkour map containing 150 levels designed to challenge players through a large collection of obstacle courses.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/maps/parkour-150-levels",
+    "description": "A large creative medieval map filled with detailed megastructures including castles, cities, villages, floating islands, flying ships, temples, and other fantasy locations.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/maps/fantasy-medieval",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -1505,64 +1625,16 @@
     }
   },
   {
-    "id": 62,
-    "slug": "biome-spiral-parkour",
-    "label": "Biome Spiral Parkour",
-    "name": "Biome Spiral Parkour",
-    "version": "v1.2.5",
+    "id": 67,
+    "slug": "the-fantasy-kingdom",
+    "label": "The Fantasy Kingdom",
+    "name": "The Fantasy Kingdom",
+    "version": "v1.7",
     "game_edition": "Bedrock",
     "mcVersion": "26.40",
     "category": "Gameplay",
-    "description": "A parkour journey through Minecraft biomes where players climb a spiral tower and face increasingly challenging courses before reaching the Ender Dragon.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/maps/biome-spiral-parkour",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
-        }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
-    }
-  },
-  {
-    "id": 63,
-    "slug": "warmaze-survival-adventure-parkour-map",
-    "label": "WARMAZE - Survival Adventure Parkour Map",
-    "name": "WARMAZE - Survival Adventure Parkour Map",
-    "version": "Latest",
-    "game_edition": "Bedrock",
-    "mcVersion": "Latest",
-    "category": "Gameplay",
-    "description": "A survival adventure map set in a maze where players gather resources, survive each night, uncover the maze's secrets, and overcome parkour challenges.",
-    "download": "https://www.planetminecraft.com/project/warmaze-survival-adventure-parkour-map/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
-        }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
-    }
-  },
-  {
-    "id": 64,
-    "slug": "adventure-360-ultimate-parkour-puzzle-map-bedrock-edition",
-    "label": "ADVENTURE 360: ULTIMATE PARKOUR/PUZZLE MAP - Bedrock Edition",
-    "name": "ADVENTURE 360: ULTIMATE PARKOUR/PUZZLE MAP - Bedrock Edition",
-    "version": "Latest",
-    "game_edition": "Bedrock",
-    "mcVersion": "Latest",
-    "category": "Gameplay",
-    "description": "A challenging Bedrock map that combines parkour rooms, obstacle courses, redstone puzzles, riddles, and a command-block system into one adventure.",
-    "download": "https://www.planetminecraft.com/project/adventure-360-ultimate-parkour-puzzle-map-bedrock-edition/",
+    "description": "A majestic fantasy world map featuring a sprawling medieval kingdom with towering castles, detailed city streets, villages, ships, snowy landscapes, and a vibrant aurora-lit atmosphere.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/maps/the-fantasy-kingdom",
     "collection": 1,
     "contentLocker": {
       "tasks": [
