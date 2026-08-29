@@ -1,5 +1,77 @@
 [
   {
+    "id": 67,
+    "slug": "the-fantasy-kingdom",
+    "label": "The Fantasy Kingdom",
+    "name": "The Fantasy Kingdom",
+    "version": "v1.7",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.40",
+    "category": "Gameplay",
+    "description": "A majestic fantasy world map featuring a sprawling medieval kingdom with towering castles, detailed city streets, villages, ships, snowy landscapes, and a vibrant aurora-lit atmosphere.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/maps/the-fantasy-kingdom",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 66,
+    "slug": "fantasy-medieval",
+    "label": "Fantasy Medieval City",
+    "name": "Fantasy Medieval City",
+    "version": "v1.28.1",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21.80",
+    "category": "Gameplay",
+    "description": "A large creative medieval map filled with detailed megastructures including castles, cities, villages, floating islands, flying ships, temples, and other fantasy locations.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/maps/fantasy-medieval",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 65,
+    "slug": "elysian-isles-17k-epic-four-continent-map-1-21-2-survival-friendly-java-bedrock-minecraft-world",
+    "label": "Elysian Isles, 17k, Epic Four-Continent Map",
+    "name": "Elysian Isles, 17k, Epic Four-Continent Map",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21.2",
+    "category": "Gameplay",
+    "description": "A massive 17,000 by 17,000 block world featuring four continents with diverse climates and terrain including icy tundras, redwood forests, beaches, mountains, tropical archipelagos, woodlands, oceans, cliffs, and caverns.",
+    "download": "https://mcpedl.com/elysian-isles-17k-epic-four-continent-map-1-21-2-survival-friendly-java-bedrock-minecraft-world/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
     "id": 64,
     "slug": "adventure-360-ultimate-parkour-puzzle-map-bedrock-edition",
     "label": "ADVENTURE 360: ULTIMATE PARKOUR/PUZZLE MAP - Bedrock Edition",
@@ -1577,16 +1649,16 @@
     }
   },
   {
-    "id": 65,
-    "slug": "elysian-isles-17k-epic-four-continent-map-1-21-2-survival-friendly-java-bedrock-minecraft-world",
-    "label": "Elysian Isles, 17k, Epic Four-Continent Map",
-    "name": "Elysian Isles, 17k, Epic Four-Continent Map",
+    "id": 68,
+    "slug": "bedrock-perfected",
+    "label": "Bedrock Perfected - Survival Expansion",
+    "name": "Bedrock Perfected - Survival Expansion",
     "version": "Latest",
     "game_edition": "Bedrock",
-    "mcVersion": "1.21.2",
+    "mcVersion": "Latest",
     "category": "Gameplay",
-    "description": "A massive 17,000 by 17,000 block world featuring four continents with diverse climates and terrain including icy tundras, redwood forests, beaches, mountains, tropical archipelagos, woodlands, oceans, cliffs, and caverns.",
-    "download": "https://mcpedl.com/elysian-isles-17k-epic-four-continent-map-1-21-2-survival-friendly-java-bedrock-minecraft-world/",
+    "description": "A wide-ranging survival expansion that adds new biomes, structures, mobs, mechanics, quality-of-life features, and other enhancements while preserving the vanilla Minecraft experience.",
+    "download": "https://mcpedl.com/bedrock-perfected/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -1601,16 +1673,16 @@
     }
   },
   {
-    "id": 66,
-    "slug": "fantasy-medieval",
-    "label": "Fantasy Medieval City",
-    "name": "Fantasy Medieval City",
-    "version": "v1.28.1",
+    "id": 69,
+    "slug": "neo-elementals",
+    "label": "Neo Elementals | Survival Overhaul",
+    "name": "Neo Elementals | Survival Overhaul",
+    "version": "1.4.10.1",
     "game_edition": "Bedrock",
-    "mcVersion": "1.21.80",
+    "mcVersion": "26.30",
     "category": "Gameplay",
-    "description": "A large creative medieval map filled with detailed megastructures including castles, cities, villages, floating islands, flying ships, temples, and other fantasy locations.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/maps/fantasy-medieval",
+    "description": "A survival overhaul that increases difficulty while introducing new mobs, bosses, structures, items, and expanded combat encounters.",
+    "download": "https://mcpedl.com/neo-elementals/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -1625,16 +1697,16 @@
     }
   },
   {
-    "id": 67,
-    "slug": "the-fantasy-kingdom",
-    "label": "The Fantasy Kingdom",
-    "name": "The Fantasy Kingdom",
-    "version": "v1.7",
+    "id": 70,
+    "slug": "nightmare-survival",
+    "label": "Nightmare Survival",
+    "name": "Nightmare Survival",
+    "version": "Latest",
     "game_edition": "Bedrock",
-    "mcVersion": "26.40",
+    "mcVersion": "1.21",
     "category": "Gameplay",
-    "description": "A majestic fantasy world map featuring a sprawling medieval kingdom with towering castles, detailed city streets, villages, ships, snowy landscapes, and a vibrant aurora-lit atmosphere.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/maps/the-fantasy-kingdom",
+    "description": "A survival difficulty addon that makes hostile mobs faster, stronger, and more dangerous by increasing their health, damage, movement speed, and equipment.",
+    "download": "https://mcpedl.com/nightmare-survival/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
