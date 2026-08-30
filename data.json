@@ -1,5 +1,77 @@
 [
   {
+    "id": 70,
+    "slug": "nightmare-survival",
+    "label": "Nightmare Survival",
+    "name": "Nightmare Survival",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21",
+    "category": "Gameplay",
+    "description": "A survival difficulty addon that makes hostile mobs faster, stronger, and more dangerous by increasing their health, damage, movement speed, and equipment.",
+    "download": "https://mcpedl.com/nightmare-survival/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 69,
+    "slug": "neo-elementals",
+    "label": "Neo Elementals | Survival Overhaul",
+    "name": "Neo Elementals | Survival Overhaul",
+    "version": "1.4.10.1",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.30",
+    "category": "Gameplay",
+    "description": "A survival overhaul that increases difficulty while introducing new mobs, bosses, structures, items, and expanded combat encounters.",
+    "download": "https://mcpedl.com/neo-elementals/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 68,
+    "slug": "bedrock-perfected",
+    "label": "Bedrock Perfected - Survival Expansion",
+    "name": "Bedrock Perfected - Survival Expansion",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A wide-ranging survival expansion that adds new biomes, structures, mobs, mechanics, quality-of-life features, and other enhancements while preserving the vanilla Minecraft experience.",
+    "download": "https://mcpedl.com/bedrock-perfected/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
     "id": 67,
     "slug": "the-fantasy-kingdom",
     "label": "The Fantasy Kingdom",
@@ -1649,64 +1721,64 @@
     }
   },
   {
-    "id": 68,
-    "slug": "bedrock-perfected",
-    "label": "Bedrock Perfected - Survival Expansion",
-    "name": "Bedrock Perfected - Survival Expansion",
+    "id": 71,
+    "slug": "the-lost-world",
+    "label": "The Lost World",
+    "name": "The Lost World",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.20.0",
+    "category": "Gameplay",
+    "description": "A dinosaur addon that brings prehistoric creatures, decorations, and items into Minecraft Bedrock for a more immersive prehistoric experience.",
+    "download": "https://mcpedl.com/the-lost-world/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 72,
+    "slug": "dinosaurs-time-addon-mcpe",
+    "label": "Dinosaurs' Time Addon v1.1.2.2",
+    "name": "Dinosaurs' Time Addon v1.1.2.2",
+    "version": "v1.1.2.2",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21",
+    "category": "Gameplay",
+    "description": "A prehistoric Bedrock addon featuring 27 prehistoric creatures, modern animals, custom baby models, vehicles, new behaviors, blocks, items, and creation systems.",
+    "download": "https://mcpedl.com/dinosaurs-time-addon-mcpe/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 73,
+    "slug": "jurassic-addon",
+    "label": "Jurassic: Prehistoric Creation",
+    "name": "Jurassic: Prehistoric Creation",
     "version": "Latest",
     "game_edition": "Bedrock",
     "mcVersion": "Latest",
     "category": "Gameplay",
-    "description": "A wide-ranging survival expansion that adds new biomes, structures, mobs, mechanics, quality-of-life features, and other enhancements while preserving the vanilla Minecraft experience.",
-    "download": "https://mcpedl.com/bedrock-perfected/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
-        }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
-    }
-  },
-  {
-    "id": 69,
-    "slug": "neo-elementals",
-    "label": "Neo Elementals | Survival Overhaul",
-    "name": "Neo Elementals | Survival Overhaul",
-    "version": "1.4.10.1",
-    "game_edition": "Bedrock",
-    "mcVersion": "26.30",
-    "category": "Gameplay",
-    "description": "A survival overhaul that increases difficulty while introducing new mobs, bosses, structures, items, and expanded combat encounters.",
-    "download": "https://mcpedl.com/neo-elementals/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
-        }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
-    }
-  },
-  {
-    "id": 70,
-    "slug": "nightmare-survival",
-    "label": "Nightmare Survival",
-    "name": "Nightmare Survival",
-    "version": "Latest",
-    "game_edition": "Bedrock",
-    "mcVersion": "1.21",
-    "category": "Gameplay",
-    "description": "A survival difficulty addon that makes hostile mobs faster, stronger, and more dangerous by increasing their health, damage, movement speed, and equipment.",
-    "download": "https://mcpedl.com/nightmare-survival/",
+    "description": "A prehistoric Bedrock addon that expands the world with dinosaurs, prehistoric animals, plants, fossils, crafting systems, vehicles, and other Jurassic-themed content.",
+    "download": "https://mcpedl.com/jurassic-addon/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
