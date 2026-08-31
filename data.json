@@ -1,5 +1,77 @@
 [
   {
+    "id": 73,
+    "slug": "jurassic-addon",
+    "label": "Jurassic: Prehistoric Creation",
+    "name": "Jurassic: Prehistoric Creation",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A prehistoric Bedrock addon that expands the world with dinosaurs, prehistoric animals, plants, fossils, crafting systems, vehicles, and other Jurassic-themed content.",
+    "download": "https://mcpedl.com/jurassic-addon/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 72,
+    "slug": "dinosaurs-time-addon-mcpe",
+    "label": "Dinosaurs' Time Addon v1.1.2.2",
+    "name": "Dinosaurs' Time Addon v1.1.2.2",
+    "version": "v1.1.2.2",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21",
+    "category": "Gameplay",
+    "description": "A prehistoric Bedrock addon featuring 27 prehistoric creatures, modern animals, custom baby models, vehicles, new behaviors, blocks, items, and creation systems.",
+    "download": "https://mcpedl.com/dinosaurs-time-addon-mcpe/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 71,
+    "slug": "the-lost-world",
+    "label": "The Lost World",
+    "name": "The Lost World",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.20.0",
+    "category": "Gameplay",
+    "description": "A dinosaur addon that brings prehistoric creatures, decorations, and items into Minecraft Bedrock for a more immersive prehistoric experience.",
+    "download": "https://mcpedl.com/the-lost-world/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
     "id": 70,
     "slug": "nightmare-survival",
     "label": "Nightmare Survival",
@@ -1721,64 +1793,64 @@
     }
   },
   {
-    "id": 71,
-    "slug": "the-lost-world",
-    "label": "The Lost World",
-    "name": "The Lost World",
-    "version": "Latest",
-    "game_edition": "Bedrock",
-    "mcVersion": "1.20.0",
-    "category": "Gameplay",
-    "description": "A dinosaur addon that brings prehistoric creatures, decorations, and items into Minecraft Bedrock for a more immersive prehistoric experience.",
-    "download": "https://mcpedl.com/the-lost-world/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
-        }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
-    }
-  },
-  {
-    "id": 72,
-    "slug": "dinosaurs-time-addon-mcpe",
-    "label": "Dinosaurs' Time Addon v1.1.2.2",
-    "name": "Dinosaurs' Time Addon v1.1.2.2",
-    "version": "v1.1.2.2",
-    "game_edition": "Bedrock",
-    "mcVersion": "1.21",
-    "category": "Gameplay",
-    "description": "A prehistoric Bedrock addon featuring 27 prehistoric creatures, modern animals, custom baby models, vehicles, new behaviors, blocks, items, and creation systems.",
-    "download": "https://mcpedl.com/dinosaurs-time-addon-mcpe/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
-        }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
-    }
-  },
-  {
-    "id": 73,
-    "slug": "jurassic-addon",
-    "label": "Jurassic: Prehistoric Creation",
-    "name": "Jurassic: Prehistoric Creation",
+    "id": 74,
+    "slug": "modernarch-rtx",
+    "label": "ModernArch RTX",
+    "name": "ModernArch RTX",
     "version": "Latest",
     "game_edition": "Bedrock",
     "mcVersion": "Latest",
-    "category": "Gameplay",
-    "description": "A prehistoric Bedrock addon that expands the world with dinosaurs, prehistoric animals, plants, fossils, crafting systems, vehicles, and other Jurassic-themed content.",
-    "download": "https://mcpedl.com/jurassic-addon/",
+    "category": "Texture Pack",
+    "description": "A realistic Bedrock resource pack featuring detailed PBR materials and ray-tracing support for enhanced visuals.",
+    "download": "https://www.planetminecraft.com/texture-pack/modernarch-rtx/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 75,
+    "slug": "realsource-realistic-pack",
+    "label": "RealSource REALISTIC pack",
+    "name": "RealSource REALISTIC pack",
+    "version": "Realistic Visuals 1.9.1",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Texture Pack",
+    "description": "A realistic Bedrock texture pack with RTX and Vibrant Visuals support that enhances the game's visual quality.",
+    "download": "https://mcpedl.com/realsource-realistic-pack/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 76,
+    "slug": "optimum-realism-r5-pe",
+    "label": "Optimum Realism R5 PE",
+    "name": "Optimum Realism R5 PE",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Texture Pack",
+    "description": "A realistic Minecraft Bedrock texture pack designed to enhance the game's visuals with more detailed and immersive textures.",
+    "download": "https://mcpedl.com/optimum-realism-r5-pe/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
