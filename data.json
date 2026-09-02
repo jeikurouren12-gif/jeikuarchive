@@ -1,5 +1,125 @@
 [
   {
+    "id": 81,
+    "slug": "weapons-yamato-katana",
+    "label": "Weapons: Yamato Katana",
+    "name": "Weapons: Yamato Katana",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A Minecraft Bedrock weapon addon centered around the Yamato Katana with custom combat content.",
+    "download": "https://mcpedl.com/weapons-yamato-katana/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 80,
+    "slug": "mystical-armor-and-swords",
+    "label": "Mystical Armor and Swords",
+    "name": "Mystical Armor and Swords",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A Minecraft Bedrock addon that adds mystical armor and sword-themed equipment for enhanced combat and progression.",
+    "download": "https://mcpedl.com/mystical-armor-and-swords/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 79,
+    "slug": "swords-and-more-swords-addon",
+    "label": "Swords And More Swords Addon",
+    "name": "Swords And More Swords Addon",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A Minecraft Bedrock addon that expands the game with a variety of additional swords and melee combat equipment.",
+    "download": "https://mcpedl.com/swords-and-more-swords-addon/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 78,
+    "slug": "bestgamer-s-swords-plus-addon",
+    "label": "BestGamer's Swords Plus Addon",
+    "name": "BestGamer's Swords Plus Addon",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A Minecraft Bedrock addon that adds a collection of new swords and melee-focused equipment to expand combat options.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/bestgamer-s-swords-plus-addon",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 77,
+    "slug": "new-weapons-overhaul",
+    "label": "New Weapons Overhaul",
+    "name": "New Weapons Overhaul",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A Minecraft Bedrock addon that overhauls the weapon system with new weapons and combat-focused content.",
+    "download": "https://mcpedl.com/new-weapons-overhaul/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
     "id": 76,
     "slug": "optimum-realism-r5-pe",
     "label": "Optimum Realism R5 PE",
@@ -1865,16 +1985,16 @@
     }
   },
   {
-    "id": 77,
-    "slug": "new-weapons-overhaul",
-    "label": "New Weapons Overhaul",
-    "name": "New Weapons Overhaul",
+    "id": 82,
+    "slug": "anime-main-characters-male-skin-pack",
+    "label": "Anime Main Characters Male Skin Pack",
+    "name": "Anime Main Characters Male Skin Pack",
     "version": "Latest",
     "game_edition": "Bedrock",
     "mcVersion": "Latest",
-    "category": "Gameplay",
-    "description": "A Minecraft Bedrock addon that overhauls the weapon system with new weapons and combat-focused content.",
-    "download": "https://mcpedl.com/new-weapons-overhaul/",
+    "category": "Other",
+    "description": "An anime-themed Minecraft Bedrock skin pack featuring male main-character-inspired skins from various anime series.",
+    "download": "https://mcpedl.com/anime-main-characters-male-skin-pack/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -1889,16 +2009,16 @@
     }
   },
   {
-    "id": 78,
-    "slug": "bestgamer-s-swords-plus-addon",
-    "label": "BestGamer's Swords Plus Addon",
-    "name": "BestGamer's Swords Plus Addon",
+    "id": 83,
+    "slug": "naruto-skinpack-1",
+    "label": "Naruto Skinpack",
+    "name": "Naruto Skinpack",
     "version": "Latest",
     "game_edition": "Bedrock",
     "mcVersion": "Latest",
-    "category": "Gameplay",
-    "description": "A Minecraft Bedrock addon that adds a collection of new swords and melee-focused equipment to expand combat options.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/bestgamer-s-swords-plus-addon",
+    "category": "Other",
+    "description": "An anime-inspired Minecraft Bedrock skin pack featuring Naruto-themed character skins.",
+    "download": "https://mcpedl.com/naruto-skinpack-1/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -1913,64 +2033,16 @@
     }
   },
   {
-    "id": 79,
-    "slug": "swords-and-more-swords-addon",
-    "label": "Swords And More Swords Addon",
-    "name": "Swords And More Swords Addon",
+    "id": 84,
+    "slug": "demon-slayer-skin-pack-1",
+    "label": "Demon Slayer Skin Pack",
+    "name": "Demon Slayer Skin Pack",
     "version": "Latest",
     "game_edition": "Bedrock",
     "mcVersion": "Latest",
-    "category": "Gameplay",
-    "description": "A Minecraft Bedrock addon that expands the game with a variety of additional swords and melee combat equipment.",
-    "download": "https://mcpedl.com/swords-and-more-swords-addon/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
-        }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
-    }
-  },
-  {
-    "id": 80,
-    "slug": "mystical-armor-and-swords",
-    "label": "Mystical Armor and Swords",
-    "name": "Mystical Armor and Swords",
-    "version": "Latest",
-    "game_edition": "Bedrock",
-    "mcVersion": "Latest",
-    "category": "Gameplay",
-    "description": "A Minecraft Bedrock addon that adds mystical armor and sword-themed equipment for enhanced combat and progression.",
-    "download": "https://mcpedl.com/mystical-armor-and-swords/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
-        }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
-    }
-  },
-  {
-    "id": 81,
-    "slug": "weapons-yamato-katana",
-    "label": "Weapons: Yamato Katana",
-    "name": "Weapons: Yamato Katana",
-    "version": "Latest",
-    "game_edition": "Bedrock",
-    "mcVersion": "Latest",
-    "category": "Gameplay",
-    "description": "A Minecraft Bedrock weapon addon centered around the Yamato Katana with custom combat content.",
-    "download": "https://mcpedl.com/weapons-yamato-katana/",
+    "category": "Other",
+    "description": "An anime-inspired Minecraft Bedrock skin pack featuring characters and designs based on Demon Slayer.",
+    "download": "https://mcpedl.com/demon-slayer-skin-pack-1/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
