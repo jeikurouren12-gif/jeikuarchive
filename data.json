@@ -1,5 +1,77 @@
 [
   {
+    "id": 84,
+    "slug": "demon-slayer-skin-pack-1",
+    "label": "Demon Slayer Skin Pack",
+    "name": "Demon Slayer Skin Pack",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Other",
+    "description": "An anime-inspired Minecraft Bedrock skin pack featuring characters and designs based on Demon Slayer.",
+    "download": "https://mcpedl.com/demon-slayer-skin-pack-1/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 83,
+    "slug": "naruto-skinpack-1",
+    "label": "Naruto Skinpack",
+    "name": "Naruto Skinpack",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Other",
+    "description": "An anime-inspired Minecraft Bedrock skin pack featuring Naruto-themed character skins.",
+    "download": "https://mcpedl.com/naruto-skinpack-1/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 82,
+    "slug": "anime-main-characters-male-skin-pack",
+    "label": "Anime Main Characters Male Skin Pack",
+    "name": "Anime Main Characters Male Skin Pack",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Other",
+    "description": "An anime-themed Minecraft Bedrock skin pack featuring male main-character-inspired skins from various anime series.",
+    "download": "https://mcpedl.com/anime-main-characters-male-skin-pack/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
     "id": 81,
     "slug": "weapons-yamato-katana",
     "label": "Weapons: Yamato Katana",
@@ -1985,16 +2057,16 @@
     }
   },
   {
-    "id": 82,
-    "slug": "anime-main-characters-male-skin-pack",
-    "label": "Anime Main Characters Male Skin Pack",
-    "name": "Anime Main Characters Male Skin Pack",
+    "id": 85,
+    "slug": "the-maze-runner-map-remake-bedrock-1-21",
+    "label": "The Maze Runner Map Remake [Bedrock 1.21+]",
+    "name": "The Maze Runner Map Remake [Bedrock 1.21+]",
     "version": "Latest",
     "game_edition": "Bedrock",
-    "mcVersion": "Latest",
-    "category": "Other",
-    "description": "An anime-themed Minecraft Bedrock skin pack featuring male main-character-inspired skins from various anime series.",
-    "download": "https://mcpedl.com/anime-main-characters-male-skin-pack/",
+    "mcVersion": "1.21+",
+    "category": "Gameplay",
+    "description": "A Bedrock adventure map inspired by The Maze Runner that challenges players to navigate a dangerous maze and survive its obstacles.",
+    "download": "https://www.planetminecraft.com/project/the-maze-runner-map-remake-bedrock-1-21/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2009,16 +2081,16 @@
     }
   },
   {
-    "id": 83,
-    "slug": "naruto-skinpack-1",
-    "label": "Naruto Skinpack",
-    "name": "Naruto Skinpack",
+    "id": 86,
+    "slug": "bedrock-escape-room-puzzle-map",
+    "label": "Bedrock Escape Room Puzzle Map",
+    "name": "Bedrock Escape Room Puzzle Map",
     "version": "Latest",
     "game_edition": "Bedrock",
     "mcVersion": "Latest",
-    "category": "Other",
-    "description": "An anime-inspired Minecraft Bedrock skin pack featuring Naruto-themed character skins.",
-    "download": "https://mcpedl.com/naruto-skinpack-1/",
+    "category": "Gameplay",
+    "description": "A Minecraft Bedrock escape-room puzzle map where players must solve challenges and puzzles to find their way out.",
+    "download": "https://mcpedl.com/bedrock-escape-room-puzzle-map/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2033,16 +2105,16 @@
     }
   },
   {
-    "id": 84,
-    "slug": "demon-slayer-skin-pack-1",
-    "label": "Demon Slayer Skin Pack",
-    "name": "Demon Slayer Skin Pack",
+    "id": 87,
+    "slug": "the-bedrock-complex-escape-room",
+    "label": "The Bedrock Complex - Escape Room",
+    "name": "The Bedrock Complex - Escape Room",
     "version": "Latest",
     "game_edition": "Bedrock",
     "mcVersion": "Latest",
-    "category": "Other",
-    "description": "An anime-inspired Minecraft Bedrock skin pack featuring characters and designs based on Demon Slayer.",
-    "download": "https://mcpedl.com/demon-slayer-skin-pack-1/",
+    "category": "Gameplay",
+    "description": "An escape-room adventure map that challenges players to solve puzzles and uncover a way through the Bedrock Complex.",
+    "download": "https://www.planetminecraft.com/project/the-bedrock-complex-escape-room/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
