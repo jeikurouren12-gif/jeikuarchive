@@ -1269,6 +1269,21 @@ button, input, select, textarea {
   align-items: start;
 }
 
+.admin-main > .admin-panel:first-child {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.admin-main > .category-manager {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.admin-main > .admin-list-section {
+  grid-column: 2;
+  grid-row: 2;
+}
+
 .admin-panel,
 .admin-list-section {
   background: rgba(18, 23, 30, 0.96);
@@ -1573,6 +1588,13 @@ textarea:focus-visible {
   .admin-main,
   .form-grid-2 {
     grid-template-columns: 1fr;
+  }
+
+  .admin-main > .admin-panel:first-child,
+  .admin-main > .category-manager,
+  .admin-main > .admin-list-section {
+    grid-column: auto;
+    grid-row: auto;
   }
 
   .mod-grid {
