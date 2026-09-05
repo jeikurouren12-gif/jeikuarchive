@@ -101,8 +101,12 @@
                 <label>
                   Category
                   <select id="categoryInput" required>
+                    <option value="Addon">Addon</option>
                     <option value="Performance">Performance</option>
                     <option value="Texture Pack">Texture Pack</option>
+                    <option value="Shader">Shader</option>
+                    <option value="Skin">Skin</option>
+                    <option value="Map">Map</option>
                     <option value="Utility">Utility</option>
                     <option value="Gameplay">Gameplay</option>
                     <option value="Optimization">Optimization</option>
@@ -298,6 +302,21 @@
           </form>
 
           <div class="admin-status" id="adminStatus"></div>
+        </section>
+
+        <section class="admin-panel category-manager">
+          <div class="admin-panel-header">
+            <h2>Manage categories</h2>
+            <p>Add categories here and they will appear in the mod form and public filter.</p>
+          </div>
+          <div class="category-manager-form">
+            <label>
+              New category
+              <input id="newCategoryInput" type="text" maxlength="40" placeholder="Addon or Texture Pack">
+            </label>
+            <button id="addCategoryButton" class="button button-primary" type="button">Add category</button>
+          </div>
+          <div id="categoryList" class="category-list"></div>
         </section>
 
         <section class="admin-list-section">

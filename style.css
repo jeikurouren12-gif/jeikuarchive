@@ -1254,6 +1254,42 @@ button, input, select, textarea {
   align-content: start;
 }
 
+.category-manager {
+  display: grid;
+  gap: 18px;
+}
+
+.category-manager-form {
+  display: flex;
+  align-items: end;
+  gap: 12px;
+}
+
+.category-manager-form label {
+  flex: 1;
+}
+
+.category-list {
+  display: grid;
+  gap: 10px;
+}
+
+.category-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.category-list-item .button {
+  padding: 7px 10px;
+  font-size: 0.8rem;
+}
+
 .admin-panel-header {
   display: grid;
   gap: 8px;

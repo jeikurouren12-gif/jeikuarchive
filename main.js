@@ -7,9 +7,9 @@ const categoryMenu = document.getElementById('categoryMenu');
 const categoryLabel = document.getElementById('categoryLabel');
 const categoryDropdown = document.getElementById('categoryDropdown');
 let allMods = [];
+let availableCategories = [];
 let loadedCount = 0;
 let selectedCategory = 'All';
-const ORDERED_CATEGORIES = ['Performance', 'Texture Pack', 'Utility', 'Gameplay', 'Optimization', 'Other'];
 const SEARCH_PLACEHOLDER_PHRASES = [
   'Search name or ID...',
   'Search the name of the mods...',
@@ -64,8 +64,12 @@ function handleHashChange() {
 
 async function loadMods() {
   try {
-    const response = await fetch('data.json');
-    allMods = await response.json();
+    const [modsResponse, categoriesResponse] = await Promise.all([
+      fetch('data.json'),
+      fetch('categories.json')
+    ]);
+    allMods = await modsResponse.json();
+    availableCategories = categoriesResponse.ok ? await categoriesResponse.json() : [];
     loadedCount = 0;
     initializeCategoryDropdown();
     updateCollectionHeader();
@@ -313,17 +317,25 @@ function attachDocumentClickHandler() {
 }
 
 function getCategoriesFromData() {
-  const categories = new Set();
+  const categories = [];
+  const addCategory = category => {
+    if (typeof category === 'string' && category.trim() && !categories.includes(category.trim())) {
+      categories.push(category.trim());
+    }
+  };
+
+  availableCategories.forEach(category => {
+    addCategory(category);
+  });
   allMods.forEach(mod => {
-    if (mod.category) categories.add(mod.category);
+    addCategory(mod.category);
   });
 
-  const ordered = ORDERED_CATEGORIES.filter(category => categories.has(category));
-  categories.forEach(category => {
-    if (!ordered.includes(category)) ordered.push(category);
-  });
+  return categories;
+}
 
-  return ordered;
+function formatCategoryLabel(category) {
+  return category.replace(' / ', ': ');
 }
 
 function renderCategoryOptions() {
@@ -346,7 +358,7 @@ function renderCategoryOptions() {
   };
 
   addOption('All', 'All categories');
-  categories.forEach(category => addOption(category, category));
+  categories.forEach(category => addOption(category, formatCategoryLabel(category)));
 }
 
 function initializeCategoryDropdown() {

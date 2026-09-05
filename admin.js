@@ -45,7 +45,11 @@ const lockerRequiredCount = document.getElementById('lockerRequiredCount');
 const lockerDelayMs = document.getElementById('lockerDelayMs');
 const bulkImportInput = document.getElementById('bulkImportInput');
 const importJsonButton = document.getElementById('importJsonButton');
+const newCategoryInput = document.getElementById('newCategoryInput');
+const addCategoryButton = document.getElementById('addCategoryButton');
+const categoryList = document.getElementById('categoryList');
 let mods = [];
+let categories = [];
 let currentPassword = null;
 let filteredMods = [];
 const selectedModIds = new Set();
@@ -496,6 +500,61 @@ function buildModObject() {
   };
 }
 
+function getCategoriesFromMods() {
+  return mods.map(mod => mod.category).filter(Boolean);
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#039;');
+}
+
+function formatCategoryLabel(category) {
+  return category.replace(' / ', ': ');
+}
+
+function renderCategoryInput() {
+  const selectedValue = categoryInput.value;
+  categoryInput.innerHTML = categories.map(category => `<option value="${escapeHtml(category)}">${escapeHtml(formatCategoryLabel(category))}</option>`).join('');
+  if (categories.includes(selectedValue)) {
+    categoryInput.value = selectedValue;
+  }
+}
+
+function renderCategoryList() {
+  if (!categoryList) return;
+  categoryList.innerHTML = categories.map(category => {
+    const inUse = getCategoriesFromMods().includes(category);
+    return `<div class="category-list-item">
+      <span>${escapeHtml(formatCategoryLabel(category))}</span>
+      <button class="button button-danger" type="button" data-category="${escapeHtml(category)}" ${inUse ? 'disabled title="This category is used by a mod"' : ''}>Remove</button>
+    </div>`;
+  }).join('');
+}
+
+async function saveCategories() {
+  await saveModsToGitHub(mods, categories);
+}
+
+async function addCategory() {
+  const category = newCategoryInput.value.trim();
+  if (!category) return;
+  if (categories.some(existing => existing.toLowerCase() === category.toLowerCase())) {
+    adminStatus.textContent = 'That category already exists.';
+    return;
+  }
+
+  categories.push(category);
+  newCategoryInput.value = '';
+  renderCategoryInput();
+  renderCategoryList();
+  await saveCategories();
+}
+
 async function verifyPassword(password) {
   try {
     const response = await fetch('/api/verify-admin', {
@@ -538,9 +597,16 @@ async function fetchMods() {
   }
 
   try {
-    const response = await fetch('/data.json');
-    mods = await response.json();
+    const [modsResponse, categoriesResponse] = await Promise.all([
+      fetch('/data.json'),
+      fetch('/categories.json')
+    ]);
+    mods = await modsResponse.json();
+    categories = categoriesResponse.ok ? await categoriesResponse.json() : [];
+    categories = [...new Set([...categories.filter(category => typeof category === 'string' && category.trim()), ...getCategoriesFromMods()])];
     mods.sort((a, b) => b.id - a.id);
+    renderCategoryInput();
+    renderCategoryList();
     renderAdminList();
     adminStatus.textContent = 'Mods loaded successfully.';
   } catch (error) {
@@ -612,7 +678,7 @@ function renderAdminItem(mod) {
 }
 
 
-async function saveModsToGitHub(updatedMods) {
+async function saveModsToGitHub(updatedMods, updatedCategories = categories) {
   if (!currentPassword) {
     adminStatus.textContent = 'You must log in before saving changes.';
     return;
@@ -625,7 +691,7 @@ async function saveModsToGitHub(updatedMods) {
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ mods: updatedMods, password: currentPassword })
+      body: JSON.stringify({ mods: updatedMods, categories: updatedCategories, password: currentPassword })
     });
 
     const responseText = await response.text();
@@ -646,6 +712,9 @@ async function saveModsToGitHub(updatedMods) {
 
     adminStatus.textContent = 'Saved successfully. Refreshing list...';
     mods = updatedMods;
+    categories = updatedCategories;
+    renderCategoryInput();
+    renderCategoryList();
     renderAdminList();
     resetForm();
   } catch (error) {
@@ -834,6 +903,25 @@ adminModList.addEventListener('change', event => {
     selectedModIds.delete(modId);
   }
   updateSelectionCount();
+});
+
+addCategoryButton.addEventListener('click', addCategory);
+newCategoryInput.addEventListener('keydown', event => {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    addCategory();
+  }
+});
+categoryList.addEventListener('click', async event => {
+  const button = event.target.closest('button[data-category]');
+  if (!button) return;
+
+  const category = button.dataset.category;
+  if (getCategoriesFromMods().includes(category)) return;
+  categories = categories.filter(existing => existing !== category);
+  renderCategoryInput();
+  renderCategoryList();
+  await saveCategories();
 });
 
 selectAllButton.addEventListener('click', toggleSelectAll);
