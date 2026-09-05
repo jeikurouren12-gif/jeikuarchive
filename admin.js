@@ -528,13 +528,38 @@ function renderCategoryInput() {
 
 function renderCategoryList() {
   if (!categoryList) return;
-  categoryList.innerHTML = categories.map(category => {
-    const inUse = getCategoriesFromMods().includes(category);
-    return `<div class="category-list-item">
-      <span>${escapeHtml(formatCategoryLabel(category))}</span>
-      <button class="button button-danger" type="button" data-category="${escapeHtml(category)}" ${inUse ? 'disabled title="This category is used by a mod"' : ''}>Remove</button>
-    </div>`;
-  }).join('');
+  const groups = new Map();
+  categories.forEach(category => {
+    const separatorIndex = category.indexOf(' / ');
+    const group = separatorIndex === -1 ? 'Other categories' : category.slice(0, separatorIndex);
+    if (!groups.has(group)) groups.set(group, []);
+    groups.get(group).push(category);
+  });
+
+  categoryList.innerHTML = [...groups.entries()].map(([group, groupCategories]) => `
+    <details class="category-group">
+      <summary>${escapeHtml(group)} <span>${groupCategories.length}</span></summary>
+      <div class="category-group-items">
+        ${groupCategories.map(category => {
+          const inUse = getCategoriesFromMods().includes(category);
+          const deleteTitle = inUse ? 'This category is used by a mod' : 'Delete category';
+          return `<div class="category-list-item">
+            <span>${escapeHtml(formatCategoryLabel(category))}</span>
+            <button class="category-delete-button" type="button" aria-label="Delete ${escapeHtml(category)}" title="${deleteTitle}" data-category="${escapeHtml(category)}" ${inUse ? 'disabled' : ''}>×</button>
+          </div>`;
+        }).join('')}
+      </div>
+    </details>
+  `).join('');
+
+  categoryList.querySelectorAll('.category-group').forEach(group => {
+    group.addEventListener('toggle', () => {
+      if (!group.open) return;
+      categoryList.querySelectorAll('.category-group[open]').forEach(otherGroup => {
+        if (otherGroup !== group) otherGroup.open = false;
+      });
+    });
+  });
 }
 
 async function saveCategories() {

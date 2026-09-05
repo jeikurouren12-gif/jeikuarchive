@@ -1344,6 +1344,52 @@ button, input, select, textarea {
   gap: 10px;
 }
 
+.category-group {
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.025);
+  overflow: hidden;
+}
+
+.category-group summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  color: var(--accent-neon);
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+}
+
+.category-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.category-group summary::after {
+  content: '+';
+  margin-left: auto;
+  padding-left: 10px;
+  color: var(--muted);
+}
+
+.category-group[open] summary::after {
+  content: '−';
+}
+
+.category-group summary span {
+  margin-left: 8px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.category-group-items {
+  display: grid;
+  gap: 6px;
+  padding: 0 8px 8px;
+}
+
 .category-list-item {
   display: flex;
   align-items: center;
@@ -1358,6 +1404,31 @@ button, input, select, textarea {
 .category-list-item .button {
   padding: 7px 10px;
   font-size: 0.8rem;
+}
+
+.category-delete-button {
+  display: grid;
+  width: 26px;
+  height: 26px;
+  flex: 0 0 26px;
+  place-items: center;
+  border: 1px solid rgba(242, 92, 84, 0.3);
+  border-radius: 50%;
+  background: rgba(242, 92, 84, 0.1);
+  color: var(--danger);
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.category-delete-button:hover:not(:disabled),
+.category-delete-button:focus-visible:not(:disabled) {
+  background: rgba(242, 92, 84, 0.24);
+}
+
+.category-delete-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
 }
 
 .admin-panel-header {
