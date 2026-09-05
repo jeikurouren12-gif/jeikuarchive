@@ -48,6 +48,7 @@ const importJsonButton = document.getElementById('importJsonButton');
 const newCategoryInput = document.getElementById('newCategoryInput');
 const addCategoryButton = document.getElementById('addCategoryButton');
 const categoryList = document.getElementById('categoryList');
+const categoryManager = document.querySelector('.category-manager');
 let mods = [];
 let categories = [];
 let currentPassword = null;
@@ -922,6 +923,15 @@ categoryList.addEventListener('click', async event => {
   renderCategoryInput();
   renderCategoryList();
   await saveCategories();
+});
+
+categoryManager.addEventListener('mouseenter', () => {
+  categoryManager.open = true;
+});
+categoryManager.addEventListener('mouseleave', () => {
+  if (!categoryManager.matches(':focus-within')) {
+    categoryManager.open = false;
+  }
 });
 
 selectAllButton.addEventListener('click', toggleSelectAll);
