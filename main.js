@@ -10,6 +10,7 @@ let allMods = [];
 let availableCategories = [];
 let loadedCount = 0;
 let selectedCategory = 'All';
+let activeCategoryGroup = null;
 const SEARCH_PLACEHOLDER_PHRASES = [
   'Search name or ID...',
   'Search the name of the mods...',
@@ -288,6 +289,9 @@ if (searchInput) {
 if (categoryToggle) {
   categoryToggle.addEventListener('click', () => {
     const isExpanded = categoryToggle.getAttribute('aria-expanded') === 'true';
+    if (!isExpanded) {
+      renderCategoryOptions(activeCategoryGroup);
+    }
     categoryToggle.setAttribute('aria-expanded', String(!isExpanded));
     categoryMenu.classList.toggle('open', !isExpanded);
   });
@@ -301,6 +305,7 @@ function closeCategoryMenu() {
 
 function setCategory(category) {
   selectedCategory = category || 'All';
+  activeCategoryGroup = null;
   if (categoryLabel) {
     categoryLabel.textContent = selectedCategory === 'All' ? 'All categories' : selectedCategory;
   }
@@ -338,9 +343,26 @@ function formatCategoryLabel(category) {
   return category.replace(' / ', ': ');
 }
 
-function renderCategoryOptions() {
+function getCategoryGroups() {
+  const groups = new Map();
+  getCategoriesFromData().forEach(category => {
+    const separatorIndex = category.indexOf(' / ');
+    if (separatorIndex === -1) {
+      if (!groups.has('Other categories')) groups.set('Other categories', []);
+      groups.get('Other categories').push(category);
+      return;
+    }
+
+    const group = category.slice(0, separatorIndex);
+    const subcategory = category.slice(separatorIndex + 3);
+    if (!groups.has(group)) groups.set(group, []);
+    groups.get(group).push({ value: category, label: subcategory });
+  });
+  return groups;
+}
+
+function renderCategoryOptions(groupName = null) {
   if (!categoryMenu) return;
-  const categories = getCategoriesFromData();
   categoryMenu.innerHTML = '';
 
   const addOption = (value, label) => {
@@ -357,8 +379,44 @@ function renderCategoryOptions() {
     categoryMenu.appendChild(button);
   };
 
+  if (groupName) {
+    const backButton = document.createElement('button');
+    backButton.type = 'button';
+    backButton.className = 'dropdown-item dropdown-item-back';
+    backButton.textContent = '← All categories';
+    backButton.addEventListener('click', () => {
+      activeCategoryGroup = null;
+      renderCategoryOptions();
+    });
+    categoryMenu.appendChild(backButton);
+
+    const children = getCategoryGroups().get(groupName) || [];
+    children.forEach(category => {
+      const value = typeof category === 'string' ? category : category.value;
+      const label = typeof category === 'string' ? category : category.label;
+      addOption(value, label);
+    });
+    return;
+  }
+
   addOption('All', 'All categories');
-  categories.forEach(category => addOption(category, formatCategoryLabel(category)));
+  getCategoryGroups().forEach((children, groupName) => {
+    const hasSubcategories = children.some(category => typeof category !== 'string');
+    if (!hasSubcategories) {
+      children.forEach(category => addOption(category, category));
+      return;
+    }
+
+    const groupButton = document.createElement('button');
+    groupButton.type = 'button';
+    groupButton.className = 'dropdown-item dropdown-item-group';
+    groupButton.textContent = `${groupName}  →`;
+    groupButton.addEventListener('click', () => {
+      activeCategoryGroup = groupName;
+      renderCategoryOptions(groupName);
+    });
+    categoryMenu.appendChild(groupButton);
+  });
 }
 
 function initializeCategoryDropdown() {

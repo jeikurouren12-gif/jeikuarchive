@@ -430,6 +430,17 @@ button, input, select, textarea {
   color: var(--accent);
 }
 
+.dropdown-item-group {
+  color: var(--accent-neon);
+  font-weight: 600;
+}
+
+.dropdown-item-back {
+  color: var(--muted);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  margin-bottom: 4px;
+}
+
 .dropdown-item + .dropdown-item {
   margin-top: 4px;
 }
