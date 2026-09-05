@@ -351,9 +351,26 @@ button, input, select, textarea {
 
 .category-dropdown {
   position: relative;
-  min-width: 220px;
+  min-width: 52px;
   flex: 0 0 auto;
+  width: 52px;
+  transition: width 0.2s ease, min-width 0.2s ease;
+}
+
+.category-dropdown:hover,
+.category-dropdown:focus-within {
+  min-width: 220px;
   width: min(300px, 100%);
+}
+
+.category-dropdown:not(:hover):not(:focus-within) .dropdown-toggle {
+  justify-content: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.category-dropdown:not(:hover):not(:focus-within) #categoryLabel {
+  display: none;
 }
 
 .dropdown-toggle {
@@ -1557,12 +1574,17 @@ textarea:focus-visible {
   }
 
   .search-input-group,
-  #categoryFilter {
+  #categoryFilter,
+  .category-dropdown {
     width: 100%;
     max-width: 100%;
     min-width: 0;
     flex: none;
     min-height: 52px;
+  }
+
+  .category-dropdown:not(:hover):not(:focus-within) #categoryLabel {
+    display: inline;
   }
 
   .search-input-group input {
