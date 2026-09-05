@@ -1283,8 +1283,35 @@ button, input, select, textarea {
 }
 
 .category-manager {
-  display: grid;
-  gap: 18px;
+  display: block;
+}
+
+.category-manager-summary {
+  cursor: pointer;
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 700;
+  list-style: none;
+}
+
+.category-manager-summary::-webkit-details-marker {
+  display: none;
+}
+
+.category-manager-summary::after {
+  content: '+';
+  float: right;
+  color: var(--accent);
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.category-manager[open] .category-manager-summary::after {
+  content: '−';
+}
+
+.category-manager[open] .admin-panel-header {
+  margin-top: 18px;
 }
 
 .category-manager-form {
