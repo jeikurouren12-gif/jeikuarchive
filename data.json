@@ -1,5 +1,77 @@
 [
   {
+    "id": 90,
+    "slug": "medieval-furniture-addon",
+    "label": "Medieval Furniture Addon",
+    "name": "Medieval Furniture Addon",
+    "version": "V6.4",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21.20",
+    "category": "Gameplay",
+    "description": "A medieval-themed furniture addon that adds tables, chairs, barrels, clocks, workbenches, stoves, cabinets, decorative blocks, and other furnishings.",
+    "download": "https://mcpedl.com/medieval-furniture-addon/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 89,
+    "slug": "furniture-builder-mod-minecraft-pe",
+    "label": "Furniture Builder Mod for Minecraft PE",
+    "name": "Furniture Builder Mod for Minecraft PE",
+    "version": "1.21.0 - 1.26.45",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21.0 - 1.26.45",
+    "category": "Gameplay",
+    "description": "A furniture addon that adds craftable chairs, lamps, fireplaces, gates, trapdoors, storage, and medieval decorations for detailed interiors and settlements.",
+    "download": "https://mcpedl.org/furniture-builder-mod-minecraft-pe/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 88,
+    "slug": "medieval-structures",
+    "label": "Medieval Structures",
+    "name": "Medieval Structures",
+    "version": "1.2",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21.132, 26.0, 26.3, 26.10, 26.11, 26.30",
+    "category": "Gameplay",
+    "description": "A medieval-themed Bedrock addon that adds dozens of structures such as aqueduct camps, ruins, and other structures powered by Feudal Furniture.",
+    "download": "https://mcpedl.com/medieval-structures/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
     "id": 87,
     "slug": "the-bedrock-complex-escape-room",
     "label": "The Bedrock Complex - Escape Room",
@@ -2129,16 +2201,16 @@
     }
   },
   {
-    "id": 88,
-    "slug": "medieval-structures",
-    "label": "Medieval Structures",
-    "name": "Medieval Structures",
-    "version": "1.2",
+    "id": 91,
+    "slug": "fantasy-creatures-addon",
+    "label": "Fantasy Creatures Addon",
+    "name": "Fantasy Creatures Addon",
+    "version": "1.19",
     "game_edition": "Bedrock",
-    "mcVersion": "1.21.132, 26.0, 26.3, 26.10, 26.11, 26.30",
+    "mcVersion": "1.19",
     "category": "Gameplay",
-    "description": "A medieval-themed Bedrock addon that adds dozens of structures such as aqueduct camps, ruins, and other structures powered by Feudal Furniture.",
-    "download": "https://mcpedl.com/medieval-structures/",
+    "description": "A fantasy addon that adds mythological creatures such as Medusa, mermaids, yeti, fairies, hippocampus, goblins, ents, and other creatures.",
+    "download": "https://www.9minecraft.net/fantasy-creatures-addon-mcpe/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2153,16 +2225,16 @@
     }
   },
   {
-    "id": 89,
-    "slug": "furniture-builder-mod-minecraft-pe",
-    "label": "Furniture Builder Mod for Minecraft PE",
-    "name": "Furniture Builder Mod for Minecraft PE",
-    "version": "1.21.0 - 1.26.45",
+    "id": 92,
+    "slug": "mythological-creatures",
+    "label": "Mythological Creatures",
+    "name": "Mythological Creatures",
+    "version": "1.9 (Alpha)",
     "game_edition": "Bedrock",
-    "mcVersion": "1.21.0 - 1.26.45",
+    "mcVersion": "1.21.50",
     "category": "Gameplay",
-    "description": "A furniture addon that adds craftable chairs, lamps, fireplaces, gates, trapdoors, storage, and medieval decorations for detailed interiors and settlements.",
-    "download": "https://mcpedl.org/furniture-builder-mod-minecraft-pe/",
+    "description": "A mythology and fantasy addon that adds high-difficulty creatures inspired by mythology and souls-like games.",
+    "download": "https://mcpedl.com/mythological-creatures/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2177,16 +2249,16 @@
     }
   },
   {
-    "id": 90,
-    "slug": "medieval-furniture-addon",
-    "label": "Medieval Furniture Addon",
-    "name": "Medieval Furniture Addon",
-    "version": "V6.4",
+    "id": 93,
+    "slug": "mythological-craft-addon",
+    "label": "Mythological Craft Addon",
+    "name": "Mythological Craft Addon",
+    "version": "2.6.3",
     "game_edition": "Bedrock",
-    "mcVersion": "1.21.20",
+    "mcVersion": "1.21.120, 1.21.121, 1.21.132",
     "category": "Gameplay",
-    "description": "A medieval-themed furniture addon that adds tables, chairs, barrels, clocks, workbenches, stoves, cabinets, decorative blocks, and other furnishings.",
-    "download": "https://mcpedl.com/medieval-furniture-addon/",
+    "description": "A fantasy-themed Bedrock addon that adds mythological creatures, bosses, structures, magic, and other fantasy content.",
+    "download": "https://mcpedl.com/mythological-craft-addon/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
