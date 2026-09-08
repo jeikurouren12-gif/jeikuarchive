@@ -1,5 +1,77 @@
 [
   {
+    "id": 93,
+    "slug": "mythological-craft-addon",
+    "label": "Mythological Craft Addon",
+    "name": "Mythological Craft Addon",
+    "version": "2.6.3",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21.120, 1.21.121, 1.21.132",
+    "category": "Gameplay",
+    "description": "A fantasy-themed Bedrock addon that adds mythological creatures, bosses, structures, magic, and other fantasy content.",
+    "download": "https://mcpedl.com/mythological-craft-addon/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 92,
+    "slug": "mythological-creatures",
+    "label": "Mythological Creatures",
+    "name": "Mythological Creatures",
+    "version": "1.9 (Alpha)",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21.50",
+    "category": "Gameplay",
+    "description": "A mythology and fantasy addon that adds high-difficulty creatures inspired by mythology and souls-like games.",
+    "download": "https://mcpedl.com/mythological-creatures/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 91,
+    "slug": "fantasy-creatures-addon",
+    "label": "Fantasy Creatures Addon",
+    "name": "Fantasy Creatures Addon",
+    "version": "1.19",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.19",
+    "category": "Gameplay",
+    "description": "A fantasy addon that adds mythological creatures such as Medusa, mermaids, yeti, fairies, hippocampus, goblins, ents, and other creatures.",
+    "download": "https://www.9minecraft.net/fantasy-creatures-addon-mcpe/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
     "id": 90,
     "slug": "medieval-furniture-addon",
     "label": "Medieval Furniture Addon",
@@ -2201,16 +2273,16 @@
     }
   },
   {
-    "id": 91,
-    "slug": "fantasy-creatures-addon",
-    "label": "Fantasy Creatures Addon",
-    "name": "Fantasy Creatures Addon",
-    "version": "1.19",
+    "id": 94,
+    "slug": "prizma-pbr-deferred-pack",
+    "label": "Prizma Visuals Legacy (Vibrant Visuals Pack Deferred)",
+    "name": "Prizma Visuals Legacy (Vibrant Visuals Pack Deferred)",
+    "version": "1.3.10",
     "game_edition": "Bedrock",
-    "mcVersion": "1.19",
-    "category": "Gameplay",
-    "description": "A fantasy addon that adds mythological creatures such as Medusa, mermaids, yeti, fairies, hippocampus, goblins, ents, and other creatures.",
-    "download": "https://www.9minecraft.net/fantasy-creatures-addon-mcpe/",
+    "mcVersion": "1.21.101, 1.21.100, 1.21.92, 1.21.94, 1.21.93",
+    "category": "Texture Pack",
+    "description": "A PBR-based Vibrant Visuals pack that enhances Minecraft Bedrock with detailed textures, 3D bump effects, atmospheric skies, lighting, and reflections.",
+    "download": "https://mcpedl.com/prizma-pbr-deferred-pack/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2225,16 +2297,16 @@
     }
   },
   {
-    "id": 92,
-    "slug": "mythological-creatures",
-    "label": "Mythological Creatures",
-    "name": "Mythological Creatures",
-    "version": "1.9 (Alpha)",
+    "id": 95,
+    "slug": "cinematic-visuals-shader-vibrant-visuals-pack",
+    "label": "Cinematic Visuals Shader (Vibrant Visuals Pack)",
+    "name": "Cinematic Visuals Shader (Vibrant Visuals Pack)",
+    "version": "V1.2",
     "game_edition": "Bedrock",
-    "mcVersion": "1.21.50",
-    "category": "Gameplay",
-    "description": "A mythology and fantasy addon that adds high-difficulty creatures inspired by mythology and souls-like games.",
-    "download": "https://mcpedl.com/mythological-creatures/",
+    "mcVersion": "Latest",
+    "category": "Texture Pack",
+    "description": "A cinematic Vibrant Visuals pack that adds PBR effects, reflections, improved water, caustics, fog, and high-resolution textures.",
+    "download": "https://mcpedl.com/cinematic-visuals-shader-vibrant-visuals-pack/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2249,16 +2321,16 @@
     }
   },
   {
-    "id": 93,
-    "slug": "mythological-craft-addon",
-    "label": "Mythological Craft Addon",
-    "name": "Mythological Craft Addon",
-    "version": "2.6.3",
+    "id": 96,
+    "slug": "ads-vibrant-visuals",
+    "label": "Vibrant Shader (Vibrant Visuals)",
+    "name": "Vibrant Shader (Vibrant Visuals)",
+    "version": "V2.6",
     "game_edition": "Bedrock",
-    "mcVersion": "1.21.120, 1.21.121, 1.21.132",
-    "category": "Gameplay",
-    "description": "A fantasy-themed Bedrock addon that adds mythological creatures, bosses, structures, magic, and other fantasy content.",
-    "download": "https://mcpedl.com/mythological-craft-addon/",
+    "mcVersion": "Latest",
+    "category": "Texture Pack",
+    "description": "A colorful and lightweight Vibrant Visuals pack that improves lighting, colors, and godrays while maintaining smooth performance on lower-end devices.",
+    "download": "https://mcpedl.com/ads-vibrant-visuals/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
