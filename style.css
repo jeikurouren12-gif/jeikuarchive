@@ -1406,6 +1406,16 @@ button, input, select, textarea {
   font-size: 0.8rem;
 }
 
+.category-list-label {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.category-list-item:hover {
+  background: rgba(255, 255, 255, 0.065);
+  border-color: rgba(111, 255, 208, 0.24);
+}
+
 .category-delete-button {
   display: grid;
   width: 26px;
@@ -1429,6 +1439,19 @@ button, input, select, textarea {
 .category-delete-button:disabled {
   cursor: not-allowed;
   opacity: 0.35;
+}
+
+.category-manager .category-group {
+  border-left-color: var(--accent);
+}
+
+.category-manager .category-group summary {
+  color: var(--accent-neon);
+}
+
+.category-manager .category-group .category-group-items {
+  max-height: 240px;
+  overflow-y: auto;
 }
 
 .admin-panel-header {

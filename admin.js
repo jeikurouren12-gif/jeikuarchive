@@ -518,9 +518,41 @@ function formatCategoryLabel(category) {
   return category.replace(' / ', ': ');
 }
 
+function getCategoryGroups() {
+  const groups = new Map();
+
+  categories.forEach(category => {
+    const separatorIndex = category.indexOf(' / ');
+    const group = separatorIndex === -1 ? 'Other categories' : category.slice(0, separatorIndex);
+    const subcategory = separatorIndex === -1 ? category : category.slice(separatorIndex + 3);
+
+    if (!groups.has(group)) {
+      groups.set(group, []);
+    }
+
+    if (!groups.get(group).includes(subcategory)) {
+      groups.get(group).push(subcategory);
+    }
+  });
+
+  return groups;
+}
+
 function renderCategoryInput() {
-  const selectedValue = categoryInput.value;
-  categoryInput.innerHTML = categories.map(category => `<option value="${escapeHtml(category)}">${escapeHtml(formatCategoryLabel(category))}</option>`).join('');
+  if (!categoryInput) return;
+
+  const selectedValue = categoryInput.value || categories[0] || '';
+  const groups = getCategoryGroups();
+
+  categoryInput.innerHTML = [...groups.entries()].map(([group, subcategories]) => {
+    if (subcategories.length === 1 && subcategories[0] === group) {
+      return `<option value="${escapeHtml(group)}">${escapeHtml(group)}</option>`;
+    }
+
+    const optionRows = subcategories.map(subcategory => `<option value="${escapeHtml(`${group} / ${subcategory}`)}">${escapeHtml(subcategory)}</option>`).join('');
+    return `<optgroup label="${escapeHtml(group)}">${optionRows}</optgroup>`;
+  }).join('');
+
   if (categories.includes(selectedValue)) {
     categoryInput.value = selectedValue;
   }
@@ -528,23 +560,19 @@ function renderCategoryInput() {
 
 function renderCategoryList() {
   if (!categoryList) return;
-  const groups = new Map();
-  categories.forEach(category => {
-    const separatorIndex = category.indexOf(' / ');
-    const group = separatorIndex === -1 ? 'Other categories' : category.slice(0, separatorIndex);
-    if (!groups.has(group)) groups.set(group, []);
-    groups.get(group).push(category);
-  });
+
+  const groups = getCategoryGroups();
 
   categoryList.innerHTML = [...groups.entries()].map(([group, groupCategories]) => `
-    <details class="category-group">
+    <details class="category-group" ${group === 'Addons' ? 'open' : ''}>
       <summary>${escapeHtml(group)} <span>${groupCategories.length}</span></summary>
       <div class="category-group-items">
-        ${groupCategories.map(category => {
+        ${groupCategories.map(subcategory => {
+          const category = `${group} / ${subcategory}`;
           const inUse = getCategoriesFromMods().includes(category);
           const deleteTitle = inUse ? 'This category is used by a mod' : 'Delete category';
           return `<div class="category-list-item">
-            <span>${escapeHtml(formatCategoryLabel(category))}</span>
+            <span class="category-list-label">${escapeHtml(subcategory)}</span>
             <button class="category-delete-button" type="button" aria-label="Delete ${escapeHtml(category)}" title="${deleteTitle}" data-category="${escapeHtml(category)}" ${inUse ? 'disabled' : ''}>×</button>
           </div>`;
         }).join('')}
@@ -553,6 +581,19 @@ function renderCategoryList() {
   `).join('');
 
   categoryList.querySelectorAll('.category-group').forEach(group => {
+    group.addEventListener('mouseenter', () => {
+      group.open = true;
+      categoryList.querySelectorAll('.category-group[open]').forEach(otherGroup => {
+        if (otherGroup !== group) otherGroup.open = false;
+      });
+    });
+
+    group.addEventListener('mouseleave', () => {
+      if (!group.matches(':focus-within')) {
+        group.open = false;
+      }
+    });
+
     group.addEventListener('toggle', () => {
       if (!group.open) return;
       categoryList.querySelectorAll('.category-group[open]').forEach(otherGroup => {
