@@ -2,7 +2,6 @@
   {
     "id": 93,
     "slug": "mythological-craft-addon",
-    "label": "Mythological Craft Addon",
     "name": "Mythological Craft Addon",
     "version": "2.6.3",
     "game_edition": "Bedrock",
@@ -14,19 +13,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 92,
     "slug": "mythological-creatures",
-    "label": "Mythological Creatures",
     "name": "Mythological Creatures",
     "version": "1.9 (Alpha)",
     "game_edition": "Bedrock",
@@ -38,19 +34,26 @@
     "contentLocker": {
       "tasks": [
         {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        },
+        {
           "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 91,
     "slug": "fantasy-creatures-addon",
-    "label": "Fantasy Creatures Addon",
     "name": "Fantasy Creatures Addon",
     "version": "1.19",
     "game_edition": "Bedrock",
@@ -62,19 +65,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 90,
     "slug": "medieval-furniture-addon",
-    "label": "Medieval Furniture Addon",
     "name": "Medieval Furniture Addon",
     "version": "V6.4",
     "game_edition": "Bedrock",
@@ -86,19 +86,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 89,
     "slug": "furniture-builder-mod-minecraft-pe",
-    "label": "Furniture Builder Mod for Minecraft PE",
     "name": "Furniture Builder Mod for Minecraft PE",
     "version": "1.21.0 - 1.26.45",
     "game_edition": "Bedrock",
@@ -111,18 +108,20 @@
       "tasks": [
         {
           "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 88,
     "slug": "medieval-structures",
-    "label": "Medieval Structures",
     "name": "Medieval Structures",
     "version": "1.2",
     "game_edition": "Bedrock",
@@ -134,19 +133,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 87,
     "slug": "the-bedrock-complex-escape-room",
-    "label": "The Bedrock Complex - Escape Room",
     "name": "The Bedrock Complex - Escape Room",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -158,19 +154,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 86,
     "slug": "bedrock-escape-room-puzzle-map",
-    "label": "Bedrock Escape Room Puzzle Map",
     "name": "Bedrock Escape Room Puzzle Map",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -182,19 +175,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "like_facebook_post",
+          "label": "Like Facebook Post",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 85,
     "slug": "the-maze-runner-map-remake-bedrock-1-21",
-    "label": "The Maze Runner Map Remake [Bedrock 1.21+]",
     "name": "The Maze Runner Map Remake [Bedrock 1.21+]",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -206,19 +196,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
           "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 84,
     "slug": "demon-slayer-skin-pack-1",
-    "label": "Demon Slayer Skin Pack",
     "name": "Demon Slayer Skin Pack",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -230,19 +222,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "visit_youtube_channel",
+          "label": "Visit YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 83,
     "slug": "naruto-skinpack-1",
-    "label": "Naruto Skinpack",
     "name": "Naruto Skinpack",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -254,19 +243,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 82,
     "slug": "anime-main-characters-male-skin-pack",
-    "label": "Anime Main Characters Male Skin Pack",
     "name": "Anime Main Characters Male Skin Pack",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -278,19 +264,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 81,
     "slug": "weapons-yamato-katana",
-    "label": "Weapons: Yamato Katana",
     "name": "Weapons: Yamato Katana",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -302,19 +285,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 80,
     "slug": "mystical-armor-and-swords",
-    "label": "Mystical Armor and Swords",
     "name": "Mystical Armor and Swords",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -326,19 +306,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 79,
     "slug": "swords-and-more-swords-addon",
-    "label": "Swords And More Swords Addon",
     "name": "Swords And More Swords Addon",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -350,19 +327,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 78,
     "slug": "bestgamer-s-swords-plus-addon",
-    "label": "BestGamer's Swords Plus Addon",
     "name": "BestGamer's Swords Plus Addon",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -374,19 +348,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 77,
     "slug": "new-weapons-overhaul",
-    "label": "New Weapons Overhaul",
     "name": "New Weapons Overhaul",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -398,19 +369,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 76,
     "slug": "optimum-realism-r5-pe",
-    "label": "Optimum Realism R5 PE",
     "name": "Optimum Realism R5 PE",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -422,19 +390,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "like_facebook_post",
+          "label": "Like Facebook Post",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 75,
     "slug": "realsource-realistic-pack",
-    "label": "RealSource REALISTIC pack",
     "name": "RealSource REALISTIC pack",
     "version": "Realistic Visuals 1.9.1",
     "game_edition": "Bedrock",
@@ -446,19 +411,26 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        },
+        {
+          "type": "visit_youtube_channel",
+          "label": "Visit YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        },
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 74,
     "slug": "modernarch-rtx",
-    "label": "ModernArch RTX",
     "name": "ModernArch RTX",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -470,19 +442,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "visit_youtube_channel",
+          "label": "Visit YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 73,
     "slug": "jurassic-addon",
-    "label": "Jurassic: Prehistoric Creation",
     "name": "Jurassic: Prehistoric Creation",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -494,19 +463,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 72,
     "slug": "dinosaurs-time-addon-mcpe",
-    "label": "Dinosaurs' Time Addon v1.1.2.2",
     "name": "Dinosaurs' Time Addon v1.1.2.2",
     "version": "v1.1.2.2",
     "game_edition": "Bedrock",
@@ -518,19 +484,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
           "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 71,
     "slug": "the-lost-world",
-    "label": "The Lost World",
     "name": "The Lost World",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -542,19 +510,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 70,
     "slug": "nightmare-survival",
-    "label": "Nightmare Survival",
     "name": "Nightmare Survival",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -566,19 +531,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 69,
     "slug": "neo-elementals",
-    "label": "Neo Elementals | Survival Overhaul",
     "name": "Neo Elementals | Survival Overhaul",
     "version": "1.4.10.1",
     "game_edition": "Bedrock",
@@ -590,19 +552,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 68,
     "slug": "bedrock-perfected",
-    "label": "Bedrock Perfected - Survival Expansion",
     "name": "Bedrock Perfected - Survival Expansion",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -614,19 +573,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 67,
     "slug": "the-fantasy-kingdom",
-    "label": "The Fantasy Kingdom",
     "name": "The Fantasy Kingdom",
     "version": "v1.7",
     "game_edition": "Bedrock",
@@ -638,19 +594,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "subscribe_youtube_channel",
+          "label": "Subscribe to YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 66,
     "slug": "fantasy-medieval",
-    "label": "Fantasy Medieval City",
     "name": "Fantasy Medieval City",
     "version": "v1.28.1",
     "game_edition": "Bedrock",
@@ -662,19 +615,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 65,
     "slug": "elysian-isles-17k-epic-four-continent-map-1-21-2-survival-friendly-java-bedrock-minecraft-world",
-    "label": "Elysian Isles, 17k, Epic Four-Continent Map",
     "name": "Elysian Isles, 17k, Epic Four-Continent Map",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -686,19 +636,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 64,
     "slug": "adventure-360-ultimate-parkour-puzzle-map-bedrock-edition",
-    "label": "ADVENTURE 360: ULTIMATE PARKOUR/PUZZLE MAP - Bedrock Edition",
     "name": "ADVENTURE 360: ULTIMATE PARKOUR/PUZZLE MAP - Bedrock Edition",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -710,19 +662,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        },
+        {
+          "type": "like_facebook_post",
+          "label": "Like Facebook Post",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 63,
     "slug": "warmaze-survival-adventure-parkour-map",
-    "label": "WARMAZE - Survival Adventure Parkour Map",
     "name": "WARMAZE - Survival Adventure Parkour Map",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -734,19 +688,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 62,
     "slug": "biome-spiral-parkour",
-    "label": "Biome Spiral Parkour",
     "name": "Biome Spiral Parkour",
     "version": "v1.2.5",
     "game_edition": "Bedrock",
@@ -758,19 +709,21 @@
     "contentLocker": {
       "tasks": [
         {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        },
+        {
           "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "label": "Follow Instagram Account",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 61,
     "slug": "parkour-150-levels",
-    "label": "PARKOUR 150 LEVELS",
     "name": "PARKOUR 150 LEVELS",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -782,19 +735,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 60,
     "slug": "parkour-world",
-    "label": "Parkour World",
     "name": "Parkour World",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -806,19 +756,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 59,
     "slug": "more-mobs-addons",
-    "label": "More Mobs Addons",
     "name": "More Mobs Addons",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -830,19 +777,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 58,
     "slug": "morph-into-mobs",
-    "label": "Morph Into Mobs",
     "name": "Morph Into Mobs",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -854,19 +798,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 57,
     "slug": "mo-creatures",
-    "label": "Mo' Creatures",
     "name": "Mo' Creatures",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -878,19 +819,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 56,
     "slug": "nico-s-mobs",
-    "label": "Nico's Mobs",
     "name": "Nico's Mobs",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -902,19 +840,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 55,
     "slug": "mutant-creatures-addon",
-    "label": "Mutant Creatures Addon",
     "name": "Mutant Creatures Addon",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -926,19 +861,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 54,
     "slug": "simple-rpg-addon",
-    "label": "Simple RPG Addon",
     "name": "Simple RPG Addon",
     "version": "v2.2.7",
     "game_edition": "Unknown",
@@ -950,28 +882,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_youtube_channel",
-          "label": "Follow YouTube Channel",
-          "url": "https://www.youtube.com/@jeikuarchive"
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
         },
         {
-          "type": "like_facebook_post",
-          "label": "Like Facebook Post",
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
           "url": "https://www.facebook.com/profile.php?id=61585338801289"
-        },
-        {
-          "type": "visit_tiktok_profile",
-          "label": "Visit TikTok Profile",
-          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 3
+      ]
     }
   },
   {
     "id": 53,
     "slug": "raboys-zombie-apocalypse-add-on",
-    "label": "Raboy's Zombie Apocalypse",
     "name": "Raboy's Zombie Apocalypse",
     "version": "1.2.21",
     "game_edition": "Unknown",
@@ -983,18 +908,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "visit_facebook_page",
-          "label": "Visit Facebook Page",
-          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 52,
     "slug": "true-survival-zombie-apocalypse-addon",
-    "label": "True Survival - Zombie Apocalypse [MobBlocks]",
     "name": "True Survival - Zombie Apocalypse [MobBlocks]",
     "version": "V0.0.4",
     "game_edition": "Unknown",
@@ -1006,23 +929,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "subscribe_youtube_channel",
-          "label": "Subscribe to YouTube Channel",
-          "url": "https://www.youtube.com/@jeikuarchive"
-        },
-        {
-          "type": "like_instagram_reel",
-          "label": "Like Instagram Reel",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 2
+      ]
     }
   },
   {
     "id": 51,
     "slug": "horror-hospital",
-    "label": "Horror Hospital",
     "name": "Horror Hospital",
     "version": "V1.3",
     "game_edition": "Unknown",
@@ -1034,18 +950,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "visit_instagram_profile",
-          "label": "Visit Instagram Profile",
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram Account",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 50,
     "slug": "the-madman-a-minecraft-horror-map",
-    "label": "The Madman - (Minecraft Horror Map)",
     "name": "The Madman - (Minecraft Horror Map)",
     "version": "Latest",
     "game_edition": "Unknown",
@@ -1057,18 +971,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "visit_tiktok_profile",
-          "label": "Visit TikTok Profile",
-          "url": "https://www.tiktok.com/@jeikuarchive"
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 49,
     "slug": "missing-journalist",
-    "label": "Missing Journalist (Horror Map)",
     "name": "Missing Journalist (Horror Map)",
     "version": "1.21.130.3",
     "game_edition": "Unknown",
@@ -1080,18 +992,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "subscribe_youtube_channel",
-          "label": "Subscribe to YouTube Channel",
-          "url": "https://www.youtube.com/@jeikuarchive"
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        },
+        {
+          "type": "like_facebook_post",
+          "label": "Like Facebook Post",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 48,
     "slug": "kitx",
-    "label": "KitX",
     "name": "KitX",
     "version": "Latest",
     "game_edition": "Unknown",
@@ -1103,23 +1018,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_facebook_page",
-          "label": "Follow Facebook Page",
-          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+          "type": "subscribe_youtube_channel",
+          "label": "Subscribe to YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
         },
         {
           "type": "visit_tiktok_profile",
           "label": "Visit TikTok Profile",
           "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 2
+      ]
     }
   },
   {
     "id": 47,
     "slug": "one-click-pvp-kit-equip-mace-elytra-crystal-cart",
-    "label": "One Click PvP Kit Equip - Mace Elytra Crystal Cart",
     "name": "One Click PvP Kit Equip - Mace Elytra Crystal Cart",
     "version": "Latest",
     "game_edition": "Unknown",
@@ -1131,18 +1044,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_youtube_channel",
-          "label": "Follow YouTube Channel",
-          "url": "https://www.youtube.com/@jeikuarchive"
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 46,
     "slug": "crossbladesplus",
-    "label": "CrossBlades+",
     "name": "CrossBlades+",
     "version": "Latest",
     "game_edition": "Unknown",
@@ -1154,23 +1065,26 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_instagram_post",
-          "label": "Like Instagram Post",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         },
         {
-          "type": "follow_youtube_channel",
-          "label": "Follow YouTube Channel",
+          "type": "visit_youtube_channel",
+          "label": "Visit YouTube Channel",
           "url": "https://www.youtube.com/@jeikuarchive"
+        },
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 2
+      ]
     }
   },
   {
     "id": 45,
     "slug": "skillable-kits-addon",
-    "label": "Skillable Kits Addon",
     "name": "Skillable Kits Addon",
     "version": "Latest",
     "game_edition": "Unknown",
@@ -1182,18 +1096,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_facebook_post",
-          "label": "Like Facebook Post",
-          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 44,
     "slug": "9den-expansion-pack",
-    "label": "9DEN_Expansion_pack",
     "name": "9DEN_Expansion_pack",
     "version": "2.0.1",
     "game_edition": "Unknown",
@@ -1205,23 +1122,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "visit_facebook_page",
-          "label": "Visit Facebook Page",
-          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+          "type": "subscribe_youtube_channel",
+          "label": "Subscribe to YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
         },
         {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
           "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 2
+      ]
     }
   },
   {
     "id": 43,
     "slug": "fps-optimizer-fps-boost",
-    "label": "FPS Optimizer | FPS Boost Official",
     "name": "FPS Optimizer | FPS Boost Official",
     "version": "v2.7.0",
     "game_edition": "Bedrock",
@@ -1233,18 +1148,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_facebook_page",
-          "label": "Follow Facebook Page",
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
           "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 42,
     "slug": "boosted-fps-optimized-performance",
-    "label": "Boosted FPS (Optimized Performance)",
     "name": "Boosted FPS (Optimized Performance)",
     "version": "v2.2",
     "game_edition": "Bedrock",
@@ -1256,18 +1169,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_instagram_reel",
-          "label": "Like Instagram Reel",
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
           "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 41,
     "slug": "fps-booster-for-mcpe",
-    "label": "FPS Booster | Fps Boost",
     "name": "FPS Booster | Fps Boost",
     "version": "v2.1 stable",
     "game_edition": "Bedrock",
@@ -1279,18 +1195,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_instagram_post",
-          "label": "Like Instagram Post",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "like_facebook_post",
+          "label": "Like Facebook Post",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 40,
     "slug": "better-on-bedrock",
-    "label": "Better on Bedrock",
     "name": "Better on Bedrock",
     "version": "v1.2.1",
     "game_edition": "Bedrock",
@@ -1302,28 +1216,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "subscribe_youtube_channel",
-          "label": "Subscribe to YouTube Channel",
-          "url": "https://www.youtube.com/@jeikuarchive"
-        },
-        {
-          "type": "like_tiktok_video",
-          "label": "Like TikTok Video",
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
           "url": "https://www.tiktok.com/@jeikuarchive"
-        },
-        {
-          "type": "visit_instagram_profile",
-          "label": "Visit Instagram Profile",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 3
+      ]
     }
   },
   {
     "id": 39,
     "slug": "core-craft",
-    "label": "Core Craft - A Vanilla Expansion | NEW: The End Update",
     "name": "Core Craft - A Vanilla Expansion | NEW: The End Update",
     "version": "v1.2.1",
     "game_edition": "Bedrock",
@@ -1335,18 +1237,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram Account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 38,
     "slug": "survival-reworked",
-    "label": "Survival Reworked",
     "name": "Survival Reworked",
     "version": "1.8.1.3",
     "game_edition": "Bedrock",
@@ -1358,18 +1258,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_tiktok_video",
-          "label": "Like TikTok Video",
-          "url": "https://www.tiktok.com/@jeikuarchive"
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 37,
     "slug": "realistic-survival",
-    "label": "Realistic Survival [Achievement friendly]",
     "name": "Realistic Survival [Achievement friendly]",
     "version": "V6.2",
     "game_edition": "Bedrock",
@@ -1381,18 +1279,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
+          "type": "like_facebook_post",
+          "label": "Like Facebook Post",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 36,
     "slug": "enhanced-survival",
-    "label": "Enhanced Survival",
     "name": "Enhanced Survival",
     "version": "V3",
     "game_edition": "Bedrock",
@@ -1404,23 +1300,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram Account",
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
           "url": "https://www.instagram.com/jeikuarchivemc/"
-        },
-        {
-          "type": "subscribe_youtube_channel",
-          "label": "Subscribe to YouTube Channel",
-          "url": "https://www.youtube.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 2
+      ]
     }
   },
   {
     "id": 35,
     "slug": "explorers-world-map",
-    "label": "Explorer's World Map & Minimap V2",
     "name": "Explorer's World Map & Minimap V2",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -1432,18 +1321,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "visit_youtube_channel",
-          "label": "Visit YouTube Channel",
-          "url": "https://www.youtube.com/@jeikuarchive"
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 34,
     "slug": "origin-animation",
-    "label": "Origin Animation ( Alt For Actions And Stuff )",
     "name": "Origin Animation ( Alt For Actions And Stuff )",
     "version": "1.4.2",
     "game_edition": "Bedrock",
@@ -1455,18 +1342,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "visit_facebook_page",
-          "label": "Visit Facebook Page",
-          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        },
+        {
+          "type": "subscribe_youtube_channel",
+          "label": "Subscribe to YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 33,
     "slug": "astraliyte-s-animated-textures",
-    "label": "Astraliyte's Animated Textures",
     "name": "Astraliyte's Animated Textures",
     "version": "5.0.1",
     "game_edition": "Bedrock",
@@ -1478,18 +1368,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "visit_instagram_profile",
-          "label": "Visit Instagram Profile",
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 32,
     "slug": "better-animated-nature",
-    "label": "Better Animated Nature",
     "name": "Better Animated Nature",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -1504,20 +1392,13 @@
           "type": "visit_youtube_channel",
           "label": "Visit YouTube Channel",
           "url": "https://www.youtube.com/@jeikuarchive"
-        },
-        {
-          "type": "like_tiktok_video",
-          "label": "Like TikTok Video",
-          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 2
+      ]
     }
   },
   {
     "id": 31,
     "slug": "fay-player-animation",
-    "label": "Fay's Player Animation | v1.0.6 Particle Update",
     "name": "Fay's Player Animation | v1.0.6 Particle Update",
     "version": "1.0.6",
     "game_edition": "Bedrock",
@@ -1529,18 +1410,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "visit_tiktok_profile",
-          "label": "Visit TikTok Profile",
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
           "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 30,
     "slug": "mcpe-old-animations",
-    "label": "MCPE OLD animations",
     "name": "MCPE OLD animations",
     "version": "1.1.1",
     "game_edition": "Bedrock",
@@ -1552,18 +1431,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "subscribe_youtube_channel",
-          "label": "Subscribe to YouTube Channel",
+          "type": "visit_youtube_channel",
+          "label": "Visit YouTube Channel",
           "url": "https://www.youtube.com/@jeikuarchive"
+        },
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 29,
     "slug": "moving-textures",
-    "label": "Moving Textures (Official Port)",
     "name": "Moving Textures (Official Port)",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -1575,18 +1457,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_youtube_channel",
-          "label": "Follow YouTube Channel",
-          "url": "https://www.youtube.com/@jeikuarchive"
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 28,
     "slug": "miku-nakano-totem",
-    "label": "Miku nakano totem animated",
     "name": "Miku nakano totem animated",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -1598,23 +1478,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_instagram_reel",
-          "label": "Like Instagram Reel",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
-        },
-        {
-          "type": "follow_facebook_page",
-          "label": "Follow Facebook Page",
-          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+          "type": "visit_youtube_channel",
+          "label": "Visit YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 2
+      ]
     }
   },
   {
     "id": 27,
     "slug": "karene-inda-totem-animated",
-    "label": "Karene inda Totem animated",
     "name": "Karene inda Totem animated",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -1626,18 +1499,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_facebook_post",
-          "label": "Like Facebook Post",
-          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 26,
     "slug": "x-ray-pluss",
-    "label": "X-Ray Pluss",
     "name": "X-Ray Pluss",
     "version": "v1.3.0",
     "game_edition": "Bedrock",
@@ -1653,14 +1529,12 @@
           "label": "Follow Facebook Page",
           "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 25,
     "slug": "xray-texture-pack",
-    "label": "X-Ray Texture Pack Minecraft (Bedrock / PE)",
     "name": "X-Ray Texture Pack Minecraft (Bedrock / PE)",
     "version": "1.1.0",
     "game_edition": "Bedrock",
@@ -1672,18 +1546,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_instagram_reel",
-          "label": "Like Instagram Reel",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 24,
     "slug": "x-ray-bedrock",
-    "label": "X-Ray Enhanced",
     "name": "X-Ray Enhanced",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -1695,23 +1567,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        },
-        {
-          "type": "visit_instagram_profile",
-          "label": "Visit Instagram Profile",
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 2
+      ]
     }
   },
   {
     "id": 23,
     "slug": "furnicraft-furniture",
-    "label": "FURNICRAFT ~ Furniture",
     "name": "FURNICRAFT ~ Furniture",
     "version": "v27.1",
     "game_edition": "Bedrock",
@@ -1723,18 +1588,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_instagram_post",
-          "label": "Like Instagram Post",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 22,
     "slug": "feudal-furniture",
-    "label": "Feudal Furniture | +800 BLOCKS",
     "name": "Feudal Furniture | +800 BLOCKS",
     "version": "8.5",
     "game_edition": "Bedrock",
@@ -1746,18 +1609,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram Account",
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 21,
     "slug": "be-ghoulcraft-furniture-pack",
-    "label": "BE Ghoulcraft - Furniture Pack",
     "name": "BE Ghoulcraft - Furniture Pack",
     "version": "v3.6",
     "game_edition": "Bedrock",
@@ -1769,18 +1630,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_tiktok_video",
-          "label": "Like TikTok Video",
-          "url": "https://www.tiktok.com/@jeikuarchive"
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 20,
     "slug": "props-and-furnitures-addon",
-    "label": "Props And Furnitures Addon",
     "name": "Props And Furnitures Addon",
     "version": "V7",
     "game_edition": "Bedrock",
@@ -1792,28 +1656,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
           "url": "https://www.tiktok.com/@jeikuarchive"
-        },
-        {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram Account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
-        },
-        {
-          "type": "follow_facebook_page",
-          "label": "Follow Facebook Page",
-          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 3
+      ]
     }
   },
   {
     "id": 19,
     "slug": "newb-complementary",
-    "label": "Newb Complemetary Shader | Compatible With Minecraft v26.33+",
     "name": "Newb Complemetary Shader | Compatible With Minecraft v26.33+",
     "version": "26.30",
     "game_edition": "Bedrock",
@@ -1825,18 +1677,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
           "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 18,
     "slug": "bsl-shaders-bedrock",
-    "label": "BSLB Shaders Bedrock - Classic V3",
     "name": "BSLB Shaders Bedrock - Classic V3",
     "version": "3.2.0",
     "game_edition": "Bedrock",
@@ -1848,18 +1698,21 @@
     "contentLocker": {
       "tasks": [
         {
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+        },
+        {
           "type": "visit_youtube_channel",
           "label": "Visit YouTube Channel",
           "url": "https://www.youtube.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 17,
     "slug": "rg-shader-v2-1-renderdragon-support-2",
-    "label": "RG Shader | Renderdragon Shaders",
     "name": "RG Shader | Renderdragon Shaders",
     "version": "3.8",
     "game_edition": "Bedrock",
@@ -1871,18 +1724,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "visit_facebook_page",
-          "label": "Visit Facebook Page",
-          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 16,
     "slug": "revolution-vibrant-visual",
-    "label": "Revolution Vibrant Visuals | Static Light",
     "name": "Revolution Vibrant Visuals | Static Light",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -1894,23 +1745,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_facebook_post",
-          "label": "Like Facebook Post",
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
           "url": "https://www.facebook.com/profile.php?id=61585338801289"
-        },
-        {
-          "type": "visit_tiktok_profile",
-          "label": "Visit TikTok Profile",
-          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 2
+      ]
     }
   },
   {
     "id": 15,
     "slug": "newb-shader",
-    "label": "Newb Shader",
     "name": "Newb Shader",
     "version": "16.54",
     "game_edition": "Bedrock",
@@ -1922,18 +1766,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "visit_instagram_profile",
-          "label": "Visit Instagram Profile",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "like_facebook_post",
+          "label": "Like Facebook Post",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 14,
     "slug": "village-animations",
-    "label": "Village Animations",
     "name": "Village Animations",
     "version": "1.3.2",
     "game_edition": "Bedrock",
@@ -1945,18 +1787,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "visit_tiktok_profile",
-          "label": "Visit TikTok Profile",
-          "url": "https://www.tiktok.com/@jeikuarchive"
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 13,
     "slug": "dynamic-animations",
-    "label": "Dynamic Animations",
     "name": "Dynamic Animations",
     "version": "V2.0.1",
     "game_edition": "Bedrock",
@@ -1968,18 +1808,26 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "subscribe_youtube_channel",
-          "label": "Subscribe to YouTube Channel",
-          "url": "https://www.youtube.com/@jeikuarchive"
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "like_instagram_reel",
+          "label": "Like Instagram Reel",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 12,
     "slug": "fresh-animations",
-    "label": "Fresh Animations",
     "name": "Fresh Animations",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -1991,23 +1839,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "subscribe_youtube_channel",
-          "label": "Subscribe to YouTube Channel",
-          "url": "https://www.youtube.com/@jeikuarchive"
-        },
-        {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram Account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_facebook_page",
+          "label": "Follow Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 2
+      ]
     }
   },
   {
     "id": 11,
     "slug": "animated-blocks-texture",
-    "label": "Animated Blocks",
     "name": "Animated Blocks",
     "version": "Latest",
     "game_edition": "Bedrock",
@@ -2019,18 +1860,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_youtube_channel",
-          "label": "Follow YouTube Channel",
-          "url": "https://www.youtube.com/@jeikuarchive"
+          "type": "like_facebook_post",
+          "label": "Like Facebook Post",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 10,
     "slug": "alleis-skin-pack",
-    "label": "Alleis Skin Pack",
     "name": "Alleis Skin Pack",
     "version": "1.3.6",
     "game_edition": "Bedrock",
@@ -2042,18 +1881,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_facebook_post",
-          "label": "Like Facebook Post",
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
           "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 9,
     "slug": "random-skin-pack",
-    "label": "Random Meme Skinpack",
     "name": "Random Meme Skinpack",
     "version": "1.4",
     "game_edition": "Bedrock",
@@ -2065,18 +1907,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_facebook_page",
-          "label": "Follow Facebook Page",
-          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 8,
     "slug": "anime-power-skin-pack",
-    "label": "Anime Power Skin Pack",
     "name": "Anime Power Skin Pack",
     "version": "v1.8",
     "game_edition": "Bedrock",
@@ -2088,23 +1928,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_youtube_channel",
-          "label": "Follow YouTube Channel",
-          "url": "https://www.youtube.com/@jeikuarchive"
-        },
-        {
-          "type": "like_tiktok_video",
-          "label": "Like TikTok Video",
-          "url": "https://www.tiktok.com/@jeikuarchive"
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 2
+      ]
     }
   },
   {
     "id": 7,
     "slug": "neon-cyber-glow-skin-pack",
-    "label": "Neon Cyber Glow - Skin Pack",
     "name": "Neon Cyber Glow - Skin Pack",
     "version": "v1.10",
     "game_edition": "Bedrock",
@@ -2116,18 +1949,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_instagram_reel",
-          "label": "Like Instagram Reel",
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
           "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "visit_facebook_page",
+          "label": "Visit Facebook Page",
+          "url": "https://www.facebook.com/profile.php?id=61585338801289"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 6,
     "slug": "super-heroes",
-    "label": "Super Heroes",
     "name": "Super Heroes",
     "version": "7",
     "game_edition": "Bedrock",
@@ -2143,14 +1979,12 @@
           "label": "Like Instagram Post",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 5,
     "slug": "structures-in-just-one-click",
-    "label": "Structures In Just One Click",
     "name": "Structures In Just One Click",
     "version": "v3.5",
     "game_edition": "Bedrock",
@@ -2162,18 +1996,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram Account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 4,
     "slug": "construct",
-    "label": "Construct",
     "name": "Construct",
     "version": "v1.1.0",
     "game_edition": "Bedrock",
@@ -2185,23 +2022,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_instagram_post",
-          "label": "Like Instagram Post",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         },
         {
-          "type": "follow_facebook_page",
-          "label": "Follow Facebook Page",
-          "url": "https://www.facebook.com/profile.php?id=61585338801289"
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 2
+      ]
     }
   },
   {
     "id": 3,
     "slug": "structures-plus",
-    "label": "Structures Plus",
     "name": "Structures Plus",
     "version": "0.9",
     "game_edition": "Bedrock",
@@ -2213,18 +2048,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "like_tiktok_video",
-          "label": "Like TikTok Video",
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
           "url": "https://www.tiktok.com/@jeikuarchive"
+        },
+        {
+          "type": "visit_instagram_profile",
+          "label": "Visit Instagram Profile",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 2,
     "slug": "legacy-stone-structures",
-    "label": "Legacy Stone: Structures",
     "name": "Legacy Stone: Structures",
     "version": "1.4",
     "game_edition": "Bedrock",
@@ -2236,23 +2074,16 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        },
-        {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram Account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 2
+      ]
     }
   },
   {
     "id": 1,
     "slug": "building-expansion-addon",
-    "label": "Building Expansion Renewed [1.21.20+] | V1.0 Performance Update!",
     "name": "Building Expansion Renewed [1.21.20+] | V1.0 Performance Update!",
     "version": "V1.1.0",
     "game_edition": "Bedrock",
@@ -2267,15 +2098,23 @@
           "type": "follow_tiktok_user",
           "label": "Follow TikTok User",
           "url": "https://www.tiktok.com/@jeikuarchive"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        },
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1
+      ]
     }
   },
   {
     "id": 94,
     "slug": "prizma-pbr-deferred-pack",
-    "label": "Prizma Visuals Legacy (Vibrant Visuals Pack Deferred)",
     "name": "Prizma Visuals Legacy (Vibrant Visuals Pack Deferred)",
     "version": "1.3.10",
     "game_edition": "Bedrock",
@@ -2287,19 +2126,21 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 95,
     "slug": "cinematic-visuals-shader-vibrant-visuals-pack",
-    "label": "Cinematic Visuals Shader (Vibrant Visuals Pack)",
     "name": "Cinematic Visuals Shader (Vibrant Visuals Pack)",
     "version": "V1.2",
     "game_edition": "Bedrock",
@@ -2312,18 +2153,20 @@
       "tasks": [
         {
           "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   },
   {
     "id": 96,
     "slug": "ads-vibrant-visuals",
-    "label": "Vibrant Shader (Vibrant Visuals)",
     "name": "Vibrant Shader (Vibrant Visuals)",
     "version": "V2.6",
     "game_edition": "Bedrock",
@@ -2335,13 +2178,11 @@
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "like_tiktok_video",
+          "label": "Like TikTok Video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
-      ],
-      "requiredCount": 1,
-      "delay": 1000
+      ]
     }
   }
 ]
