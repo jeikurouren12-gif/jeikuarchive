@@ -1,5 +1,77 @@
 [
   {
+    "id": 104,
+    "slug": "advanced-x-ray-ore-finder",
+    "label": "Advanced X-Ray - Ore Finder",
+    "name": "Advanced X-Ray - Ore Finder",
+    "version": "v1.0.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.20.0+",
+    "category": "Texture Pack",
+    "description": "A pure resource-pack X-Ray texture pack that hides 40+ filler blocks across the Overworld and Nether while keeping achievements enabled and requiring no behavior pack.",
+    "download": "https://mcpedl.com/advanced-x-ray-ore-finder/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 103,
+    "slug": "x-ray-bedrock-minecraft",
+    "label": "X-Ray",
+    "name": "X-Ray",
+    "version": "1.0.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.26",
+    "category": "Texture Pack",
+    "description": "A lightweight X-Ray texture pack for Minecraft Bedrock that makes select blocks transparent so players can spot ores and caves more easily.",
+    "download": "https://mcpedl.com/x-ray-bedrock-minecraft/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
+    "id": 102,
+    "slug": "x-ray-plus-texture-pack-mcpe",
+    "label": "X-Ray+ Texture Pack",
+    "name": "X-Ray+ Texture Pack",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.x, 1.21",
+    "category": "Texture Pack",
+    "description": "An advanced full-bright X-Ray texture pack for Minecraft Bedrock that adds a special infested block visualizer alongside standard ore and gravel visibility.",
+    "download": "https://www.9minecraft.net/x-ray-plus-texture-pack-mcpe/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 1000
+    }
+  },
+  {
     "id": 101,
     "slug": "raiyons-java-combat-addon",
     "label": "Raiyon's Java Combat",
@@ -2306,75 +2378,80 @@
     }
   },
   {
-    "id": 102,
-    "slug": "x-ray-plus-texture-pack-mcpe",
-    "label": "X-Ray+ Texture Pack",
-    "name": "X-Ray+ Texture Pack",
-    "version": "Latest",
+    "id": 105,
+    "slug": "zeta-moon",
+    "label": "Zeta Moon",
+    "name": "Zeta Moon",
+    "version": "Latest June",
     "game_edition": "Bedrock",
-    "mcVersion": "26.x, 1.21",
-    "category": "Texture Pack",
-    "description": "An advanced full-bright X-Ray texture pack for Minecraft Bedrock that adds a special infested block visualizer alongside standard ore and gravel visibility.",
-    "download": "https://www.9minecraft.net/x-ray-plus-texture-pack-mcpe/",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A mystery horror adventure map where players explore Zeta Moon, solve puzzles and secrets, face terrifying monsters, and manage oxygen while playing solo or cooperatively.",
+    "download": "https://www.minecraftmaps.com/51986-zeta-moon",
     "collection": 1,
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
       ],
       "requiredCount": 1,
-      "delay": 1000
+      "delay": 15000
     }
   },
   {
-    "id": 103,
-    "slug": "x-ray-bedrock-minecraft",
-    "label": "X-Ray",
-    "name": "X-Ray",
-    "version": "1.0.0",
+    "id": 106,
+    "slug": "dont-look-away-horror",
+    "label": "Don't Look Away Horror Map",
+    "name": "Don't Look Away Horror Map",
+    "version": "4",
     "game_edition": "Bedrock",
-    "mcVersion": "1.26",
-    "category": "Texture Pack",
-    "description": "A lightweight X-Ray texture pack for Minecraft Bedrock that makes select blocks transparent so players can spot ores and caves more easily.",
-    "download": "https://mcpedl.com/x-ray-bedrock-minecraft/",
+    "mcVersion": "26.30",
+    "category": "Gameplay",
+    "description": "A multiplayer horror survival puzzle map set in an abandoned museum where players must find 12 hidden skulls, avoid the Weeping Angel, and escape.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/maps/dont-look-away-horror",
     "collection": 1,
     "contentLocker": {
       "tasks": [
         {
           "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
+          "label": "Follow Instagram Account",
           "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
         }
       ],
-      "requiredCount": 1,
-      "delay": 1000
+      "requiredCount": 2,
+      "delay": 15000
     }
   },
   {
-    "id": 104,
-    "slug": "advanced-x-ray-ore-finder",
-    "label": "Advanced X-Ray - Ore Finder",
-    "name": "Advanced X-Ray - Ore Finder",
-    "version": "v1.0.0",
+    "id": 107,
+    "slug": "archived-horror-map",
+    "label": "Archived Horror Map",
+    "name": "Archived Horror Map",
+    "version": "4",
     "game_edition": "Bedrock",
-    "mcVersion": "1.20.0+",
-    "category": "Texture Pack",
-    "description": "A pure resource-pack X-Ray texture pack that hides 40+ filler blocks across the Overworld and Nether while keeping achievements enabled and requiring no behavior pack.",
-    "download": "https://mcpedl.com/advanced-x-ray-ore-finder/",
+    "mcVersion": "26.20",
+    "category": "Gameplay",
+    "description": "A multiplayer horror map where players investigate a missing sister's abandoned house and become trapped inside by an unknown entity.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/maps/archived-horror-map",
     "collection": 1,
     "contentLocker": {
       "tasks": [
         {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
         }
       ],
       "requiredCount": 1,
-      "delay": 1000
+      "delay": 15000
     }
   }
 ]
