@@ -1,5 +1,82 @@
 [
   {
+    "id": 107,
+    "slug": "archived-horror-map",
+    "label": "Archived Horror Map",
+    "name": "Archived Horror Map",
+    "version": "4",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.20",
+    "category": "Gameplay",
+    "description": "A multiplayer horror map where players investigate a missing sister's abandoned house and become trapped inside by an unknown entity.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/maps/archived-horror-map",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 106,
+    "slug": "dont-look-away-horror",
+    "label": "Don't Look Away Horror Map",
+    "name": "Don't Look Away Horror Map",
+    "version": "4",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.30",
+    "category": "Gameplay",
+    "description": "A multiplayer horror survival puzzle map set in an abandoned museum where players must find 12 hidden skulls, avoid the Weeping Angel, and escape.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/maps/dont-look-away-horror",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok Profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 105,
+    "slug": "zeta-moon",
+    "label": "Zeta Moon",
+    "name": "Zeta Moon",
+    "version": "Latest June",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A mystery horror adventure map where players explore Zeta Moon, solve puzzles and secrets, face terrifying monsters, and manage oxygen while playing solo or cooperatively.",
+    "download": "https://www.minecraftmaps.com/51986-zeta-moon",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
+  },
+  {
     "id": 104,
     "slug": "advanced-x-ray-ore-finder",
     "label": "Advanced X-Ray - Ore Finder",
@@ -2378,16 +2455,16 @@
     }
   },
   {
-    "id": 105,
-    "slug": "zeta-moon",
-    "label": "Zeta Moon",
-    "name": "Zeta Moon",
-    "version": "Latest June",
+    "id": 108,
+    "slug": "lite-fps",
+    "label": "Lite FPS",
+    "name": "Lite FPS",
+    "version": "V3.1.7",
     "game_edition": "Bedrock",
     "mcVersion": "Latest",
-    "category": "Gameplay",
-    "description": "A mystery horror adventure map where players explore Zeta Moon, solve puzzles and secrets, face terrifying monsters, and manage oxygen while playing solo or cooperatively.",
-    "download": "https://www.minecraftmaps.com/51986-zeta-moon",
+    "category": "Performance",
+    "description": "A lightweight FPS-focused texture pack designed to improve Minecraft Bedrock performance while keeping visuals simple and suitable for low-end devices.",
+    "download": "https://mcpedl.com/lite-fps/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2402,27 +2479,27 @@
     }
   },
   {
-    "id": 106,
-    "slug": "dont-look-away-horror",
-    "label": "Don't Look Away Horror Map",
-    "name": "Don't Look Away Horror Map",
-    "version": "4",
+    "id": 109,
+    "slug": "better-fps-fps-boost",
+    "label": "Better Fps (Fps Boost)",
+    "name": "Better Fps (Fps Boost)",
+    "version": "v1.9.1",
     "game_edition": "Bedrock",
-    "mcVersion": "26.30",
-    "category": "Gameplay",
-    "description": "A multiplayer horror survival puzzle map set in an abandoned museum where players must find 12 hidden skulls, avoid the Weeping Angel, and escape.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/maps/dont-look-away-horror",
+    "mcVersion": "Latest",
+    "category": "Performance",
+    "description": "A performance-focused texture pack designed to make Minecraft Bedrock run smoother while preserving the core vanilla visual style.",
+    "download": "https://mcpedl.com/better-fps-fps-boost/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
         {
           "type": "follow_instagram_account",
-          "label": "Follow Instagram Account",
+          "label": "Follow Instagram account",
           "url": "https://www.instagram.com/jeikuarchivemc/"
         },
         {
-          "type": "visit_tiktok_profile",
-          "label": "Visit TikTok Profile",
+          "type": "like_tiktok_video",
+          "label": "Like TikTok video",
           "url": "https://www.tiktok.com/@jeikuarchive"
         }
       ],
@@ -2431,22 +2508,22 @@
     }
   },
   {
-    "id": 107,
-    "slug": "archived-horror-map",
-    "label": "Archived Horror Map",
-    "name": "Archived Horror Map",
-    "version": "4",
+    "id": 110,
+    "slug": "vanilla-x-optimizer-fps-boost",
+    "label": "Vanilla x Optimizer FPS Boost",
+    "name": "Vanilla x Optimizer FPS Boost",
+    "version": "v2.4.1",
     "game_edition": "Bedrock",
-    "mcVersion": "26.20",
-    "category": "Gameplay",
-    "description": "A multiplayer horror map where players investigate a missing sister's abandoned house and become trapped inside by an unknown entity.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/maps/archived-horror-map",
+    "mcVersion": "26.40",
+    "category": "Performance",
+    "description": "A combined FPS-boosting texture pack that reduces particles, animations, fog, and visual effects to improve performance on low-end and mid-range Minecraft Bedrock devices.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/vanilla-x-optimizer-fps-boost",
     "collection": 1,
     "contentLocker": {
       "tasks": [
         {
           "type": "follow_youtube_channel",
-          "label": "Follow YouTube Channel",
+          "label": "Follow YouTube channel",
           "url": "https://www.youtube.com/@jeikuarchive"
         }
       ],
