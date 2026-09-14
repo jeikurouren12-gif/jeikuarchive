@@ -1,5 +1,82 @@
 [
   {
+    "id": 110,
+    "slug": "vanilla-x-optimizer-fps-boost",
+    "label": "Vanilla x Optimizer FPS Boost",
+    "name": "Vanilla x Optimizer FPS Boost",
+    "version": "v2.4.1",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.40",
+    "category": "Performance",
+    "description": "A combined FPS-boosting texture pack that reduces particles, animations, fog, and visual effects to improve performance on low-end and mid-range Minecraft Bedrock devices.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/vanilla-x-optimizer-fps-boost",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 109,
+    "slug": "better-fps-fps-boost",
+    "label": "Better Fps (Fps Boost)",
+    "name": "Better Fps (Fps Boost)",
+    "version": "v1.9.1",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Performance",
+    "description": "A performance-focused texture pack designed to make Minecraft Bedrock run smoother while preserving the core vanilla visual style.",
+    "download": "https://mcpedl.com/better-fps-fps-boost/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "like_tiktok_video",
+          "label": "Like TikTok video",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 108,
+    "slug": "lite-fps",
+    "label": "Lite FPS",
+    "name": "Lite FPS",
+    "version": "V3.1.7",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Performance",
+    "description": "A lightweight FPS-focused texture pack designed to improve Minecraft Bedrock performance while keeping visuals simple and suitable for low-end devices.",
+    "download": "https://mcpedl.com/lite-fps/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
+  },
+  {
     "id": 107,
     "slug": "archived-horror-map",
     "label": "Archived Horror Map",
@@ -2455,16 +2532,16 @@
     }
   },
   {
-    "id": 108,
-    "slug": "lite-fps",
-    "label": "Lite FPS",
-    "name": "Lite FPS",
-    "version": "V3.1.7",
+    "id": 111,
+    "slug": "qol-enhanced-hole-filler-bridge-generator",
+    "label": "QoL Enhanced - Hole Filler - Bridge Generator",
+    "name": "QoL Enhanced - Hole Filler - Bridge Generator",
+    "version": "V1.1.5",
     "game_edition": "Bedrock",
-    "mcVersion": "Latest",
-    "category": "Performance",
-    "description": "A lightweight FPS-focused texture pack designed to improve Minecraft Bedrock performance while keeping visuals simple and suitable for low-end devices.",
-    "download": "https://mcpedl.com/lite-fps/",
+    "mcVersion": "26.10",
+    "category": "Utility",
+    "description": "A Minecraft Bedrock utility addon that adds tools for repairing craters, generating bridges, leveling terrain, collecting dropped items, and managing water and lava.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/qol-enhanced-hole-filler-bridge-generator",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2479,16 +2556,16 @@
     }
   },
   {
-    "id": 109,
-    "slug": "better-fps-fps-boost",
-    "label": "Better Fps (Fps Boost)",
-    "name": "Better Fps (Fps Boost)",
-    "version": "v1.9.1",
+    "id": 112,
+    "slug": "utility-qol",
+    "label": "Utility & QoL",
+    "name": "Utility & QoL",
+    "version": "V1.0.0",
     "game_edition": "Bedrock",
-    "mcVersion": "Latest",
-    "category": "Performance",
-    "description": "A performance-focused texture pack designed to make Minecraft Bedrock run smoother while preserving the core vanilla visual style.",
-    "download": "https://mcpedl.com/better-fps-fps-boost/",
+    "mcVersion": "1.21.122",
+    "category": "Utility",
+    "description": "A Minecraft Bedrock quality-of-life addon that adds VeinMiner, TreeCapitator, Double Doors, Silk Spawner, chest preservation, and other survival conveniences.",
+    "download": "https://mcpedl.com/utility-qol/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2498,8 +2575,8 @@
           "url": "https://www.instagram.com/jeikuarchivemc/"
         },
         {
-          "type": "like_tiktok_video",
-          "label": "Like TikTok video",
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok profile",
           "url": "https://www.tiktok.com/@jeikuarchive"
         }
       ],
@@ -2508,16 +2585,16 @@
     }
   },
   {
-    "id": 110,
-    "slug": "vanilla-x-optimizer-fps-boost",
-    "label": "Vanilla x Optimizer FPS Boost",
-    "name": "Vanilla x Optimizer FPS Boost",
-    "version": "v2.4.1",
+    "id": 113,
+    "slug": "capytator",
+    "label": "Capytator — All-In-One Collector",
+    "name": "Capytator — All-In-One Collector",
+    "version": "V1.7.0",
     "game_edition": "Bedrock",
-    "mcVersion": "26.40",
-    "category": "Performance",
-    "description": "A combined FPS-boosting texture pack that reduces particles, animations, fog, and visual effects to improve performance on low-end and mid-range Minecraft Bedrock devices.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/vanilla-x-optimizer-fps-boost",
+    "mcVersion": "26.30",
+    "category": "Utility",
+    "description": "A Minecraft Bedrock utility addon that combines Tree Capitator, Vein Miner, crop harvesting, auto replanting, hammers, fluid collection, and other quality-of-life tools.",
+    "download": "https://mcpedl.com/capytator/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
