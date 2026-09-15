@@ -1,5 +1,82 @@
 [
   {
+    "id": 113,
+    "slug": "capytator",
+    "label": "Capytator — All-In-One Collector",
+    "name": "Capytator — All-In-One Collector",
+    "version": "V1.7.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.30",
+    "category": "Utility",
+    "description": "A Minecraft Bedrock utility addon that combines Tree Capitator, Vein Miner, crop harvesting, auto replanting, hammers, fluid collection, and other quality-of-life tools.",
+    "download": "https://mcpedl.com/capytator/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 112,
+    "slug": "utility-qol",
+    "label": "Utility & QoL",
+    "name": "Utility & QoL",
+    "version": "V1.0.0",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21.122",
+    "category": "Utility",
+    "description": "A Minecraft Bedrock quality-of-life addon that adds VeinMiner, TreeCapitator, Double Doors, Silk Spawner, chest preservation, and other survival conveniences.",
+    "download": "https://mcpedl.com/utility-qol/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 111,
+    "slug": "qol-enhanced-hole-filler-bridge-generator",
+    "label": "QoL Enhanced - Hole Filler - Bridge Generator",
+    "name": "QoL Enhanced - Hole Filler - Bridge Generator",
+    "version": "V1.1.5",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.10",
+    "category": "Utility",
+    "description": "A Minecraft Bedrock utility addon that adds tools for repairing craters, generating bridges, leveling terrain, collecting dropped items, and managing water and lava.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/qol-enhanced-hole-filler-bridge-generator",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
+  },
+  {
     "id": 110,
     "slug": "vanilla-x-optimizer-fps-boost",
     "label": "Vanilla x Optimizer FPS Boost",
@@ -2532,16 +2609,16 @@
     }
   },
   {
-    "id": 111,
-    "slug": "qol-enhanced-hole-filler-bridge-generator",
-    "label": "QoL Enhanced - Hole Filler - Bridge Generator",
-    "name": "QoL Enhanced - Hole Filler - Bridge Generator",
-    "version": "V1.1.5",
+    "id": 114,
+    "slug": "fused-vanilla-texture-pack",
+    "label": "Fused Vanilla",
+    "name": "Fused Vanilla",
+    "version": "1.1",
     "game_edition": "Bedrock",
-    "mcVersion": "26.10",
-    "category": "Utility",
-    "description": "A Minecraft Bedrock utility addon that adds tools for repairing craters, generating bridges, leveling terrain, collecting dropped items, and managing water and lava.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/qol-enhanced-hole-filler-bridge-generator",
+    "mcVersion": "26.30",
+    "category": "Texture Pack",
+    "description": "A Vanilla+ texture pack that enhances Minecraft's original style with more detailed textures, improved models, and a full nature overhaul while keeping the familiar vanilla look.",
+    "download": "https://mcpedl.com/fused-vanilla-texture-pack/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2556,16 +2633,16 @@
     }
   },
   {
-    "id": 112,
-    "slug": "utility-qol",
-    "label": "Utility & QoL",
-    "name": "Utility & QoL",
-    "version": "V1.0.0",
+    "id": 115,
+    "slug": "better-default-textures-1-18-1-20",
+    "label": "Better Default Textures 1.18 - 1.20+",
+    "name": "Better Default Textures 1.18 - 1.20+",
+    "version": "Latest",
     "game_edition": "Bedrock",
-    "mcVersion": "1.21.122",
-    "category": "Utility",
-    "description": "A Minecraft Bedrock quality-of-life addon that adds VeinMiner, TreeCapitator, Double Doors, Silk Spawner, chest preservation, and other survival conveniences.",
-    "download": "https://mcpedl.com/utility-qol/",
+    "mcVersion": "1.20.12",
+    "category": "Texture Pack",
+    "description": "A detailed makeover of Minecraft's blocks and mobs that adds more depth and visual detail while preserving the classic vanilla style.",
+    "download": "https://mcpedl.com/better-default-textures-1-18-1-20/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2585,16 +2662,16 @@
     }
   },
   {
-    "id": 113,
-    "slug": "capytator",
-    "label": "Capytator — All-In-One Collector",
-    "name": "Capytator — All-In-One Collector",
-    "version": "V1.7.0",
+    "id": 116,
+    "slug": "vanilla-exp-bedrock",
+    "label": "Vanilla Experience+ [BEDROCK]",
+    "name": "Vanilla Experience+ [BEDROCK]",
+    "version": "v1.1",
     "game_edition": "Bedrock",
     "mcVersion": "26.30",
-    "category": "Utility",
-    "description": "A Minecraft Bedrock utility addon that combines Tree Capitator, Vein Miner, crop harvesting, auto replanting, hammers, fluid collection, and other quality-of-life tools.",
-    "download": "https://mcpedl.com/capytator/",
+    "category": "Texture Pack",
+    "description": "A Vanilla-style texture pack that refines and fixes visual details throughout Minecraft while improving consistency across blocks, items, and other game elements.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/vanilla-exp-bedrock",
     "collection": 1,
     "contentLocker": {
       "tasks": [
