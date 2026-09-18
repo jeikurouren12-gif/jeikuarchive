@@ -1,5 +1,82 @@
 [
   {
+    "id": 122,
+    "slug": "household-furniture",
+    "label": "Household Furniture",
+    "name": "Household Furniture",
+    "version": "Latest",
+    "game_edition": "Unknown",
+    "mcVersion": "Latest",
+    "category": "Utility",
+    "description": "A Minecraft furniture resource page featuring household furniture designed to add decorative furnishings to Minecraft builds.",
+    "download": "https://www.mods4minecraft.com/mods/furniture/household_furniture/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 121,
+    "slug": "fabulous-furnished",
+    "label": "Fabulous Furniture (Bedrock)",
+    "name": "Fabulous Furniture (Bedrock)",
+    "version": "v2.2.17.1",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.3",
+    "category": "Utility",
+    "description": "A Minecraft Bedrock furniture addon that adds more than 250 furniture blocks with numerous variations for decorating and customizing builds.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/fabulous-furnished",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 120,
+    "slug": "rustic-furniture",
+    "label": "Rustic Furniture",
+    "name": "Rustic Furniture",
+    "version": "V.10",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.40",
+    "category": "Utility",
+    "description": "A Minecraft Bedrock furniture resource pack that adds a wide variety of rustic and decorative furniture including seating, tables, storage, appliances, bathroom items, and outdoor decorations.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/addons/rustic-furniture",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
+  },
+  {
     "id": 119,
     "slug": "zombie-apocalypse-mcpe",
     "label": "Zombie Apocalypse Mcpe",
@@ -2763,16 +2840,16 @@
     }
   },
   {
-    "id": 120,
-    "slug": "rustic-furniture",
-    "label": "Rustic Furniture",
-    "name": "Rustic Furniture",
-    "version": "V.10",
+    "id": 123,
+    "slug": "classic-skyblock-v2-1",
+    "label": "Classic Skyblock V2.1",
+    "name": "Classic Skyblock V2.1",
+    "version": "Latest",
     "game_edition": "Bedrock",
-    "mcVersion": "26.40",
-    "category": "Utility",
-    "description": "A Minecraft Bedrock furniture resource pack that adds a wide variety of rustic and decorative furniture including seating, tables, storage, appliances, bathroom items, and outdoor decorations.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/rustic-furniture",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A classic Minecraft Bedrock Skyblock map that challenges players to survive and progress from a small floating island with limited resources.",
+    "download": "https://mcpedl.com/classic-skyblock-v2-1/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2787,16 +2864,16 @@
     }
   },
   {
-    "id": 121,
-    "slug": "fabulous-furnished",
-    "label": "Fabulous Furniture (Bedrock)",
-    "name": "Fabulous Furniture (Bedrock)",
-    "version": "v2.2.17.1",
+    "id": 124,
+    "slug": "classic-sky-block",
+    "label": "Classic Sky Block",
+    "name": "Classic Sky Block",
+    "version": "Latest",
     "game_edition": "Bedrock",
-    "mcVersion": "26.3",
-    "category": "Utility",
-    "description": "A Minecraft Bedrock furniture addon that adds more than 250 furniture blocks with numerous variations for decorating and customizing builds.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/addons/fabulous-furnished",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A Minecraft Bedrock Skyblock survival map where players begin on a floating island and use limited resources to expand and progress.",
+    "download": "https://mcpedl.com/classic-sky-block/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2816,16 +2893,16 @@
     }
   },
   {
-    "id": 122,
-    "slug": "household-furniture",
-    "label": "Household Furniture",
-    "name": "Household Furniture",
+    "id": 125,
+    "slug": "classic-skyblock",
+    "label": "Classic Skyblock",
+    "name": "Classic Skyblock",
     "version": "Latest",
-    "game_edition": "Unknown",
+    "game_edition": "Bedrock",
     "mcVersion": "Latest",
-    "category": "Utility",
-    "description": "A Minecraft furniture resource page featuring household furniture designed to add decorative furnishings to Minecraft builds.",
-    "download": "https://www.mods4minecraft.com/mods/furniture/household_furniture/",
+    "category": "Gameplay",
+    "description": "A classic Skyblock survival map for Minecraft Bedrock that starts players on a small floating island and focuses on resource management and island expansion.",
+    "download": "https://mcpedl.com/classic-skyblock/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
