@@ -2992,5 +2992,82 @@
       "requiredCount": 1,
       "delay": 15000
     }
+  },
+  {
+    "id": 129,
+    "slug": "food-expansion-200-foods",
+    "label": "Food Expansion (200+ Foods)",
+    "name": "Food Expansion (200+ Foods)",
+    "version": "v4.0.1",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.30",
+    "category": "Gameplay",
+    "description": "A farming and food expansion addon that adds over 200 new foods, plants, crops, recipes, and functional cooking blocks for survival gameplay.",
+    "download": "https://mcpedl.com/food-expansion-more-food-loyallay/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram Account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 130,
+    "slug": "crops-farms-addon-1-21",
+    "label": "Crops & Farms Addon (1.21)",
+    "name": "Crops & Farms Addon (1.21)",
+    "version": "1.21",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21",
+    "category": "Gameplay",
+    "description": "A farming expansion addon that adds over 75 fruit and vegetable crops, more than 100 cooking recipes, and over 200 decorative farming and nature blocks.",
+    "download": "https://www.mc-mod.net/crops-farms-addon-mcpe/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        },
+        {
+          "type": "visit_youtube_channel",
+          "label": "Visit YouTube Channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 131,
+    "slug": "bum-crops-mod",
+    "label": "Bum Crops Mod for Minecraft PE",
+    "name": "Bum Crops Mod for Minecraft PE",
+    "version": "1.21.20 - 1.26.45",
+    "game_edition": "Bedrock",
+    "mcVersion": "1.21.20 - 1.26.45",
+    "category": "Gameplay",
+    "description": "A farming addon that adds over 25 crops, fruit trees, farming-focused mobs, brewing mechanics, and new food resources for expanded agriculture gameplay.",
+    "download": "https://mcpedl.org/bum-crops-mod-minecraft-pe/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "like_instagram_post",
+          "label": "Like Instagram Post",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
   }
 ]
