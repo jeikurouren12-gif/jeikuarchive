@@ -1,5 +1,82 @@
 [
   {
+    "id": 125,
+    "slug": "classic-skyblock",
+    "label": "Classic Skyblock",
+    "name": "Classic Skyblock",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A classic Skyblock survival map for Minecraft Bedrock that starts players on a small floating island and focuses on resource management and island expansion.",
+    "download": "https://mcpedl.com/classic-skyblock/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 124,
+    "slug": "classic-sky-block",
+    "label": "Classic Sky Block",
+    "name": "Classic Sky Block",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A Minecraft Bedrock Skyblock survival map where players begin on a floating island and use limited resources to expand and progress.",
+    "download": "https://mcpedl.com/classic-sky-block/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 123,
+    "slug": "classic-skyblock-v2-1",
+    "label": "Classic Skyblock V2.1",
+    "name": "Classic Skyblock V2.1",
+    "version": "Latest",
+    "game_edition": "Bedrock",
+    "mcVersion": "Latest",
+    "category": "Gameplay",
+    "description": "A classic Minecraft Bedrock Skyblock map that challenges players to survive and progress from a small floating island with limited resources.",
+    "download": "https://mcpedl.com/classic-skyblock-v2-1/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
+  },
+  {
     "id": 122,
     "slug": "household-furniture",
     "label": "Household Furniture",
@@ -2840,16 +2917,16 @@
     }
   },
   {
-    "id": 123,
-    "slug": "classic-skyblock-v2-1",
-    "label": "Classic Skyblock V2.1",
-    "name": "Classic Skyblock V2.1",
-    "version": "Latest",
+    "id": 126,
+    "slug": "infinity-visuals-vibrant-visuals-pack",
+    "label": "Infinity Visuals (Vibrant Visuals Pack)",
+    "name": "Infinity Visuals (Vibrant Visuals Pack)",
+    "version": "V1.2",
     "game_edition": "Bedrock",
-    "mcVersion": "Latest",
-    "category": "Gameplay",
-    "description": "A classic Minecraft Bedrock Skyblock map that challenges players to survive and progress from a small floating island with limited resources.",
-    "download": "https://mcpedl.com/classic-skyblock-v2-1/",
+    "mcVersion": "26.40",
+    "category": "Texture Pack",
+    "description": "A Vibrant Visuals pack that adds PBR textures, reflections, enhanced water, caustics, volumetric fog, atmospheric effects, and improved lighting to Minecraft Bedrock.",
+    "download": "https://mcpedl.com/infinity-visuals-vibrant-visuals-pack/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2864,16 +2941,16 @@
     }
   },
   {
-    "id": 124,
-    "slug": "classic-sky-block",
-    "label": "Classic Sky Block",
-    "name": "Classic Sky Block",
-    "version": "Latest",
+    "id": 127,
+    "slug": "vibrant-visual-bedrock-addon",
+    "label": "VIBRANT VISUAL (BEDROCK)",
+    "name": "VIBRANT VISUAL (BEDROCK)",
+    "version": "1.11",
     "game_edition": "Bedrock",
-    "mcVersion": "Latest",
-    "category": "Gameplay",
-    "description": "A Minecraft Bedrock Skyblock survival map where players begin on a floating island and use limited resources to expand and progress.",
-    "download": "https://mcpedl.com/classic-sky-block/",
+    "mcVersion": "26.40",
+    "category": "Texture Pack",
+    "description": "A Vibrant Visuals shader pack that makes Minecraft Bedrock's world more vibrant and dynamic with enhanced visual effects.",
+    "download": "https://mcpedl.com/vibrant-visual-bedrock-addon/",
     "collection": 1,
     "contentLocker": {
       "tasks": [
@@ -2893,16 +2970,16 @@
     }
   },
   {
-    "id": 125,
-    "slug": "classic-skyblock",
-    "label": "Classic Skyblock",
-    "name": "Classic Skyblock",
-    "version": "Latest",
+    "id": 128,
+    "slug": "vibrant-visuals-extreme",
+    "label": "Extreme Shader",
+    "name": "Extreme Shader",
+    "version": "2.4.8",
     "game_edition": "Bedrock",
-    "mcVersion": "Latest",
-    "category": "Gameplay",
-    "description": "A classic Skyblock survival map for Minecraft Bedrock that starts players on a small floating island and focuses on resource management and island expansion.",
-    "download": "https://mcpedl.com/classic-skyblock/",
+    "mcVersion": "26.10",
+    "category": "Texture Pack",
+    "description": "A Vibrant Visuals shader that adds realistic water reflections, enhanced sun and moon lighting, stronger contrast and shadows, cinematic atmosphere, glowing ores, and PBR textures.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/vibrant-visuals-extreme",
     "collection": 1,
     "contentLocker": {
       "tasks": [
