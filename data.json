@@ -1,5 +1,82 @@
 [
   {
+    "id": 128,
+    "slug": "vibrant-visuals-extreme",
+    "label": "Extreme Shader",
+    "name": "Extreme Shader",
+    "version": "2.4.8",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.10",
+    "category": "Texture Pack",
+    "description": "A Vibrant Visuals shader that adds realistic water reflections, enhanced sun and moon lighting, stronger contrast and shadows, cinematic atmosphere, glowing ores, and PBR textures.",
+    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/vibrant-visuals-extreme",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_youtube_channel",
+          "label": "Follow YouTube channel",
+          "url": "https://www.youtube.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 127,
+    "slug": "vibrant-visual-bedrock-addon",
+    "label": "VIBRANT VISUAL (BEDROCK)",
+    "name": "VIBRANT VISUAL (BEDROCK)",
+    "version": "1.11",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.40",
+    "category": "Texture Pack",
+    "description": "A Vibrant Visuals shader pack that makes Minecraft Bedrock's world more vibrant and dynamic with enhanced visual effects.",
+    "download": "https://mcpedl.com/vibrant-visual-bedrock-addon/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_instagram_account",
+          "label": "Follow Instagram account",
+          "url": "https://www.instagram.com/jeikuarchivemc/"
+        },
+        {
+          "type": "visit_tiktok_profile",
+          "label": "Visit TikTok profile",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 2,
+      "delay": 15000
+    }
+  },
+  {
+    "id": 126,
+    "slug": "infinity-visuals-vibrant-visuals-pack",
+    "label": "Infinity Visuals (Vibrant Visuals Pack)",
+    "name": "Infinity Visuals (Vibrant Visuals Pack)",
+    "version": "V1.2",
+    "game_edition": "Bedrock",
+    "mcVersion": "26.40",
+    "category": "Texture Pack",
+    "description": "A Vibrant Visuals pack that adds PBR textures, reflections, enhanced water, caustics, volumetric fog, atmospheric effects, and improved lighting to Minecraft Bedrock.",
+    "download": "https://mcpedl.com/infinity-visuals-vibrant-visuals-pack/",
+    "collection": 1,
+    "contentLocker": {
+      "tasks": [
+        {
+          "type": "follow_tiktok_user",
+          "label": "Follow TikTok User",
+          "url": "https://www.tiktok.com/@jeikuarchive"
+        }
+      ],
+      "requiredCount": 1,
+      "delay": 15000
+    }
+  },
+  {
     "id": 125,
     "slug": "classic-skyblock",
     "label": "Classic Skyblock",
@@ -2914,83 +2991,6 @@
           "url": "https://www.instagram.com/jeikuarchivemc/"
         }
       ]
-    }
-  },
-  {
-    "id": 126,
-    "slug": "infinity-visuals-vibrant-visuals-pack",
-    "label": "Infinity Visuals (Vibrant Visuals Pack)",
-    "name": "Infinity Visuals (Vibrant Visuals Pack)",
-    "version": "V1.2",
-    "game_edition": "Bedrock",
-    "mcVersion": "26.40",
-    "category": "Texture Pack",
-    "description": "A Vibrant Visuals pack that adds PBR textures, reflections, enhanced water, caustics, volumetric fog, atmospheric effects, and improved lighting to Minecraft Bedrock.",
-    "download": "https://mcpedl.com/infinity-visuals-vibrant-visuals-pack/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_tiktok_user",
-          "label": "Follow TikTok User",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ],
-      "requiredCount": 1,
-      "delay": 15000
-    }
-  },
-  {
-    "id": 127,
-    "slug": "vibrant-visual-bedrock-addon",
-    "label": "VIBRANT VISUAL (BEDROCK)",
-    "name": "VIBRANT VISUAL (BEDROCK)",
-    "version": "1.11",
-    "game_edition": "Bedrock",
-    "mcVersion": "26.40",
-    "category": "Texture Pack",
-    "description": "A Vibrant Visuals shader pack that makes Minecraft Bedrock's world more vibrant and dynamic with enhanced visual effects.",
-    "download": "https://mcpedl.com/vibrant-visual-bedrock-addon/",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_instagram_account",
-          "label": "Follow Instagram account",
-          "url": "https://www.instagram.com/jeikuarchivemc/"
-        },
-        {
-          "type": "visit_tiktok_profile",
-          "label": "Visit TikTok profile",
-          "url": "https://www.tiktok.com/@jeikuarchive"
-        }
-      ],
-      "requiredCount": 2,
-      "delay": 15000
-    }
-  },
-  {
-    "id": 128,
-    "slug": "vibrant-visuals-extreme",
-    "label": "Extreme Shader",
-    "name": "Extreme Shader",
-    "version": "2.4.8",
-    "game_edition": "Bedrock",
-    "mcVersion": "26.10",
-    "category": "Texture Pack",
-    "description": "A Vibrant Visuals shader that adds realistic water reflections, enhanced sun and moon lighting, stronger contrast and shadows, cinematic atmosphere, glowing ores, and PBR textures.",
-    "download": "https://www.curseforge.com/minecraft-bedrock/texture-packs/vibrant-visuals-extreme",
-    "collection": 1,
-    "contentLocker": {
-      "tasks": [
-        {
-          "type": "follow_youtube_channel",
-          "label": "Follow YouTube channel",
-          "url": "https://www.youtube.com/@jeikuarchive"
-        }
-      ],
-      "requiredCount": 1,
-      "delay": 15000
     }
   },
   {
